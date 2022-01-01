@@ -1,9 +1,9 @@
 ---
-title: "哈囉 2022!"
+title: "About"
 date: 2022-01-01T09:39:00Z
 # weight: 1
 # aliases: ["/AirTag"]
-tags: ["日記", "新年", "2022"]
+#tags: ["AirTag", "開箱"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: false
@@ -18,9 +18,9 @@ disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: false
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
+ShowPostNavLinks: false
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -32,3 +32,25 @@ cover:
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
+## Hi Anyone!
+Welcome to my blog; I'm Andrew Wu.
+
+I will share my thoughts/tech/diary/unboxing/travel/food and anything I want to :).
+
+## About Me
+I'm Taiwanese, live in Harpenden, United Kingdom, Now.
+
+If you want to [contact me](mailto:ying.wu0129@gmail.com).
+
+## Mandarin and English Support
+To practice my English, this blog will support English and Mandarin.
+
+Click the Language "En" or "Zh-Tw" to change the language setting.
+
+This blog is mainly in English.
+
+Of course, there will be corresponding Mandarin content.
+
+Stay tuned.
+
+## Thank You for Reading.
