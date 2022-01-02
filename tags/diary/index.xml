@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>diary on Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/tags/diary/</link>
+    <link>https://AndrewWu29.github.io/Andrew_Wu29/tags/diary/</link>
     <description>Recent content in diary on Andrew&#39;s Blog</description>
     <image>
-      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://AndrewWu29.github.io/Andrew_Wu29/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/Andrew_Wu29/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jan 2022 09:39:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 09:39:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/Andrew_Wu29/tags/diary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello 2022!</title>
-      <link>https://AndrewWu29.github.io/2022/01/hello-2022/</link>
+      <link>https://AndrewWu29.github.io/Andrew_Wu29/2022/01/hello-2022/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/01/hello-2022/</guid>
+      <guid>https://AndrewWu29.github.io/Andrew_Wu29/2022/01/hello-2022/</guid>
       <description>Hello 2022: Today is the first day of 2022.
 This world has changed a lot since Covid-19 for almost two years, and yesterday I saw many countries and cities celebrate New Year&amp;rsquo;s Eve and had firework shows.
 And I hope it&amp;rsquo;s the final stage of Covid-19, and this world can go back to normal, and people cannot worry about this virus, meet their family or friends, and travel this world to explore their futures.</description>
