@@ -1,4 +1,4 @@
-baseURL: "https://AndrewWu29.github.io/Andrew_Wu29/"
+baseURL: "https://AndrewWu29.github.io/"
 title: Andrew's Blog
 paginate: 5
 theme: PaperMod
@@ -10,7 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: "G-TVP2NV89QN"
+googleAnalytics: "G-6L9D9LK7RB"
 
 permalinks:
   posts: /:year/:month/:title/
