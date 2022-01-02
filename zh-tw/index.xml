@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/</link>
+    <link>https://AndrewWu29.github.io/zh-tw/</link>
     <description>Recent content on Andrew&#39;s Blog</description>
     <image>
-      <url>https://AndrewWu29.github.io/Andrew_Wu29/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://AndrewWu29.github.io/Andrew_Wu29/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jan 2022 09:39:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 09:39:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>哈囉 2022!</title>
-      <link>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</link>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</guid>
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</guid>
       <description>哈囉 2022: 今天是2022年的第一天，哈彭登 英國 天氣晴多雲。
 自從新冠肺炎擴散到全球，近兩年來，這個世界發生了很大的變化，很多事情都跟疫情擴散前不一樣了，但昨天看到許多國家和城市依舊舉辦，跨年活動跟施放煙火，讓我覺得這個世界又慢慢恢復生氣了。
 我希望這是新冠肺炎的最後階段了，讓這個世界可以慢慢地恢復正常，人們不必再擔心這病毒，可以與家人或朋友見面，也可以正常地去看看這個世界，並對自己的未來有夢想。
@@ -26,10 +26,10 @@
     
     <item>
       <title>關於我</title>
-      <link>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/about/</link>
+      <link>https://AndrewWu29.github.io/zh-tw/about/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/about/</guid>
+      <guid>https://AndrewWu29.github.io/zh-tw/about/</guid>
       <description>嗨 大家! 歡迎來到我的部落格，我是Andrew Wu。
 我會在這分享，我的想法、科技、日記、開箱、旅行、美食，及任何我想要分享的內容，呵呵。
 關於我 台灣人，來自台北台灣，現居英國哈彭登。
@@ -43,10 +43,10 @@
     
     <item>
       <title>AirTag開箱心得</title>
-      <link>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</link>
+      <link>https://AndrewWu29.github.io/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</link>
       <pubDate>Mon, 27 Dec 2021 12:42:04 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/Andrew_Wu29/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://AndrewWu29.github.io/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</guid>
       <description>前言 因為前幾年，去日本旅遊時遺失背包，每次想起來都讓我好心痛喔！打死我以後都不放在電車架子上，已讓我開始搜尋這類型的產品。 其實早在Airtag誕世前，市面上已經有這類型的產品，只是基於產品用戶數量，且需要額外安裝應用程式，透過同樣使用該產品的用戶，且已有安裝應用程式並開啟藍牙及權限，才可當行動裝置，經過遺失者的物品時，才能更新遺失物的所在地，並通知遺失物的所有人。
 但這樣的產品通常會基於以下幾點，導致先天上的劣勢：
  取決於使用該產品公司的社群大小，且不同家產品公司的裝置，不互相溝通。 需要額外安裝第三方的應用程式。 使用環境被侷限，因不同地方，可能使用這類型產品的用戶數不同，導致侷限使用環境（變成通常只在居家內使用，戶外遺失後，可能會沒有同樣使用同產品的用戶經過，導致當物品從最後遺失地被移動過，可能就找不到了）。  而蘋果Airtag基於以下幾個條件，直接將相關競品廠商壓在地上摩擦：
