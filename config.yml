@@ -184,7 +184,7 @@ languages:
       buttons:
         - name: 貼文
           url: posts
-        - name: 分類
+        - name: 標籤
           url: tags
     label:
       text: 安德魯的部落格
