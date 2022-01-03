@@ -3,6 +3,7 @@ title: Andrew's Blog
 paginate: 5
 theme: PaperMod
 defaultContentLanguage: en
+disqusShortname: andrewwu29
 # languageCode: zh-tw
 
 enableRobotsTXT: true

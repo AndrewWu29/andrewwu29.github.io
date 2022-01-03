@@ -10,7 +10,7 @@ showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
+comments: true
 #description: "AirTag開箱心得"
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
