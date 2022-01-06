@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: true
-description: "SONY WF-1000XM4 簡易開箱"
+#description: "SONY WF-1000XM4 簡易開箱"
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
