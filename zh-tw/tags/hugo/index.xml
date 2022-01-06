@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on Andrew&#39;s Blog</title>
+    <link>https://AndrewWu29.github.io/zh-tw/tags/hugo/</link>
+    <description>Recent content in Hugo on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 05 Jan 2022 17:13:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用Hugo建立自己的部落格?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
+如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
+事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
+首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
+Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵&amp;quot;Windows + S&amp;quot;，並輸入&amp;quot;CMD&amp;quot;，來開啟命令提示字元。 開啟後輸入以下指令。
+ git version 並會得到。
+git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
+Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到&amp;quot;View&amp;quot;下的&amp;quot;Extensions&amp;quot;(也可用Ctrl+Shift+X)去搜尋&amp;quot;Markdown&amp;quot;的 Extensions，找到&amp;quot;markdownlint&amp;quot;並安裝。 到目前為止，我們已經成功安裝了Git &amp;amp; Visual Studio Code w/ markdownlint Extension。
+接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
+Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.</description>
+    </item>
+    
+  </channel>
+</rss>

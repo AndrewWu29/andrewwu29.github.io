@@ -9,7 +9,26 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 05 Jan 2022 11:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jan 2022 17:13:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用Hugo建立自己的部落格?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
+如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
+事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
+首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
+Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵&amp;quot;Windows + S&amp;quot;，並輸入&amp;quot;CMD&amp;quot;，來開啟命令提示字元。 開啟後輸入以下指令。
+ git version 並會得到。
+git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
+Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到&amp;quot;View&amp;quot;下的&amp;quot;Extensions&amp;quot;(也可用Ctrl+Shift+X)去搜尋&amp;quot;Markdown&amp;quot;的 Extensions，找到&amp;quot;markdownlint&amp;quot;並安裝。 到目前為止，我們已經成功安裝了Git &amp;amp; Visual Studio Code w/ markdownlint Extension。
+接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
+Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.</description>
+    </item>
+    
     <item>
       <title>為何我要來英國!</title>
       <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</link>
@@ -25,7 +44,23 @@
       <pubDate>Mon, 03 Jan 2022 12:00:00 +0000</pubDate>
       
       <guid>https://AndrewWu29.github.io/zh-tw/2022/01/sony-wf-1000xm4-%E7%B0%A1%E6%98%93%E9%96%8B%E7%AE%B1/</guid>
-      <description>SONY WF-1000XM4 簡易開箱</description>
+      <description>前言 自從這個產品發表後，看完官方的Youtube影片，和其他科技Youtuber的開箱解說後，加上本人還沒有真無線抗噪耳機，就一直想要購買這個產品，所以最後就在待機飛往英國找我男友時，在松山機場的免稅店購買了。
+在這篇文章簡單分享我的使用心得。
+外觀包裝 原本是想要購買銀色的款式，由於免稅店沒有銀色，加上之前已有黑色WH-1000XM3，考慮了一下，想說黑色就比較耐髒，最後就選擇黑色了。
+產品外觀 這次選擇的黑色款式，在麥克風的地方，使用了銅金配色，讓整體感覺有蒸氣龐克風，彷彿會從此處冒出蒸氣來。
+這次WF-1000XM4重新設計耳機內部配置和充電盒，耳機單體的重量也來到了7.3g，耳機整體較前代小於10%，後者充電盒也縮小了40%，但依舊可提供額外16小時的行動充電。 另外搭配新開發的噪音隔離耳塞，採用聚氨酯泡棉材質與矽膠搭配，以增加耳式耳機的耳塞與耳道之間的接觸面積，並減少隔音的間隙，已達到降低噪音，跟提供更穩固的貼合體驗。
+產品包裝 此次的產品包裝，可以說Sony也在這部份，下了不少功夫，不只首次沒有使用塑膠包裝，整體包裝，秉持「回收重製」理念。
+除了標籤外，99%的紙材包裝均採用Sony開發的Original Blended Material，並落實永續設計，以對這個環境付出一些心力。
+雖然單純從包裝上，看不出這產品的奢華昂貴感，可能會降低買家購買的慾望，可說Sony這次在包材做出一個重大決定。
+產品規格  防水規格 (IPX4) 耳機類型 (真無線) 藍牙版本 (BT 5.2) 續航時間 音樂連續播放(ANC 8/hr, w/o ANC 12/hr);連續通話(ANC 5.5/hr, w/o ANC 6/hr) 充電時間 (約1.5/hr) 產品重量 (約41克) 降噪功能 (環境聲模式/快速注意模式) 顏色選擇 (黑色/銀色)  產品售價 台灣零售價為$7,990元。
+ 台灣索尼。  使用情境 個人使用的情境，單純為通勤／抗噪／運動／短暫交談。
+因為之前就有使用過WH-1000XM3，所以對於Sony處理抗噪能力，非常有信心，這次也不失所望，在通勤時，使用Sony自家的Headphones APP，可以做到依照GPS位址，判斷用戶所在的環境去自動切換設定，以免完全抗除人聲，讓通勤時也不會因錯過到站提示音，而錯過下車的時機。
+這次耳機防水能力來到了(IPX4)，這點可讓用戶配戴運動時，不用怕汗水，浸濕您的耳機，就算運動後，稍微在水龍頭底下輕微沖洗，也不用擔心。 當使用在吵雜的環境，想要隔絕外界環境音時，此時可將抗噪開到最強，幫助隔絕外界噪音，以增加自己的工作效率。
+另外如果在配戴耳機時，需要與人短暫交談時，可以透過APP開啟Speak-to-Chat功能，當辨識您在跟人說話時，耳機會自動暫停播放，並關閉降噪，開啟麥克風，方便您不用脫下耳機，就可以跟人交談，有時我在閱讀時，男友在詢問我是否要喝杯茶，這時這個功能就超好用的啦! a black tea please hah.
+總結 這次WF-1000XM4，對我來說對得起這個價格，雖然還是貴貴的。
+整體使用上音質/舒適性/方便性，依舊符合Sony家的特性，加上我又只聽流行樂跟幫助專注的音樂，已經很夠用了，雖然在蘋果生態系下，無法像Airpods Pro一樣近乎無感切換設備，但也只是多一道步驟去藍牙設定頁面，點選連接而以，對我來說不是太大的痛處。
+不過在Android生態圈，就不一樣了，不只可以用更好的傳輸品質，更方便的切換Android的設備。
+對我來說唯一的小缺點，可能就是當你手油油的話，摸充電盒或耳機會留下挺明顯的痕跡，其他就還好。</description>
     </item>
     
     <item>
