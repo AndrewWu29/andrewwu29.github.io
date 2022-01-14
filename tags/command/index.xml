@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/posts/</link>
-    <description>Recent content in Posts on Andrew&#39;s Blog</description>
+    <title>Command on Andrew&#39;s Blog</title>
+    <link>https://AndrewWu29.github.io/tags/command/</link>
+    <description>Recent content in Command on Andrew&#39;s Blog</description>
     <image>
       <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Basic Commands</title>
       <link>https://AndrewWu29.github.io/2022/01/git-basic-commands/</link>
@@ -17,17 +17,6 @@
       
       <guid>https://AndrewWu29.github.io/2022/01/git-basic-commands/</guid>
       <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
-    </item>
-    
-    <item>
-      <title>Hello 2022!</title>
-      <link>https://AndrewWu29.github.io/2022/01/hello-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
-      
-      <guid>https://AndrewWu29.github.io/2022/01/hello-2022/</guid>
-      <description>Hello 2022: Today is the first day of 2022.
-This world has changed a lot since Covid-19 for almost two years, and yesterday I saw many countries and cities celebrate New Year&amp;rsquo;s Eve and had firework shows.
-And I hope it&amp;rsquo;s the final stage of Covid-19, and this world can go back to normal, and people cannot worry about this virus, meet their family or friends, and travel this world to explore their futures.</description>
     </item>
     
   </channel>

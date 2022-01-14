@@ -9,7 +9,16 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jan 2022 09:39:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Basic Commands</title>
+      <link>https://AndrewWu29.github.io/2022/01/git-basic-commands/</link>
+      <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/01/git-basic-commands/</guid>
+      <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://AndrewWu29.github.io/about/</link>
