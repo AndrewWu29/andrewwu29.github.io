@@ -507,7 +507,7 @@ After when you want to publish a new post, only do:
 ## Finally
 
 It's my first public tutorial!
-And I refer to lots of articles then finally I have this result, I hope this tutorial can help those who wants to create their own blogs.
+And I refer to lots of articles then finally I have this result, I hope this tutorial can help those who want to create their own blogs.
 
 ### Resources
 
