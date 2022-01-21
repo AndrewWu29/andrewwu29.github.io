@@ -19,5 +19,14 @@
       <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
     </item>
     
+    <item>
+      <title>Hot to use Hugo to create your Blog?</title>
+      <link>https://AndrewWu29.github.io/2022/01/hot-to-use-hugo-to-create-your-blog/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/01/hot-to-use-hugo-to-create-your-blog/</guid>
+      <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
+    </item>
+    
   </channel>
 </rss>

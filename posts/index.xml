@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Hot to use Hugo to create your Blog?</title>
+      <link>https://AndrewWu29.github.io/2022/01/hot-to-use-hugo-to-create-your-blog/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/01/hot-to-use-hugo-to-create-your-blog/</guid>
+      <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
+    </item>
+    
+    <item>
       <title>Hello 2022!</title>
       <link>https://AndrewWu29.github.io/2022/01/hello-2022/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
