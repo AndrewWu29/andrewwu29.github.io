@@ -1,5 +1,5 @@
 ---
-title: "Hot to use Hugo to create your Blog?"
+title: "How to use Hugo to create your Blog?"
 date: 2022-01-05T17:13:00Z
 # weight: 1
 # aliases: ["/AirTag"]
