@@ -32,6 +32,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  ShowFullTextinRSS: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -83,6 +84,8 @@ params:
       url: "https://github.com/AndrewWu29"
     - name: email
       url: "mailto:ying.wu0129@gmail.com"
+    - name: rss
+      url: "index.xml"
 
   # home-info mode
   #homeInfoParams:
