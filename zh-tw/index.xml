@@ -17,6 +17,65 @@
       
       <guid>https://AndrewWu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
       <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;quot;提交訊息&amp;quot; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
+      <content:encoded><![CDATA[<h2 id="確認git是否安裝成功">確認Git是否安裝成功</h2>
+<pre tabindex="0"><code>git --version
+</code></pre><h2 id="設定git使用者名稱跟信箱">設定Git使用者名稱跟信箱</h2>
+<pre tabindex="0"><code>git config --global user.name &quot;Andrew_Wu&quot;
+git config --global user.email &quot;user@gmail.com&quot;
+</code></pre><h3 id="確認輸入的資料是否正確">確認輸入的資料是否正確</h3>
+<pre tabindex="0"><code>git config --list
+</code></pre><h2 id="獲取幫助">獲取幫助</h2>
+<pre tabindex="0"><code>git help &lt;command&gt;
+</code></pre><h2 id="建立新的數據庫">建立新的數據庫</h2>
+<pre tabindex="0"><code>git init
+</code></pre><h2 id="顯示當前數據庫狀態">顯示當前數據庫狀態</h2>
+<pre tabindex="0"><code>git status
+</code></pre><h2 id="新增檔案到暫存區域">新增檔案到暫存區域</h2>
+<pre tabindex="0"><code>git add &lt;filename&gt;
+git add . #將工作目錄內所有檔案建立索引
+</code></pre><h2 id="建立新提交">建立新提交</h2>
+<pre tabindex="0"><code>git commit
+git commit -m &quot;提交訊息&quot; #-m means Message
+</code></pre><h2 id="顯示歷史日誌">顯示歷史日誌</h2>
+<pre tabindex="0"><code>git log #顯示歷史日誌的詳細資訊
+git log --all --graph --decorate #以DAG方式顯示歷史日誌
+</code></pre><h2 id="查詢差異">查詢差異</h2>
+<pre tabindex="0"><code>git diff &lt;filename&gt; #顯示與上次提交時的差異
+git diff &lt;revision&gt; &lt;filename&gt; #顯示某檔案與上次提交時的差異
+</code></pre><h2 id="分支">分支</h2>
+<pre tabindex="0"><code>git checkout &lt;revision&gt; #更新HEAD與當前分支
+git branch #顯示分支
+git branch &lt;name&gt; #建立分支
+git checkout -b &lt;name&gt; #建立分支並切換至該分支 同 git branch &lt;name&gt; ; git checkout &lt;name&gt;
+</code></pre><h2 id="合併">合併</h2>
+<pre tabindex="0"><code>git merge &lt;revision&gt; #合併至當前分支
+git mergetool #使用神奇工具處理合併衝突
+git rebase #合併版本
+git rebase -i HEAD~3 #修改歷史commit紀錄
+</code></pre><h2 id="遠端">遠端</h2>
+<pre tabindex="0"><code>git remote #列出遠端
+git remote add &lt;name&gt; &lt;url&gt; #新增遠端
+git push &lt;remote&gt; &lt;local branch&gt;:&lt;remote branch&gt; #將物件推送到遠端，並更新遠端參考
+git branch --set-upstream-to=&lt;remote&gt;/&lt;remote branch&gt; #建立本地分支與遠端分支的關聯
+git fetch #從遠端擷取物件/參考
+git pull #更新本地端和遠端程式碼同步，同git fetch; git merge
+git clone #從遠端下載數據庫
+</code></pre><h2 id="回滾">回滾</h2>
+<pre tabindex="0"><code>git commit --amend #編輯提交的內容或資訊
+git reset HEAD &lt;file&gt; #取消暫存檔案
+git checkout -- &lt;file&gt; #回滾更改
+</code></pre><h2 id="進階">進階</h2>
+<pre tabindex="0"><code>git clown --depth=1 #下載數據庫，但不下載歷史紀錄
+git add -p #互動暫存
+git blame #檢視最後修改某列的使用者
+git stash #暫時移除工作目錄下的變更
+git bisect #透過二分搜尋來搜尋歷史紀錄
+.gitignore #指定忽視且不會再追蹤的檔案
+</code></pre><h2 id="參考資源">參考資源</h2>
+<p><a href="https://missing-semester-zh-hant.github.io/2020/version-control/">版本控制</a></p>
+<p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
+<p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -36,6 +95,409 @@ Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio
 接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
 Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.</description>
+      <content:encoded><![CDATA[<h1 id="手把手教學教您如何建立hugo靜態部落格並部屬到github">手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub!</h1>
+<h2 id="前言">前言</h2>
+<p>最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。</p>
+<p>如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。</p>
+<h2 id="事前準備">事前準備</h2>
+<p>因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。</p>
+<p>首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。</p>
+<h3 id="git安裝與確認">Git安裝與確認</h3>
+<p>首先我們先到Git的官網下載 Git 到 Windows. <a href="https://git-scm.com/download/win">Download for Windows</a>，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&quot;Next&quot;到&quot;Install&quot;即可無腦安裝完畢。
+<img loading="lazy" src="https://i.imgur.com/xCCcS5k.png" alt="git dwonload for Windows"  />
+
+<img loading="lazy" src="https://i.imgur.com/PTSyXhj.png" alt="git Setup"  />
+
+安裝完畢後，我們使用快捷鍵&quot;Windows + S&quot;，並輸入&quot;CMD&quot;，來開啟命令提示字元。
+<img loading="lazy" src="https://i.imgur.com/wjbN68m.png" alt="WinKey&#43;Shift&#43;CMD"  />
+
+開啟後輸入以下指令。</p>
+<pre tabindex="0"><code> git version
+</code></pre><p>並會得到。</p>
+<pre tabindex="0"><code>git version 2.xx.x.windows.x
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/kxjfjJw.png" alt="git version check"  />
+</p>
+<p>當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。
+再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。</p>
+<h3 id="visual-studio-code--markdown-plugin安裝">Visual Studio Code &amp; Markdown Plugin安裝</h3>
+<p>一樣我們到 <a href="https://code.visualstudio.com/">Visual Studio Code</a> 的官網下載安裝檔，並進行安裝，一樣&quot;Next&quot;到&quot;Install&quot;。
+<img loading="lazy" src="https://i.imgur.com/2isdgIM.png" alt="Visual Studio Code download"  />
+
+<img loading="lazy" src="https://i.imgur.com/qcjQ9ex.png" alt="Visual Studio Code Setup Next"  />
+
+<img loading="lazy" src="https://i.imgur.com/aEadDI2.png" alt="Visual Studio Code Setup Install"  />
+
+安裝完畢並開啟，應該會看到以下的畫面。
+<img loading="lazy" src="https://i.imgur.com/Ir3fuCX.png" alt="ms_VisualStudioCode_Get_Started"  />
+
+然後我們到&quot;View&quot;下的&quot;Extensions&quot;(也可用Ctrl+Shift+X)去搜尋&quot;Markdown&quot;的 Extensions，找到&quot;markdownlint&quot;並安裝。
+<img loading="lazy" src="https://i.imgur.com/cbg6cxa.png" alt="ms_VisualStudioCode_Get_Extensions"  />
+
+<img loading="lazy" src="https://i.imgur.com/s3G9wGL.png" alt="ms_VisualStudioCode_Install_Markdown_Extension"  />
+</p>
+<p><strong>到目前為止，我們已經成功安裝了Git &amp; Visual Studio Code w/ markdownlint Extension。</strong></p>
+<p>接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。</p>
+<h2 id="hugo安裝與建立自己的部落格">Hugo安裝與建立自己的部落格</h2>
+<p>在安裝Hugo前需要安裝<a href="https://chocolatey.org/install#individual">chocolatey</a>這個工具，這裡是直接使用&quot;Individual&quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。</p>
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+</code></pre><p><strong>安裝完chocolatey這工具後，我們可以開始建立我們的部落格了。</strong></p>
+<h3 id="第一步-安裝hugo">第一步: 安裝Hugo</h3>
+<p>我們依照<a href="https://gohugo.io/getting-started/quick-start/">官方快速開始</a>進行安裝Hugo。因為我們這次只需要使用一般版本，所以依照手冊使用以下指令安裝。</p>
+<pre tabindex="0"><code>choco install hugo -confirm
+</code></pre><p>安裝完 Hugo 後，我們需要進行確認是否安裝成功，我們可以輸入以下指令。</p>
+<pre tabindex="0"><code>hugo version
+</code></pre><h3 id="第二步-建立新網站">第二步: 建立新網站</h3>
+<p>接下來我們要建立我們的新網站，因為我們會使用到 <code>yml</code> 格式需使用到以下指令。</p>
+<pre tabindex="0"><code>hugo new site &lt;資料夾名稱&gt; -f yml
+</code></pre><p>出現以下畫面，即代表安裝成功了!
+<img loading="lazy" src="https://i.imgur.com/U86gMSu.png" alt="Create a new site with yml format"  />
+</p>
+<h3 id="第三步-添加hugo主題">第三步: 添加Hugo主題</h3>
+<p>完成 Hugo 網站建立後，我們要為 Hugo 添加一些主題，讓您的部落格，不會過於單調，可至 <a href="https://themes.gohugo.io/">Hugo Themes</a> 挑選您喜歡的主題，我這邊會使用 <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> 這個主題作為示範。</p>
+<p>首先我們要先切換到剛剛新增的資料夾目錄底下，我們可以在 CMD 輸入&quot;CD &lt;資料夾名稱&gt;&quot;，由於我們剛剛示範的資料夾名稱為&quot;its_demo_blog&quot;，所以我們要輸入以下指令。</p>
+<pre tabindex="0"><code>cd &lt;您的資料夾名稱&gt;
+</code></pre><p>再來我們需要先將這個資料夾，建立一個新的 Git 數據庫，我們要用到以下指令。</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>然後您會看到此結果。
+<img loading="lazy" src="https://i.imgur.com/BSdMrfg.png" alt="git init"  />
+</p>
+<p>接下來，我們需要將我們剛剛選好的主題，透過 Git 指令加入到我們的資料夾跟目錄底下的&quot;themes/PaperMod&quot;，指令為下。</p>
+<pre tabindex="0"><code>git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</code></pre><p>執行完應該會顯示如下。
+<img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
+</p>
+<p>之後我們依照 PaperMod 的<a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">官方文件</a>，進行修改我們的<code>config.yml</code>。</p>
+<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #等等GitHub庫的網址
+title: its demo blog #網站標題
+paginate: 5
+# 預設語系配置
+defaultContentLanguage: zh-tw
+# 主題配置
+theme: PaperMod #這次使用到的主題 PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# GooleAnalytics服務，這個之後會再寫到如何設定
+googleAnalytics: UA-123-45
+
+
+# 連結配置
+permalinks:
+  posts: /:year/:month/:title/
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: its demo blog
+  description: &quot;its demo blog description&quot;
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
+  DateFormat: &quot;January 2, 2006&quot;
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: &quot;&lt;link / abs url&gt;&quot;
+    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
+    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
+    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
+    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+
+  label:
+    text: &quot;its demo blog&quot;
+    #icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: &quot;This is subtitle&quot;
+    imageUrl: &quot;&lt;img location&gt;&quot;
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode 這是教學使用 Home-info 模式，預設也為這個
+  homeInfoParams:
+    Title: &quot;嗨 大家 \U0001F44B&quot;
+    Content: 歡迎來到我的部落格。
+
+  # 可以放自己社交平台的連結
+  socialIcons:
+    - name: twitter
+      url: &quot;https://twitter.com/&quot;
+    - name: stackoverflow
+      url: &quot;https://stackoverflow.com&quot;
+    - name: github
+      url: &quot;https://github.com/&quot;
+
+  analytics:
+    google:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    bing:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    yandex:
+      SiteVerificationTag: &quot;XYZabc&quot;
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # 別人可以建議您修改，但我會將這個功能關閉
+  #editPost:
+    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+    #Text: &quot;Suggest Changes&quot; # edit text
+    #appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 1
+    - identifier: categories
+      name: 分類
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 3
+    #- identifier: search
+    #  name: 搜尋
+    #  url: search
+    #  weight: 4
+    #- identifier: about
+    #  name: 關於我
+    #  url: about
+    #  weight: 5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+</code></pre><p>修改好後，我們在根目錄底下打開 CMD 並輸入<code>hugo server -D</code>，並打開瀏覽器應該會看到下圖畫面。
+<img loading="lazy" src="https://i.imgur.com/fzuEDoz.png" alt="its demo blog"  />
+</p>
+<h3 id="第四步-建立第一篇文章">第四步: 建立第一篇文章</h3>
+<p>再來我們要新建第一篇文章，我們需要用到以下指令，來建立第一篇文章，不免俗的當然要來一下 Hello World 啦!(老闆我會所有程式的Hello World? 這樣應徵比較有優勢嗎?)</p>
+<pre tabindex="0"><code>hugo new posts/hello_world.md
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/JgnAVrI.png" alt="hugo new posts"  />
+</p>
+<p>然後我們打開之前下載的Visual Studio Code，來編寫我們的第一篇文章吧!但開始進入到&quot;content/posts/hello_world.md&quot;應該會看到這個畫面。
+<img loading="lazy" src="https://i.imgur.com/suv5MPR.png" alt="hello_world.md"  />
+</p>
+<p>我們修改為下。</p>
+<pre tabindex="0"><code>---
+title: &quot;Hello_World!&quot;
+date: 2022-01-06T14:00:09Z
+draft: false
+# weight: 1
+# aliases: [&quot;/AirTag&quot;]
+tags: [&quot;第一篇文章&quot;, &quot;Hello World&quot;]
+author: &quot;Me&quot;
+# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+showToc: false
+TocOpen: false
+hidemeta: false
+comments: true
+#description: &quot;Hello World&quot;
+#canonicalURL: &quot;https://canonical.url/to/page&quot;
+disableHLJS: true # to disable highlightjs
+disableShare: true
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+#cover:
+#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
+#    alt: &quot;&lt;alt text&gt;&quot; # alt text
+#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    relative: true # when using page bundles set this to true
+#    hidden: true # only hide on current single page
+#editPost:
+#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+#    Text: &quot;Suggest Changes&quot; # edit text
+#    appendFilePath: false # to append file path to Edit link
+---
+# Hello World!!!
+
+這是我的第一篇文章啦!
+</code></pre><h3 id="第五步-開啟hugo伺服器">第五步: 開啟Hugo伺服器</h3>
+<p>Hugo本地預覽網站功能，只需要在 Windows PowerShell 或 CMD 的部落格跟目錄底下打<code>hugo server -D</code>，即可在本地端預覽網站，初始網址:<code>http://localhost:1313/</code>。</p>
+<p>目前的網頁應該會呈現如下。
+<img loading="lazy" src="https://i.imgur.com/lbjHm5O.png" alt="First Post"  />
+</p>
+<p><strong>到目前步驟我們已經成功，建立出 Demo Blog 並發了第一篇文章，再來就是部屬到GitHub Pages了。</strong></p>
+<h3 id="第六步-將hugo部落格部屬到github上">第六步: 將Hugo部落格部屬到GitHub上</h3>
+<p>首先您需要有GitHub的帳號，沒有請左轉Google後申請。我們需要在GitHub建立一個存放網站用的庫，並命名為<code>&lt;username&gt;.github.io</code> username為您在GitHub上的使用者名稱。</p>
+<p><strong>註: 因為這個是demo site所以名稱沒有按照上面規則走!</strong>
+<img loading="lazy" src="https://i.imgur.com/H22voyQ.png" alt="Create a new repository"  />
+</p>
+<p>接下來我們需要在此庫底下建立另條分支<code>gh-pages</code>，這個分支是用來展示我們的部落格的，我們等下會使用到 GitHub Action的功能來進行內容自動化部屬，自動產生文件到<code>gh-pages</code>上。</p>
+<pre tabindex="0"><code># 加入所有檔案
+git add .
+# 新增commit內容
+git commit -m &quot;init its demo blog&quot;
+# 新增main分支
+git branch -M main
+# 新增遠端版本庫
+git remote add origin https://github.com/&lt;使用者名稱&gt;/&lt;使用者名稱&gt;.github.io.git
+# 將部落格內容上傳到remote
+git push -u origin main
+
+# 新增gh-pages孤兒分支
+git checkout --orphan gh-pages
+# 新增一個README.md檔
+echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+# 加入所有檔案
+git add .
+# 新增commit內容
+git commit -m &quot;init gh-pages branch&quot;
+# 將分支內容上傳到remote
+git push -u origin gh-pages
+# 切換到main分支
+git checkout main
+</code></pre><p>跑完以上指令後，您的庫應該會有兩個分支 <code>main</code> &amp; <code>gh-pages</code>。</p>
+<h3 id="第七步-設定github-action來執行自動化部屬">第七步: 設定GitHub Action來執行自動化部屬</h3>
+<p>我們需要在 main 分支上有做變更時，自動化部屬到 gh-pages。</p>
+<h4 id="事前準備-1">事前準備</h4>
+<p>我們要先到<a href="https://github.com/settings/tokens/new">此頁</a>，取得我們的Token，為了接下來的步驟。勾選的選項如下圖。
+<img loading="lazy" src="https://i.imgur.com/ELdM2bq.png" alt="New personal access token"  />
+</p>
+<p>然後到頁面最下方，點選&quot;Generate Token&quot;，並將 Token 複製下來。
+<img loading="lazy" src="https://i.imgur.com/sfTO3EW.png" alt="Generate Token"  />
+
+<img loading="lazy" src="https://i.imgur.com/ZuYMGa1.png" alt="Personal access tokens"  />
+</p>
+<p>接下來，我們需要存放您 Hugo 部落格的 Token，路徑為: Repository &gt; Settings &gt; Secret &gt; New repository secret，如下圖，Name 可以取您喜歡的，Value 需要設定為我們剛取得的 Token，然後按下&quot;Add Secret&quot;。
+<img loading="lazy" src="https://i.imgur.com/OVHpiZp.png" alt="New secret"  />
+</p>
+<p><strong>到這裡，目前的事前準備已告一段落，我們接下來要設定workflow。</strong></p>
+<h4 id="workflow設定">workflow設定</h4>
+<p>我們會參考<a href="https://github.com/peaceiris/actions-hugo">此文</a>的workflow，來設定 GitHub Action。</p>
+<p>我們先來到 GitHub Action 頁面，並點選&quot;set up a workflow yourself -&gt;&quot;
+<img loading="lazy" src="https://i.imgur.com/20ozHSn.png" alt="set up a workflow yourself"  />
+</p>
+<p>並將下方文件複製貼上，並做些修改。</p>
+<pre tabindex="0"><code>name: Build GH-Pages #這個可以改為您想要的名稱
+
+on:
+  push:
+    paths-ignore:
+      - 'images/**'
+      - 'LICENSE'
+      - 'README.md'
+    branches:
+      - main
+  workflow_dispatch:
+    # manual run
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Get Theme
+        run: git submodule update --init --recursive
+
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --buildDrafts --gc --verbose --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
+</code></pre><p>修改好後，點選右上角的&quot;Star commit&quot;儲存完 workflow的設定文件，就可以在庫底下的&quot;Action&quot;頁面看到執行的狀態了，若執行狀態前面顯示綠色打勾即代表部屬成功!
+<img loading="lazy" src="https://i.imgur.com/Cw58W5x.png" alt="workflow file"  />
+
+<img loading="lazy" src="https://i.imgur.com/88styb1.png" alt="workflows"  />
+
+<img loading="lazy" src="https://i.imgur.com/9dz2Awx.png" alt="workflows successed"  />
+</p>
+<h3 id="第八步-發佈部落格新文章">第八步: 發佈部落格新文章</h3>
+<p>當您完成前面的步驟後，您需要到 Repository &gt; Settings 底下的 Pages 將 Source 的分支改為 gh-pages 就完成了所有步驟了。</p>
+<p>以後要發表新文章只需要做:</p>
+<ol>
+<li>使用Visual Studio Code打開部落格對應的資料夾。</li>
+<li>在&quot;content/posts&quot;底下建立一個新 markdown 檔案，並撰寫您的內容。</li>
+<li>再將整個專案檔案使用 git 上傳到您對應的庫。</li>
+</ol>
+<h1 id="結語">結語</h1>
+<p>這算我的第一篇公開的筆記吧!也參考了網路上很多大大的文章，才有這個結果，希望可以清楚地幫助到想要自己建立部落格的人。</p>
+<h3 id="參考資源">參考資源</h3>
+<p><a href="https://andrewwu29.github.io/itsdemoblog/">此文Demo Site</a></p>
+<p><a href="https://github.com/AndrewWu29/itsdemoblog">此文Git庫</a></p>
+<p><a href="https://yurepo.tw/2021/03/%E5%A6%82%E4%BD%95%E5%B0%87hugo%E9%83%A8%E8%90%BD%E6%A0%BC%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/">如何將Hugo部落格部署到Github上?</a></p>
+<p><a href="https://lexcao.io/zh/posts/hello-world/">代码笔记</a></p>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
+<p><a href="https://git-scm.com/">Git</a></p>
+<p><a href="https://chocolatey.org/install#individual">Chocolatey</a></p>
+<p><a href="https://adityatelange.github.io/hugo-PaperMod/">PaperMod Demo Site</a></p>
+<p><a href="https://github.com/adityatelange/hugo-PaperMod">hugo-PaperMod</a></p>
+<p><a href="https://ithelp.ithome.com.tw/articles/10235097">Hugo 貼身打造個人部落格</a></p>
+<p><a href="https://frankccccc.github.io/blog/posts/move_blog/">Golden Hat</a></p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -45,6 +507,27 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
       
       <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</guid>
       <description>為何我要來英國!</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>因緣際會下，我使用交友軟體，認識了我英國男友，也開啟了將近兩年多的遠距離戀愛。我們是在2019年的下半年開始在交友軟體上聊天的，後來我們彼此交換&quot;Whatsapp&quot;並轉到&quot;Whatsapp&quot;繼續聊了三個多月後，我在一個是當時機下，詢問了我們彼此的關係為何，他回我男朋友，所以可能算是我先問他可不可以當我男朋友吧!</p>
+<p>之後他就決定要在2020年的台灣中秋節連假來台灣找我，並嘗試一起生活看看，但沒想到在2020年初，卻爆出了新冠肺炎，這個世界也因新冠肺炎，改變了許多，也影響了很多人可以回鄉看看自己的家人朋友，也讓遠距離戀愛的情侶，無法透過一般旅遊簽證，去彼此的國家城市相遇。</p>
+<p>起初我們想說這波疫情，可能會在年中或年底，就會慢慢恢復正常，可能只需要時間往後延，這樣子，但後來沒想到2020年三月起，開始陸陸續續傳出歐洲美洲地區開始傳播的消息，而英國地區也有相對應的措施，加上台灣這邊的邊境管制，導致不得不將航班先行取消。</p>
+<p>雖然不能如期在台灣相遇，我們還是抱持的希望，這一切都會慢慢變好的。我們依舊每天透過通訊軟體聊天，因台灣相對安全，還可以正常外出吃飯工作，但相對歐洲地區陸陸續續開始有封城的措施，我也時常傳傳，台灣這邊戶外的照片，替他打打氣，並祈求疫情早日退散。</p>
+<p>後來就在某日，男友聊到了，打工度假的選項，加上那時我在工作上，也遇到了一些瓶頸，加上我也28歲了，網路上查了許多英國打工度假抽籤的訊息，也發現不太好抽，還有一待就是兩年，跟許多國家不同，想說要不就抽抽看，如果抽中了就可以透過這個簽證，正常在英國居住跟工作。</p>
+<p>一開始，有點擔心，如果當日發信申請抽籤時，可能會猶豫導致錯過時機，所以想說要不就設定Gmail的自動寄信功能，這樣我也不會因為忘記或猶豫而錯過時機，就在申請抽籤日的數日後，我收到了中簽的信件，我也將這訊息，即時告訴我男友，他也很興奮，我成功抽到簽。</p>
+<p>因為我在台灣還有工作，想說再多工作一會，存些錢，免得到英國後，一下就花光積蓄，所以就先將日期，設定在2021年的下半年。</p>
+<h2 id="心態調整">心態調整</h2>
+<p>對我來說台灣是我的舒適圈，或需這工作讓我壓力很大，有時也不知道要如何處理跟面對，但在主管同事還有朋友的幫助下，讓我後期心理狀態慢慢回復到正常。</p>
+<p>一開始也有顧慮到這份工作的薪水，在台灣來說，已經可以算中位數了，但工作上的瑣事，也有點讓我力不從心，可能是交友圈比較狹隘，或是不太擅長將內心的事跟他人分享或討論。</p>
+<p>到後期總算開口跟主管提出離職，並告知要去英國打工度假，主管也大力支持，也說道如果要幫忙的話，可以跟他說，讓我非常感激這段主僱之情!畢竟也跟了這主管五年了，如果當初面試沒上，可能還會繼續待在好市多了。
+所以離職對我來說沒有太大的阻礙，一切都挺順利的。</p>
+<p>接下來是朋友，朋友一開始，還滿擔心我一個要飛去英國，見我還沒見過的男友，一來是疫情下，發生什麼事，他們也無法第一時間通電話或幫忙，二來是怕我被騙，不過他們還是挺希望，我幸福的，所以一直來，都當我的聆聽者，並給我適當的建議等···也挺感謝他們的，不費我大學時，有幫他們做作業(好像離題了~)。</p>
+<p>至於家人或親戚，起初有些堂哥堂姊，覺得疫情當下，還是不要出國打工度假，但我這個人，有時做起決定後，任何人也無法改變。家人到是沒有說什麼，我只有跟我姊講我要去見我還沒見過的男友，我姊當下只有驚訝，原本以為我們已經在台灣見過面了，還說為啥不是選日本，而是英國(我心想可能是你想要我買日本東西寄回來吧!)，另外我媽到很冷靜地說，你要去英國喔!要去多久，我回兩年，然後得到，這麼久喔!(但內心感受得到，多少有點不捨，孰不知兒子是要去找男友Happy?)。</p>
+<p>因為離職是在九月初，但實際到達英國是在十月初，這段空檔，除了跟朋友敘敘舊、吃吃飯、聊聊天，準備出國要用到的東西文件，心情也著實輕鬆了不少，可能之前給自己太多，不必要的壓力了，甚至一度還懼怕跟人說話，不過好家在Telegram朋友，約騎車吃飯，也對我心理狀態幫助了不少。</p>
+<h2 id="未來規劃">未來規劃</h2>
+<p>可以在英國順利找到老本行(軟體測試工程師)的工作，並在工作之餘加強英文，跟認識新的當地朋友。之後找到一份工作願意提供簽證，讓我可以用工作簽繼續留在這裡。或是換成伴侶簽?</p>
+<h2 id="目前狀況">目前狀況</h2>
+<p>目前找了將近三個月，還沒有得到任何一個工作的Offer，僅希望在三十歲生日前，可以得到一份工作的Offer，不然我可能要思考一下，是不是做些服務業相關的工作了。</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -70,6 +553,57 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 整體使用上音質/舒適性/方便性，依舊符合Sony家的特性，加上我又只聽流行樂跟幫助專注的音樂，已經很夠用了，雖然在蘋果生態系下，無法像Airpods Pro一樣近乎無感切換設備，但也只是多一道步驟去藍牙設定頁面，點選連接而以，對我來說不是太大的痛處。
 不過在Android生態圈，就不一樣了，不只可以用更好的傳輸品質，更方便的切換Android的設備。
 對我來說唯一的小缺點，可能就是當你手油油的話，摸充電盒或耳機會留下挺明顯的痕跡，其他就還好。</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>自從這個產品發表後，看完官方的Youtube影片，和其他科技Youtuber的開箱解說後，加上本人還沒有真無線抗噪耳機，就一直想要購買這個產品，所以最後就在待機飛往英國找我男友時，在松山機場的免稅店購買了。</p>
+<p>在這篇文章簡單分享我的使用心得。</p>
+<h2 id="外觀包裝">外觀包裝</h2>
+<p>原本是想要購買銀色的款式，由於免稅店沒有銀色，加上之前已有黑色WH-1000XM3，考慮了一下，想說黑色就比較耐髒，最後就選擇黑色了。</p>
+<h3 id="產品外觀">產品外觀</h3>
+<p><img loading="lazy" src="https://i.imgur.com/CK4WnsO.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/rBk3cpd.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/2cJaoh8.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/Up7pdef.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/do3VFD5.jpg" alt="Imgur"  />
+
+這次選擇的黑色款式，在麥克風的地方，使用了銅金配色，讓整體感覺有蒸氣龐克風，彷彿會從此處冒出蒸氣來。</p>
+<p>這次WF-1000XM4重新設計耳機內部配置和充電盒，耳機單體的重量也來到了7.3g，耳機整體較前代小於10%，後者充電盒也縮小了40%，但依舊可提供額外16小時的行動充電。
+另外搭配新開發的噪音隔離耳塞，採用聚氨酯泡棉材質與矽膠搭配，以增加耳式耳機的耳塞與耳道之間的接觸面積，並減少隔音的間隙，已達到降低噪音，跟提供更穩固的貼合體驗。</p>
+<h3 id="產品包裝">產品包裝</h3>
+<p>此次的產品包裝，可以說Sony也在這部份，下了不少功夫，不只首次沒有使用塑膠包裝，整體包裝，秉持「回收重製」理念。</p>
+<p>除了標籤外，99%的紙材包裝均採用Sony開發的Original Blended Material，並落實永續設計，以對這個環境付出一些心力。</p>
+<p>雖然單純從包裝上，看不出這產品的奢華昂貴感，可能會降低買家購買的慾望，可說Sony這次在包材做出一個重大決定。</p>
+<h2 id="產品規格">產品規格</h2>
+<ul>
+<li>防水規格 (IPX4)</li>
+<li>耳機類型 (真無線)</li>
+<li>藍牙版本 (BT 5.2)</li>
+<li>續航時間 音樂連續播放(ANC 8/hr, w/o ANC 12/hr);連續通話(ANC 5.5/hr, w/o ANC 6/hr)</li>
+<li>充電時間 (約1.5/hr)</li>
+<li>產品重量 (約41克)</li>
+<li>降噪功能 (環境聲模式/快速注意模式)</li>
+<li>顏色選擇 (黑色/銀色)</li>
+</ul>
+<h2 id="產品售價">產品售價</h2>
+<p>台灣零售價為$7,990元。</p>
+<ul>
+<li><a href="https://store.sony.com.tw/product/show/ff808081798ce1080179abc4b13710ae?fn=SM&amp;cid=gwt%3Apdp%3Abuynow%3Aheadphone%3Awf-1000xm4">台灣索尼</a>。</li>
+</ul>
+<h2 id="使用情境">使用情境</h2>
+<p>個人使用的情境，單純為通勤／抗噪／運動／短暫交談。</p>
+<p>因為之前就有使用過WH-1000XM3，所以對於Sony處理抗噪能力，非常有信心，這次也不失所望，在通勤時，使用Sony自家的Headphones APP，可以做到依照GPS位址，判斷用戶所在的環境去自動切換設定，以免完全抗除人聲，讓通勤時也不會因錯過到站提示音，而錯過下車的時機。</p>
+<p>這次耳機防水能力來到了(IPX4)，這點可讓用戶配戴運動時，不用怕汗水，浸濕您的耳機，就算運動後，稍微在水龍頭底下輕微沖洗，也不用擔心。
+當使用在吵雜的環境，想要隔絕外界環境音時，此時可將抗噪開到最強，幫助隔絕外界噪音，以增加自己的工作效率。</p>
+<p>另外如果在配戴耳機時，需要與人短暫交談時，可以透過APP開啟Speak-to-Chat功能，當辨識您在跟人說話時，耳機會自動暫停播放，並關閉降噪，開啟麥克風，方便您不用脫下耳機，就可以跟人交談，有時我在閱讀時，男友在詢問我是否要喝杯茶，這時這個功能就超好用的啦! a black tea please hah.</p>
+<h2 id="總結">總結</h2>
+<p>這次WF-1000XM4，對我來說對得起這個價格，雖然還是貴貴的。</p>
+<p>整體使用上音質/舒適性/方便性，依舊符合Sony家的特性，加上我又只聽流行樂跟幫助專注的音樂，已經很夠用了，雖然在蘋果生態系下，無法像Airpods Pro一樣近乎無感切換設備，但也只是多一道步驟去藍牙設定頁面，點選連接而以，對我來說不是太大的痛處。</p>
+<p>不過在Android生態圈，就不一樣了，不只可以用更好的傳輸品質，更方便的切換Android的設備。</p>
+<p>對我來說唯一的小缺點，可能就是當你手油油的話，摸充電盒或耳機會留下挺明顯的痕跡，其他就還好。</p>
+]]></content:encoded>
     </item>
     
     <item>
@@ -84,6 +618,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 今年希望我可以在英國，順利的找到軟體測試工程師的工作，有時間跟男朋友，出去旅行、出去吃飯、精進英文。
 最後祝福自己和家人朋友身體健康、平安順遂，早日時間自我的目標。
 新年快樂 兩千零二十二年!!! </description>
+      <content:encoded><![CDATA[<h2 id="哈囉-2022">哈囉 2022:</h2>
+<p>今天是2022年的第一天，哈彭登 英國 天氣晴多雲。</p>
+<p>自從新冠肺炎擴散到全球，近兩年來，這個世界發生了很大的變化，很多事情都跟疫情擴散前不一樣了，但昨天看到許多國家和城市依舊舉辦，跨年活動跟施放煙火，讓我覺得這個世界又慢慢恢復生氣了。</p>
+<p>我希望這是新冠肺炎的最後階段了，讓這個世界可以慢慢地恢復正常，人們不必再擔心這病毒，可以與家人或朋友見面，也可以正常地去看看這個世界，並對自己的未來有夢想。</p>
+<p>今年希望我可以在英國，順利的找到軟體測試工程師的工作，有時間跟男朋友，出去旅行、出去吃飯、精進英文。</p>
+<p>最後祝福自己和家人朋友身體健康、平安順遂，早日時間自我的目標。</p>
+<h3 id="新年快樂-兩千零二十二年">新年快樂 兩千零二十二年!!!</h3>
+]]></content:encoded>
     </item>
     
     <item>
@@ -101,6 +643,19 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 這個部落格會盡量以英文為主，中文為輔。
 敬請關注。
 感謝您的閱讀。 </description>
+      <content:encoded><![CDATA[<h2 id="嗨-大家">嗨 大家!</h2>
+<p>歡迎來到我的部落格，我是Andrew Wu。</p>
+<p>我會在這分享，我的想法、科技、日記、開箱、旅行、美食，及任何我想要分享的內容，呵呵。</p>
+<h2 id="關於我">關於我</h2>
+<p>台灣人，來自台北台灣，現居英國哈彭登。</p>
+<p>如果想<a href="mailto:ying.wu0129@gmail.com">聯繫我</a>。</p>
+<h2 id="中英文支持">中英文支持</h2>
+<p>為了精進我的英文，這個部落格將會支持中英文顯示。</p>
+<p>點選，頁面上方，部落格名稱右邊的&quot;En&quot;或&quot;Zh-Tw&quot;來切換語系設定。</p>
+<p>這個部落格會盡量以英文為主，中文為輔。</p>
+<p>敬請關注。</p>
+<h2 id="感謝您的閱讀">感謝您的閱讀。</h2>
+]]></content:encoded>
     </item>
     
     <item>
@@ -118,6 +673,65 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 限制 目前支持U1晶片的設備： iPhone: iPhone 11 models, iPhone 12 models and iPhone 13 models.
 目前不允許使用Ultra Wideband的國家或地區：
  Armenia 亞美尼亞 🇦🇲 Azerbaijan 阿塞拜疆 🇦🇿 Belarus 白俄羅斯 🇧🇾 Indonesia 印度尼西亞 🇮🇩 Kazakhstan 哈薩克斯坦 🇰🇿 Kyrgyzstan 吉爾吉斯斯坦 🇰🇬 Nepal 尼泊爾 🇳🇵 Russia 俄羅斯 🇷🇺 Tajikistan 塔吉克斯坦 🇹🇯 Turkmenistan 土庫曼斯坦 🇹🇲 Ukraine 烏克蘭 🇺🇦 Uzbekistan 烏茲別克斯坦 🇺🇿  結論 優點：</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<h3 id="因為前幾年去日本旅遊時遺失背包每次想起來都讓我好心痛喔打死我以後都不放在電車架子上已讓我開始搜尋這類型的產品">因為前幾年，去日本旅遊時遺失背包，每次想起來都讓我好心痛喔！打死我以後都不放在電車架子上，已讓我開始搜尋這類型的產品。</h3>
+<p>其實早在Airtag誕世前，市面上已經有這類型的產品，只是基於產品用戶數量，且需要額外安裝應用程式，透過同樣使用該產品的用戶，且已有安裝應用程式並開啟藍牙及權限，才可當行動裝置，經過遺失者的物品時，才能更新遺失物的所在地，並通知遺失物的所有人。</p>
+<p>但這樣的產品通常會基於以下幾點，導致先天上的劣勢：</p>
+<ol>
+<li>取決於使用該產品公司的社群大小，且不同家產品公司的裝置，不互相溝通。</li>
+<li>需要額外安裝第三方的應用程式。</li>
+<li>使用環境被侷限，因不同地方，可能使用這類型產品的用戶數不同，導致侷限使用環境（變成通常只在居家內使用，戶外遺失後，可能會沒有同樣使用同產品的用戶經過，導致當物品從最後遺失地被移動過，可能就找不到了）。</li>
+</ol>
+<p>而蘋果Airtag基於以下幾個條件，直接將相關競品廠商壓在地上摩擦：</p>
+<ol>
+<li>基於Apple產品的用戶數量（Mac, iPhone, iPad, Apple Watch）。</li>
+<li>透過Find My網絡尋找。</li>
+<li>不需額外安裝應用程式。</li>
+<li>U1晶片的加持（使用Ultra-Wideband技術）。</li>
+<li>非蘋果產品，可透過NFC感應Airtag，即可取得遺失者的聯絡資訊。</li>
+</ol>
+<p>也因蘋果基於龐大的裝置用戶數，無須安裝額外的應用程式，每個裝置只需開啟Find My和藍牙及權限，即可當有經過遺失的Airtag時，透過藍牙溝通，並通知遺失者最新的所在地，或透過感應來得知遺失者的聯絡資訊，方可聯絡遺失者，並歸還遺失物。</p>
+<h2 id="基本操作">基本操作</h2>
+<p>沒有U1晶片的操作：
+可以先開啟尋找APP取得AirTag的最後更新的所在地點，到達該地點時，只能播放AirTag的警示音來尋找。</p>
+<p>有U1晶片的操作：
+可以先開啟尋找APP取得AirTag的最後更新的所在地點，到達該地點時，且在AirTag藍牙範圍內時，可以使用精確尋找功能來尋找。</p>
+<h2 id="限制">限制</h2>
+<p>目前支持U1晶片的設備：
+iPhone:
+iPhone 11 models, iPhone 12 models and iPhone 13 models.</p>
+<p>目前不允許使用Ultra Wideband的國家或地區：</p>
+<ul>
+<li>Armenia 亞美尼亞 🇦🇲</li>
+<li>Azerbaijan 阿塞拜疆 🇦🇿</li>
+<li>Belarus 白俄羅斯 🇧🇾</li>
+<li>Indonesia 印度尼西亞 🇮🇩</li>
+<li>Kazakhstan 哈薩克斯坦 🇰🇿</li>
+<li>Kyrgyzstan 吉爾吉斯斯坦 🇰🇬</li>
+<li>Nepal 尼泊爾 🇳🇵</li>
+<li>Russia 俄羅斯 🇷🇺</li>
+<li>Tajikistan 塔吉克斯坦 🇹🇯</li>
+<li>Turkmenistan 土庫曼斯坦 🇹🇲</li>
+<li>Ukraine 烏克蘭 🇺🇦</li>
+<li>Uzbekistan 烏茲別克斯坦 🇺🇿</li>
+</ul>
+<h2 id="結論">結論</h2>
+<p>優點：</p>
+<ol>
+<li>依蘋果「尋找」的龐大的用戶數量，提升找回遺失物的機率。</li>
+<li>可使用支援Ultra Wideband的蘋果設備，使用「精確尋找」更精準的找尋到您的遺失物。</li>
+<li>整合至Find My讓您清楚的掌握自己Item的最後所在地。</li>
+<li>開啟「遺失模式」後，當其他蘋果設備，偵測到遺失的AirTag時，會自動通知，遺失物的所有人。</li>
+<li>讓其他非蘋果生態的用戶，透過NFC感應AirTag來得知遺失物所有人的聯絡資訊。
+缺點：</li>
+<li>在某些國家或地區可能無法正常使用Airtag。</li>
+<li>可能被有心人事，當作追蹤器，來跟蹤他人。</li>
+<li>需要使用符合規定的鈕扣電池，否則可能導致AirTag損壞。</li>
+<li>沒有支援U1晶片的蘋果設備，可能在吵雜的環境，不易尋找到遺失物。</li>
+<li>設備的警示音太小聲。</li>
+</ol>
+<p><strong>綜合以上優缺點，個人認為AirTag，是一個值得購買的產品（前提您是用蘋果的產品喔！），適合時常遺忘東西的人購買，雖然不一定能找回遺失物，但大大提升尋回遺失物的機率呀！</strong></p>
+]]></content:encoded>
     </item>
     
     
