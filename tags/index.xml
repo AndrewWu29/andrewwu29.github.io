@@ -9,7 +9,37 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoogleAnalytics</title>
+      <link>https://AndrewWu29.github.io/tags/googleanalytics/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/tags/googleanalytics/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://AndrewWu29.github.io/tags/hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/tags/hugo/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Note</title>
+      <link>https://AndrewWu29.github.io/tags/note/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/tags/note/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Basic</title>
       <link>https://AndrewWu29.github.io/tags/basic/</link>
@@ -41,16 +71,6 @@
     </item>
     
     <item>
-      <title>Note</title>
-      <link>https://AndrewWu29.github.io/tags/note/</link>
-      <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
-      
-      <guid>https://AndrewWu29.github.io/tags/note/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
       <title>Deploy</title>
       <link>https://AndrewWu29.github.io/tags/deploy/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
@@ -66,16 +86,6 @@
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
       <guid>https://AndrewWu29.github.io/tags/github/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://AndrewWu29.github.io/tags/hugo/</link>
-      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
-      
-      <guid>https://AndrewWu29.github.io/tags/hugo/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

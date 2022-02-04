@@ -9,7 +9,37 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何添加Google Analytics到Hugo?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
+      <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
+如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到[google analytics]網站(https://analytics.google.com/ analytics/web/provision/#/provision) 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
+步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
+參考資料: DEFINITION Google Analytics
+Google Analytics
+Internal Templates | Hugo</description>
+      <content:encoded><![CDATA[<h2 id="什麼是google-analytics">什麼是Google Analytics?</h2>
+<p>Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。</p>
+<h2 id="如何添加google-analytics到hugo網站">如何添加google analytics到Hugo網站?</h2>
+<h3 id="步驟一-建立一個google帳號httpsaccountsgooglecomsignupv2webcreateaccountserviceanalyticscontinuehttps3a2f2fanalyticsgooglecom2fanalytics2fweb2fhlendshs9237899823a1643982945903281bizfalseflownameglifwebsigninflowentrysignupnogmtrue">步驟一: 建立一個<a href="https://accounts.google.com/signup/v2/webcreateaccount?service=analytics&amp;continue=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F&amp;hl=en&amp;dsh=S923789982%3A1643982945903281&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;nogm=true">google帳號</a></h3>
+<h3 id="步驟二-到google-analytics網站httpsanalyticsgooglecom-analyticswebprovisionprovision">步驟二: 到[google analytics]網站(<a href="https://analytics.google.com/">https://analytics.google.com/</a> analytics/web/provision/#/provision)</h3>
+<h3 id="步驟三--在google-analytics設定好您要分析的網站資訊">步驟三:  在google analytics設定好您要分析的網站資訊</h3>
+<h3 id="步驟四-取得您給google-analytics分析的id">步驟四: 取得您給google analytics分析的ID</h3>
+<h3 id="步驟五-編輯您hugo的configyml">步驟五: 編輯您Hugo的config.yml</h3>
+<p>添加 <code>googleAnalytics: G-MEASUREMENT_ID</code> 到您的config.yml檔案。</p>
+<h3 id="步驟六-添加google-analytics模板到您hugo的主題">步驟六: 添加google analytics模板到您Hugo的主題</h3>
+<p>添加 <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> 到您的主題底下的head.html檔案 <code>&lt;head&gt;</code> 區塊內</p>
+<h2 id="參考資料">參考資料:</h2>
+<p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
+<p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Git基本指令</title>
       <link>https://AndrewWu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>

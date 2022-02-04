@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GoogleAnalytics on Andrew&#39;s Blog</title>
+    <link>https://AndrewWu29.github.io/tags/googleanalytics/</link>
+    <description>Recent content in GoogleAnalytics on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/googleanalytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add Google Analytics to Hugo?</title>
+      <link>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
+      <description>What is Google Analytics? Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes. The service is part of the Google Marketing Platform and is available for free to anyone with a Google account.
+How to add google analytics to Hugo site? Step 1: Create a google account Step 2: Go to google analytics site Step 3: Set up your site details in google analytics Step 4: Get your site google analytics ID Step 5: Set up your Hugo config.</description>
+      <content:encoded><![CDATA[<h2 id="what-is-google-analytics">What is Google Analytics?</h2>
+<p>Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes. The service is part of the Google Marketing Platform and is available for free to anyone with a Google account.</p>
+<h2 id="how-to-add-google-analytics-to-hugo-site">How to add google analytics to Hugo site?</h2>
+<h3 id="step-1-create-a-google-accounthttpsaccountsgooglecomsignupv2webcreateaccountserviceanalyticscontinuehttps3a2f2fanalyticsgooglecom2fanalytics2fweb2fhlendshs9237899823a1643982945903281bizfalseflownameglifwebsigninflowentrysignupnogmtrue">Step 1: Create a <a href="https://accounts.google.com/signup/v2/webcreateaccount?service=analytics&amp;continue=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F&amp;hl=en&amp;dsh=S923789982%3A1643982945903281&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;nogm=true">google account</a></h3>
+<h3 id="step-2-go-to-google-analyticshttpsanalyticsgooglecomanalyticswebprovisionprovision-site">Step 2: Go to <a href="https://analytics.google.com/analytics/web/provision/#/provision">google analytics</a> site</h3>
+<h3 id="step-3--set-up-your-site-details-in-google-analytics">Step 3:  Set up your site details in google analytics</h3>
+<h3 id="step-4-get-your-site-google-analytics-id">Step 4: Get your site google analytics ID</h3>
+<h3 id="step-5-set-up-your-hugo-configyml">Step 5: Set up your Hugo config.yml</h3>
+<p>Add <code>googleAnalytics: G-MEASUREMENT_ID</code> in your config.yml file.</p>
+<h3 id="step-6-add-google-analytics-template-in-your-hugo-theme">Step 6: Add google analytics template in your Hugo theme</h3>
+<p>Add <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> in your theme’s head.html file <code>&lt;head&gt;</code> section</p>
+<h2 id="reference">Reference:</h2>
+<p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
+<p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
