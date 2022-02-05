@@ -37,7 +37,7 @@ ShowCodeCopyButtons: true
 
 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 
-## 手把手教學教您怎如整合Disqus到您的Hugo網站
+## 手把手教學，教您整合Disqus到您的Hugo網站
 
 ### 步驟一: 註冊Disqus
 
@@ -89,7 +89,7 @@ ShowCodeCopyButtons: true
 {{- /* Comments area end */ -}}
 ```
 
-### 步驟七: Add Disqus shortname `disqusShortname = "<your-disqus-shortname>"` in your config.yml file
+### 步驟七: 增加Disqus簡稱`disqusShortname = "<your-disqus-shortname>"`到config.yml檔案裡
 
 ### 步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫
 
