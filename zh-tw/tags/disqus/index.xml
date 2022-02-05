@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Disqus on Andrew&#39;s Blog</title>
+    <link>https://AndrewWu29.github.io/zh-tw/tags/disqus/</link>
+    <description>Recent content in Disqus on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何整合Disqus到您的Hugo網站?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
+手把手教學教您怎如整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
+&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
+      <content:encoded><![CDATA[<h2 id="什麼是disqus">什麼是Disqus?</h2>
+<p>是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。</p>
+<h2 id="手把手教學教您怎如整合disqus到您的hugo網站">手把手教學教您怎如整合Disqus到您的Hugo網站</h2>
+<h3 id="步驟一-註冊disqus">步驟一: 註冊Disqus</h3>
+<h3 id="步驟二-安裝disqus">步驟二: 安裝Disqus</h3>
+<h3 id="步驟三-選擇i-want-to-install-disqus-on-my-site">步驟三: 選擇&quot;I want to install Disqus on my site.&quot;</h3>
+<h3 id="步驟四-填寫表單資料">步驟四: 填寫表單資料</h3>
+<h3 id="步驟五-複製留言的模板並建立disqushtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後並貼上您獲得的留言模板">步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板</h3>
+<p>範本應該會長得跟下面的代碼一樣:</p>
+<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    // Don't ever inject Disqus on localhost--it creates unwanted
+    // discussions from 'localhost:1313' on your Disqus account...
+    if (window.location.hostname == &quot;localhost&quot;)
+        return;
+
+
+    var d = document, s = d.createElement('script');
+    s.src = 'https://your_disqus_name.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre><h3 id="步驟六-建立commentshtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後複製並貼上以下代碼到這個檔案裡面">步驟六: 建立comments.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後複製並貼上以下代碼到這個檔案裡面</h3>
+<pre tabindex="0"><code>{{- /* Comments area start */ -}}
+{{- /* partial &quot;disqus.html&quot; . */ -}}
+{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
+{{- /* Comments area end */ -}}
+</code></pre><h3 id="步驟七-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">步驟七: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
+<h3 id="步驟八-恭喜-現在所有步驟都結束了您可以發布到您的github倉庫">步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫</h3>
+<h2 id="參考資源">參考資源</h2>
+<p><a href="https://disqus.com">Disqus</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

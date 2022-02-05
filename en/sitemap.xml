@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://AndrewWu29.github.io/</loc>
-    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -13,6 +13,77 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/commands/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/disqus/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/disqus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/disqus/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/hugo/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/hugo/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/note/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/posts/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/googleanalytics/</loc>
@@ -39,48 +110,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/hugo/</loc>
-    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/note/</loc>
-    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
-  </url><url>
-    <loc>https://AndrewWu29.github.io/posts/</loc>
-    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/posts/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/</loc>
-    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/basic/</loc>

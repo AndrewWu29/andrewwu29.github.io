@@ -9,7 +9,63 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to integrate Disqus into your Hugo site?</title>
+      <link>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
+      <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
+      <description>What is Disqus? The internet&amp;rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
+Steps by steps to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
+      <content:encoded><![CDATA[<h2 id="what-is-disqus">What is Disqus?</h2>
+<p>The internet&rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.</p>
+<h2 id="steps-by-steps-to-integrate-disqus-into-your-hugo-site">Steps by steps to integrate Disqus into your Hugo Site</h2>
+<h3 id="step-1-sign-up-for-disqus">Step 1: Sign up for Disqus</h3>
+<h3 id="step-2-install-disqus">Step 2: Install Disqus</h3>
+<h3 id="step-3-chose-i-want-to-install-disqus-on-my-site">Step 3: Chose &ldquo;I want to install Disqus on my site.&rdquo;</h3>
+<h3 id="step-4-fill-in-the-form-details-for-your-hugo-site">Step 4: Fill in the Form details for your Hugo site</h3>
+<h3 id="step-5-copy-the-discussion-templates-and-create-a-disqushtml-file-under-your-hugo-site-folder-layoutspartials-then-paste-it-inside-the-file">Step 5: Copy the discussion templates, and create a disqus.html file under your Hugo site folder layouts/partials, then paste it inside the file</h3>
+<p>The template will be like below:</p>
+<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    // Don't ever inject Disqus on localhost--it creates unwanted
+    // discussions from 'localhost:1313' on your Disqus account...
+    if (window.location.hostname == &quot;localhost&quot;)
+        return;
+
+
+    var d = document, s = d.createElement('script');
+    s.src = 'https://your_disqus_name.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre><h3 id="step-6-create-a-commentshtml-file-under-your-hugo-site-folder-layoutspartials-and-copy-and-paste-the-below-code-inside-the-file">Step 6: Create a comments.html file under your Hugo site folder layouts/partials, and copy and paste the below code inside the file</h3>
+<pre tabindex="0"><code>{{- /* Comments area start */ -}}
+{{- /* partial &quot;disqus.html&quot; . */ -}}
+{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
+{{- /* Comments area end */ -}}
+</code></pre><h3 id="step-7-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">Step 7: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
+<h3 id="step-8-congratulations-now-it-is-all-done-you-can-push-it-to-your-github-repo">Step 8: Congratulations, now it is all done. You can push it to your GitHub repo</h3>
+<h2 id="resources">Resources</h2>
+<p><a href="https://disqus.com">Disqus</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How to add Google Analytics to Hugo?</title>
       <link>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
