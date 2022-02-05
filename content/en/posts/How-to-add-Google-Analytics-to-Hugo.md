@@ -55,7 +55,7 @@ Add `googleAnalytics: G-MEASUREMENT_ID` in your config.yml file.
 
 Add `{{ template "_internal/google_analytics.html" . }}` in your theme’s head.html file `<head>` section
 
-## Reference:
+## Resources
 
 [DEFINITION Google Analytics](https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics)
 

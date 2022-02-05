@@ -55,7 +55,7 @@ Google Analytics是一個網站分析服務，它提供統計和基本分析的�
 
 添加 `{{ template "_internal/google_analytics.html" . }}` 到您的主題底下的head.html檔案 `<head>` 區塊內
 
-## 參考資料:
+## 參考資源
 
 [DEFINITION Google Analytics](https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics)
 
