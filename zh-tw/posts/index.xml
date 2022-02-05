@@ -17,11 +17,11 @@
       
       <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
-手把手教學教您怎如整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
+手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
 &amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
       <content:encoded><![CDATA[<h2 id="什麼是disqus">什麼是Disqus?</h2>
 <p>是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。</p>
-<h2 id="手把手教學教您怎如整合disqus到您的hugo網站">手把手教學教您怎如整合Disqus到您的Hugo網站</h2>
+<h2 id="手把手教學教您整合disqus到您的hugo網站">手把手教學，教您整合Disqus到您的Hugo網站</h2>
 <h3 id="步驟一-註冊disqus">步驟一: 註冊Disqus</h3>
 <h3 id="步驟二-安裝disqus">步驟二: 安裝Disqus</h3>
 <h3 id="步驟三-選擇i-want-to-install-disqus-on-my-site">步驟三: 選擇&quot;I want to install Disqus on my site.&quot;</h3>
@@ -59,7 +59,7 @@
 {{ template &quot;_internal/disqus.html&quot; . }}
 {{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
-</code></pre><h3 id="步驟七-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">步驟七: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
+</code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
 <h3 id="步驟八-恭喜-現在所有步驟都結束了您可以發布到您的github倉庫">步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫</h3>
 <h2 id="參考資源">參考資源</h2>
 <p><a href="https://disqus.com">Disqus</a></p>
