@@ -29,7 +29,7 @@ How to add google analytics to Hugo site? Step 1: Create a google account Step 2
 <p>Add <code>googleAnalytics: G-MEASUREMENT_ID</code> in your config.yml file.</p>
 <h3 id="step-6-add-google-analytics-template-in-your-hugo-theme">Step 6: Add google analytics template in your Hugo theme</h3>
 <p>Add <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> in your theme’s head.html file <code>&lt;head&gt;</code> section</p>
-<h2 id="reference">Reference:</h2>
+<h2 id="resources">Resources</h2>
 <p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
 <p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
