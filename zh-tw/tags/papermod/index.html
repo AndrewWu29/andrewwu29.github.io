@@ -86,6 +86,21 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>How to add an RSS feed to your Hugo PaperMod theme?
+</h2>
+</header>
+<section class=entry-content>
+<p>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
+什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
+所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
+建立RSS feed到您的Hugo PaperMod主題，只要三步驟 步驟一: 確認config.yml檔案裡的output的清單有RSS 步驟二: 新增RSS feed圖示到您的網站 步驟三: 開啟所有文章內容支持產生RSS XML檔案 所以現在config.yml檔案裡應該要有以下的代碼::
+params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary socialIcons: - name: rss # Shows an RSS feed icon on your site` url: "index.xml" # Your RSS feed url path outputs: home: - HTML - RSS # Supports your site output including RSS format - JSON 完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。...</p>
+</section>
+<footer class=entry-footer><span title="2022-02-06 12:52:00 +0000 UTC">2022 February 6</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Andrew Wu</footer>
+<a class=entry-link aria-label="post link to How to add an RSS feed to your Hugo PaperMod theme?" href=https://AndrewWu29.github.io/zh-tw/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>如何使用Hugo建立自己的部落格?
 </h2>
 </header>

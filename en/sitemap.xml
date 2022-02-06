@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://AndrewWu29.github.io/</loc>
-    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -13,6 +13,100 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/hugo/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/hugo/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/note/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/papermod/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/papermod/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/posts/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/rss/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/rss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/rss/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/rss-feed/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/rss-feed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/rss-feed/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/commands/</loc>
@@ -42,48 +136,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/hugo/</loc>
-    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/note/</loc>
-    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
-  </url><url>
-    <loc>https://AndrewWu29.github.io/posts/</loc>
-    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/posts/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/</loc>
-    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/googleanalytics/</loc>
@@ -181,19 +233,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/papermod/</loc>
-    <lastmod>2022-01-05T17:13:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/papermod/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/stepbystep/</loc>

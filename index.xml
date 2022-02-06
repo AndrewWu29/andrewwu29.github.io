@@ -9,7 +9,43 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add an RSS feed to your Hugo PaperMod theme?</title>
+      <link>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
+      <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
+      <description>Hugo is a popular static site generator, and PaperMod comes with a default RSS 2.0 template.
+What is an RSS feed? RSS stands for Really Simple Syndication, and it’s is a simple, standardized content distribution method that can help you stay up-to-date with your favorite newscasts, blogs, websites, and social media channels.
+Means supported an RSS feed function on your blog, can keep those who follow you up-to-date with your newest posts.</description>
+      <content:encoded><![CDATA[<p>Hugo is a popular static site generator, and PaperMod comes with a default RSS 2.0 template.</p>
+<h2 id="what-is-an-rss-feed">What is an RSS feed?</h2>
+<p>RSS stands for Really Simple Syndication, and it’s is a simple, standardized content distribution method that can help you stay up-to-date with your favorite newscasts, blogs, websites, and social media channels.</p>
+<p>Means supported an RSS feed function on your blog, can keep those who follow you up-to-date with your newest posts.</p>
+<h2 id="add-an-rss-feed-on-your-hugo-papermod-theme-only-three-steps">Add an RSS feed on your Hugo PaperMod theme only three steps</h2>
+<h3 id="step-1-ensure-rss-is-listed-as-an-output-format-inside-your-configyml-file">Step 1: Ensure <code>RSS</code> is listed as an <code>output</code> format inside your <code>config.yml</code> file</h3>
+<h3 id="step-2-add-an-rss-feed-icon-on-your-site">Step 2: Add an RSS feed icon on your site</h3>
+<h3 id="step-3-enable-full-content-support-generated-rss-xml-file">Step 3: Enable full content support generated RSS XML file</h3>
+<p>So your <code>config.yml</code> file must include as below code:</p>
+<pre tabindex="0"><code>params:
+  ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary
+  
+  socialIcons:
+    - name: rss # Shows an RSS feed icon on your site`
+      url: &quot;index.xml&quot; # Your RSS feed url path
+
+outputs:
+    home:
+        - HTML
+        - RSS # Supports your site output including RSS format
+        - JSON
+</code></pre><p><strong>After finishing the above steps, now your Hugo PaperMod theme site can support an RSS feed.</strong></p>
+<h2 id="resoreces">Resoreces</h2>
+<p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How to integrate Disqus into your Hugo site?</title>
       <link>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
