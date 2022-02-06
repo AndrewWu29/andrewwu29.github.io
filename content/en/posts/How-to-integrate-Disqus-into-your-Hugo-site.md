@@ -37,7 +37,7 @@ ShowCodeCopyButtons: true
 
 The internet's favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
 
-## Steps by steps to integrate Disqus into your Hugo Site
+## Step by step to integrate Disqus into your Hugo Site
 
 ### Step 1: Sign up for Disqus
 
