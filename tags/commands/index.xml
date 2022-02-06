@@ -17,10 +17,10 @@
       
       <guid>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
       <description>What is Disqus? The internet&amp;rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
-Steps by steps to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
+Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
       <content:encoded><![CDATA[<h2 id="what-is-disqus">What is Disqus?</h2>
 <p>The internet&rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.</p>
-<h2 id="steps-by-steps-to-integrate-disqus-into-your-hugo-site">Steps by steps to integrate Disqus into your Hugo Site</h2>
+<h2 id="step-by-step-to-integrate-disqus-into-your-hugo-site">Step by step to integrate Disqus into your Hugo Site</h2>
 <h3 id="step-1-sign-up-for-disqus">Step 1: Sign up for Disqus</h3>
 <h3 id="step-2-install-disqus">Step 2: Install Disqus</h3>
 <h3 id="step-3-chose-i-want-to-install-disqus-on-my-site">Step 3: Chose &ldquo;I want to install Disqus on my site.&rdquo;</h3>
