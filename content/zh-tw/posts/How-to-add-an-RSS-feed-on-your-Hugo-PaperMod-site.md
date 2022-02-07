@@ -1,5 +1,5 @@
 ---
-title: "How to add an RSS feed to your Hugo PaperMod theme?"
+title: "如何添加RSS feed到您的Hugo PaperMod主題?"
 date: 2022-02-06T12:52:00Z
 # weight: 1
 # aliases: ["/AirTag"]
