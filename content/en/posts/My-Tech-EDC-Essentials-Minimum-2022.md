@@ -54,7 +54,7 @@ Bringing noise-cancellation earbuds with you can help you have a peaceful moment
 
 It just helps me store my cash, ID, driver licences, debit card and credit cards.
 
-## Power Bank: [IDMIX CH07](https://www.amazon.com › IDMIX-...IDMIX Portable Charger - 4-in-1 Travel Power Bank, Wall ... - Amazon.com)
+## Power Bank: [IDMIX CH07](http://www.idmix.com.cn/wap/index.php?ac=article&at=read&did=308)
 
 It's a great Power Bank; it can be an AC charger to charge your electrical products and build-in USB C and Lighting cables, so you don't have to worry about forgetting your charging cable at home.
 
