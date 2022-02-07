@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://AndrewWu29.github.io/tags/2022/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/2022/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/</loc>
-    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -14,6 +27,47 @@
                 hreflang="en"
                 href="https://AndrewWu29.github.io/"
                 />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/edc/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/everday-carry/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/minimum/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/posts/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/tech/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</loc>
     <lastmod>2022-02-06T12:52:00+00:00</lastmod>
@@ -57,19 +111,6 @@
                 href="https://AndrewWu29.github.io/tags/papermod/"
                 />
   </url><url>
-    <loc>https://AndrewWu29.github.io/posts/</loc>
-    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/posts/"
-                />
-  </url><url>
     <loc>https://AndrewWu29.github.io/tags/rss/</loc>
     <lastmod>2022-02-06T12:52:00+00:00</lastmod>
     <xhtml:link
@@ -94,19 +135,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/rss-feed/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/</loc>
-    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/commands/</loc>
@@ -240,19 +268,6 @@
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/tutorail/</loc>
     <lastmod>2022-01-05T17:13:00+00:00</lastmod>
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/2022/</loc>
-    <lastmod>2022-01-01T09:39:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/2022/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/2022/"
-                />
   </url><url>
     <loc>https://AndrewWu29.github.io/about/</loc>
     <lastmod>2022-01-01T09:39:00+00:00</lastmod>
