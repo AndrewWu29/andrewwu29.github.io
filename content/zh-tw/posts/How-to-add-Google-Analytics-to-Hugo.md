@@ -41,7 +41,7 @@ Google Analytics是一個網站分析服務，它提供統計和基本分析的�
 
 ### 步驟一: 建立一個[google帳號](https://accounts.google.com/signup/v2/webcreateaccount?service=analytics&continue=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F&hl=en&dsh=S923789982%3A1643982945903281&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true)
 
-### 步驟二: 到[google analytics]網站(https://analytics.google.com/ analytics/web/provision/#/provision)
+### 步驟二: 到[google analytics](https://analytics.google.com/analytics/web/provision/#/provision)網站
 
 ### 步驟三:  在google analytics設定好您要分析的網站資訊
 
