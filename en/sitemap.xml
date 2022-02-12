@@ -2,6 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://AndrewWu29.github.io/2022/02/uk-york-york-minster/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%B4%84%E5%85%8B-%E7%B4%84%E5%85%8B%E5%A4%A7%E6%95%99%E5%A0%82-%E6%AD%90%E6%B4%B2%E5%8C%97%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E5%93%A5%E5%BE%B7%E5%BC%8F%E6%95%99%E5%A0%82/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/2022/02/uk-york-york-minster/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/england/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/posts/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/travel/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/uk/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/tags/uk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/tags/uk/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/york/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/tags/york-minster/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/2022/</loc>
     <lastmod>2022-02-07T20:24:00+00:00</lastmod>
     <xhtml:link
@@ -13,19 +90,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/2022/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/</loc>
-    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/edc/</loc>
@@ -58,32 +122,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/posts/</loc>
-    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/posts/"
-                />
-  </url><url>
-    <loc>https://AndrewWu29.github.io/tags/</loc>
-    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/tags/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/tech/</loc>
