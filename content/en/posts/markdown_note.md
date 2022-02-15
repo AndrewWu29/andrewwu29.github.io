@@ -1,6 +1,6 @@
 ---
 title: "Markdown Basic Systax"
-date: 2022-02-12T16:46:00Z
+date: 2022-02-15T17:22:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Markdown", "note", "systax"]
