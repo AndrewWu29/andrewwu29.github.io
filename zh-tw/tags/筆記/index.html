@@ -16,7 +16,6 @@
 <link rel=mask-icon href=https://AndrewWu29.github.io/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.2">
 <link rel=alternate type=application/rss+xml href=https://AndrewWu29.github.io/zh-tw/tags/%E7%AD%86%E8%A8%98/index.xml>
 <link rel=alternate hreflang=zh-tw href=https://AndrewWu29.github.io/zh-tw/tags/%E7%AD%86%E8%A8%98/>
 <noscript>
@@ -85,6 +84,32 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Markdown 筆記 基本語法使用
+</h2>
+</header>
+<section class=entry-content>
+<p>什麼是Markdown? Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。
+由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。
+所以只要熟悉相關語法，Markdown可以讓您輕鬆快速地撰寫筆記、文章、說明文件等。
+基本語法 標題 # 標題一 ## 標題二 ### 標題三 #### 標題四 ##### 標題五 ###### 標題六 效果
+標題一 標題二 標題三 標題四 標題五 標題六 強調 粗體 **粗體前後各兩個星號** __粗體前後各兩個底線__ 效果
+粗體前後各兩個星號
+粗體前後各兩個底線
+斜體 *斜體前後各一個星號* _斜體前後各一個星號_ 效果
+斜體前後各一個星號
+斜體前後各一個星號
+粗斜體 ***粗體前後各三個星號*** ___粗體前後各三個底線___ 效果
+粗體前後各三個星號
+粗體前後各三個底線
+文字段落 一個段落是由一個以上相連接的行句組成，而一個以上的空行則會切分出不同的段落。
+第一段 第二段 清單 Markdown支援有序清單和無序清單。無序清單使用 * 、 + 或 - 作為清單標記，有序清單使用數字接著一個英文句點做為清單標記。
+無序清單 * 紅 * 橙 * 黃 + 紅 + 橙 + 黃 - 紅 - 橙 - 黃 效果...</p>
+</section>
+<footer class=entry-footer><span title="2022-02-12 16:46:00 +0000 UTC">2022 February 12</span>&nbsp;·&nbsp;3 分鐘&nbsp;·&nbsp;Andrew Wu</footer>
+<a class=entry-link aria-label="post link to Markdown 筆記 基本語法使用" href=https://AndrewWu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>如何添加RSS feed到您的Hugo PaperMod主題?
 </h2>
 </header>
@@ -138,27 +163,11 @@ Internal Templates | Hugo</p>
 <footer class=entry-footer><span title="2022-01-12 15:30:00 +0000 UTC">2022 January 12</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Andrew Wu</footer>
 <a class=entry-link aria-label="post link to Git基本指令" href=https://AndrewWu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/></a>
 </article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>如何使用Hugo建立自己的部落格?
-</h2>
-</header>
-<section class=entry-content>
-<p>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
-如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
-事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
-首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
-Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下"Next"到"Install"即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵"Windows + S"，並輸入"CMD"，來開啟命令提示字元。 開啟後輸入以下指令。
-git version 並會得到。
-git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
-Visual Studio Code & Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣"Next"到"Install"。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到"View"下的"Extensions"(也可用Ctrl+Shift+X)去搜尋"Markdown"的 Extensions，找到"markdownlint"並安裝。 到目前為止，我們已經成功安裝了Git & Visual Studio Code w/ markdownlint Extension。
-接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
-Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用"Individual"並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System....</p>
-</section>
-<footer class=entry-footer><span title="2022-01-05 17:13:00 +0000 UTC">2022 January 5</span>&nbsp;·&nbsp;5 分鐘&nbsp;·&nbsp;Andrew Wu</footer>
-<a class=entry-link aria-label="post link to 如何使用Hugo建立自己的部落格?" href=https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/></a>
-</article>
+<footer class=page-footer>
+<nav class=pagination>
+<a class=next href=https://AndrewWu29.github.io/zh-tw/tags/%E7%AD%86%E8%A8%98/page/2/>下一篇 »</a>
+</nav>
+</footer>
 </main>
 <footer class=footer>
 <span>&copy; 2022 <a href=https://AndrewWu29.github.io/zh-tw/>Andrew's Blog</a></span>
