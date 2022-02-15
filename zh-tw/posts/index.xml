@@ -9,11 +9,11 @@
       <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Feb 2022 16:46:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown 筆記 基本語法使用</title>
       <link>https://AndrewWu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</link>
-      <pubDate>Sat, 12 Feb 2022 16:46:00 +0000</pubDate>
+      <pubDate>Tue, 15 Feb 2022 17:22:00 +0000</pubDate>
       
       <guid>https://AndrewWu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</guid>
       <description>什麼是Markdown? Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。
