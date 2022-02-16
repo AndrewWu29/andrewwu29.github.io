@@ -2,10 +2,13 @@ baseURL: "https://AndrewWu29.github.io/"
 title: Andrew's Blog
 paginate: 5
 theme: PaperMod
+
 defaultContentLanguage: en
+
 disqusShortname: andrewwu29
 # languageCode: zh-tw
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -20,6 +23,95 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+languages:
+  en:
+    languageName: English
+    languageAltTitle: English
+    contentDir: content/en
+    weight: 1
+    DateFormat: "January 2, 2006"
+    profileMode:
+      enabled: true
+      imageUrl: "profile_avatar.jpg"
+      imageWidth: 180
+      imageHeight: 180
+      title: Andrew Wu
+      subtitle: I'm a QAE, and seeking a job in the UK.
+      buttons:
+        - name: Posts
+          url: posts
+        - name: Tags
+          url: tags
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 1
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 2
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 3
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 4
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 5
+  zh-tw:
+    languageName: 中文
+    languageAltTitle: 中文
+    contentDir: content/zh-tw
+    weight: 2
+    DateFormat: "2006 January 2"
+    profileMode:
+      enabled: true
+      imageUrl: "../profile_avatar.jpg"
+      imageWidth: 180
+      imageHeight: 180
+      title: Andrew Wu
+      subtitle: 還在英國尋找工作機會的軟體測試工程師
+      buttons:
+        - name: 貼文
+          url: posts
+        - name: 標籤
+          url: tags
+    label:
+      text: 安德魯的部落格
+    menu:
+      main:
+        - identifier: posts
+          name: 文章
+          url: /posts/
+          weight: 1
+        - identifier: categories
+          name: 分類
+          url: /categories/
+          weight: 2
+        - identifier: tags
+          name: 標籤
+          url: /tags/
+          weight: 3
+        - identifier: search
+          name: 搜尋
+          url: /search/
+          weight: 4
+        - identifier: about
+          name: 關於我
+          url: /about/
+          weight: 5
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Andrew's Blog
@@ -31,6 +123,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  displayFullLangName: true
 
   ShowFullTextinRSS: true
   ShowReadingTime: true
@@ -128,92 +221,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-languages:
-  en:
-    contentDir: content/en
-    languageName: English
-    weight: 1
-    DateFormat: "January 2, 2006"
-    profileMode:
-      enabled: true
-      imageUrl: "profile_avatar.jpg"
-      imageWidth: 180
-      imageHeight: 180
-      title: Andrew Wu
-      subtitle: I'm a QAE, and seeking a job in the UK.
-      buttons:
-        - name: Posts
-          url: posts
-        - name: Tags
-          url: tags
-    menu:
-      main:
-        - identifier: posts
-          name: Posts
-          url: /posts/
-          weight: 1
-        - identifier: categories
-          name: Categories
-          url: /categories/
-          weight: 2
-        - identifier: tags
-          name: Tags
-          url: /tags/
-          weight: 3
-        - identifier: search
-          name: Search
-          url: /search/
-          weight: 4
-        - identifier: about
-          name: About
-          url: /about/
-          weight: 5
-  zh-tw:
-    contentDir: content/zh-tw
-    languageName: 中文
-    weight: 2
-    DateFormat: "2006 January 2"
-    profileMode:
-      enabled: true
-      imageUrl: "../profile_avatar.jpg"
-      imageWidth: 180
-      imageHeight: 180
-      title: Andrew Wu
-      subtitle: 還在英國尋找工作機會的軟體測試工程師
-      buttons:
-        - name: 貼文
-          url: posts
-        - name: 標籤
-          url: tags
-    label:
-      text: 安德魯的部落格
-    menu:
-      main:
-        - identifier: posts
-          name: 文章
-          url: posts
-          weight: 1
-        - identifier: categories
-          name: 分類
-          url: categories
-          weight: 2
-        - identifier: tags
-          name: 標籤
-          url: tags
-          weight: 3
-        - identifier: search
-          name: 搜尋
-          url: search
-          weight: 4
-        - identifier: about
-          name: 關於我
-          url: about
-          weight: 5
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
