@@ -15,6 +15,19 @@
                 href="https://AndrewWu29.github.io/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/</loc>
+    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/markdown/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
     <xhtml:link
@@ -26,6 +39,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/markdown/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/markdown/</loc>
+    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/markdown/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/2022/02/markdown-basic-systax/</loc>
@@ -44,6 +70,9 @@
     <loc>https://AndrewWu29.github.io/tags/note/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/note/</loc>
+    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+  </url><url>
     <loc>https://AndrewWu29.github.io/posts/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
     <xhtml:link
@@ -58,6 +87,9 @@
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/systax/</loc>
+    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/systax/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/</loc>
@@ -89,7 +121,13 @@
     <loc>https://AndrewWu29.github.io/tags/england/</loc>
     <lastmod>2022-02-12T16:46:00+00:00</lastmod>
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/england/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/travel/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/travel/</loc>
     <lastmod>2022-02-12T16:46:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/uk/</loc>
@@ -104,6 +142,9 @@
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/uk/"
                 />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/uk/</loc>
+    <lastmod>2022-02-12T16:46:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/york/</loc>
     <lastmod>2022-02-12T16:46:00+00:00</lastmod>
@@ -137,6 +178,19 @@
                 href="https://AndrewWu29.github.io/tags/edc/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/edc/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/edc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/edc/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/everday-carry/</loc>
     <lastmod>2022-02-07T20:24:00+00:00</lastmod>
   </url><url>
@@ -157,6 +211,9 @@
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/tech/</loc>
+    <lastmod>2022-02-07T20:24:00+00:00</lastmod>
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/tech/</loc>
     <lastmod>2022-02-07T20:24:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</loc>
@@ -185,6 +242,19 @@
                 href="https://AndrewWu29.github.io/tags/hugo/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/hugo/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/hugo/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/papermod/</loc>
     <lastmod>2022-02-06T12:52:00+00:00</lastmod>
     <xhtml:link
@@ -196,6 +266,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/papermod/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/papermod/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/papermod/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/rss/</loc>
@@ -210,6 +293,9 @@
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/rss/"
                 />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/rss/</loc>
+    <lastmod>2022-02-06T12:52:00+00:00</lastmod>
   </url><url>
     <loc>https://AndrewWu29.github.io/tags/rss-feed/</loc>
     <lastmod>2022-02-06T12:52:00+00:00</lastmod>
@@ -240,6 +326,19 @@
                 href="https://AndrewWu29.github.io/tags/disqus/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/disqus/</loc>
+    <lastmod>2022-02-05T16:44:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/disqus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/disqus/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</loc>
     <lastmod>2022-02-05T16:44:00+00:00</lastmod>
     <xhtml:link
@@ -266,6 +365,19 @@
                 href="https://AndrewWu29.github.io/tags/googleanalytics/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/googleanalytics/</loc>
+    <lastmod>2022-02-04T14:25:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/googleanalytics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/googleanalytics/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</loc>
     <lastmod>2022-02-04T14:25:00+00:00</lastmod>
     <xhtml:link
@@ -282,6 +394,9 @@
     <loc>https://AndrewWu29.github.io/tags/basic/</loc>
     <lastmod>2022-01-12T15:30:00+00:00</lastmod>
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/basic/</loc>
+    <lastmod>2022-01-12T15:30:00+00:00</lastmod>
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/command/</loc>
     <lastmod>2022-01-12T15:30:00+00:00</lastmod>
     <xhtml:link
@@ -295,6 +410,19 @@
                 href="https://AndrewWu29.github.io/tags/command/"
                 />
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/command/</loc>
+    <lastmod>2022-01-12T15:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/command/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/command/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/git/</loc>
     <lastmod>2022-01-12T15:30:00+00:00</lastmod>
     <xhtml:link
@@ -306,6 +434,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/git/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/git/</loc>
+    <lastmod>2022-01-12T15:30:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/git/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/2022/01/git-basic-commands/</loc>
@@ -324,6 +465,9 @@
     <loc>https://AndrewWu29.github.io/tags/deploy/</loc>
     <lastmod>2022-01-05T17:13:00+00:00</lastmod>
   </url><url>
+    <loc>https://AndrewWu29.github.io/categories/deploy/</loc>
+    <lastmod>2022-01-05T17:13:00+00:00</lastmod>
+  </url><url>
     <loc>https://AndrewWu29.github.io/tags/github/</loc>
     <lastmod>2022-01-05T17:13:00+00:00</lastmod>
     <xhtml:link
@@ -335,6 +479,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://AndrewWu29.github.io/tags/github/"
+                />
+  </url><url>
+    <loc>https://AndrewWu29.github.io/categories/github/</loc>
+    <lastmod>2022-01-05T17:13:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/categories/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/categories/github/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</loc>
@@ -378,16 +535,16 @@
     <loc>https://AndrewWu29.github.io/tags/newyear/</loc>
     <lastmod>2022-01-01T09:39:00+00:00</lastmod>
   </url><url>
-    <loc>https://AndrewWu29.github.io/categories/</loc>
+    <loc>https://AndrewWu29.github.io/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/categories/"
+                href="https://AndrewWu29.github.io/zh-tw/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://AndrewWu29.github.io/categories/"
+                href="https://AndrewWu29.github.io/archives/"
                 />
   </url><url>
     <loc>https://AndrewWu29.github.io/search/</loc>

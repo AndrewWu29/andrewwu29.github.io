@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on Andrew&#39;s Blog</title>
+    <link>https://AndrewWu29.github.io/zh-tw/categories/hugo/</link>
+    <description>Recent content in Hugo on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何添加RSS feed到您的Hugo PaperMod主題?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
+      <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
+      <description>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
+什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
+所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
+建立RSS feed到您的Hugo PaperMod主題，只要三步驟 步驟一: 確認config.yml檔案裡的output的清單有RSS 步驟二: 新增RSS feed圖示到您的網站 步驟三: 開啟所有文章內容支持產生RSS XML檔案 所以現在config.yml檔案裡應該要有以下的代碼::
+params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary socialIcons: - name: rss # Shows an RSS feed icon on your site` url: &amp;quot;index.xml&amp;quot; # Your RSS feed url path outputs: home: - HTML - RSS # Supports your site output including RSS format - JSON 完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</description>
+      <content:encoded><![CDATA[<p>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。</p>
+<h2 id="什麼是rss-feed">什麼是RSS feed?</h2>
+<p>RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。</p>
+<p>所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。</p>
+<h2 id="建立rss-feed到您的hugo-papermod主題只要三步驟">建立RSS feed到您的Hugo PaperMod主題，只要三步驟</h2>
+<h3 id="步驟一-確認configyml檔案裡的output的清單有rss">步驟一: 確認<code>config.yml</code>檔案裡的<code>output</code>的清單有<code>RSS</code></h3>
+<h3 id="步驟二-新增rss-feed圖示到您的網站">步驟二: 新增RSS feed圖示到您的網站</h3>
+<h3 id="步驟三-開啟所有文章內容支持產生rss-xml檔案">步驟三: 開啟所有文章內容支持產生RSS XML檔案</h3>
+<p>所以現在<code>config.yml</code>檔案裡應該要有以下的代碼::</p>
+<pre tabindex="0"><code>params:
+  ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary
+  
+  socialIcons:
+    - name: rss # Shows an RSS feed icon on your site`
+      url: &quot;index.xml&quot; # Your RSS feed url path
+
+outputs:
+    home:
+        - HTML
+        - RSS # Supports your site output including RSS format
+        - JSON
+</code></pre><p><strong>完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</strong></p>
+<h2 id="參考資料">參考資料</h2>
+<p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>如何整合Disqus到您的Hugo網站?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
+手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
+&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
+      <content:encoded><![CDATA[<h2 id="什麼是disqus">什麼是Disqus?</h2>
+<p>是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。</p>
+<h2 id="手把手教學教您整合disqus到您的hugo網站">手把手教學，教您整合Disqus到您的Hugo網站</h2>
+<h3 id="步驟一-註冊disqus">步驟一: 註冊Disqus</h3>
+<h3 id="步驟二-安裝disqus">步驟二: 安裝Disqus</h3>
+<h3 id="步驟三-選擇i-want-to-install-disqus-on-my-site">步驟三: 選擇&quot;I want to install Disqus on my site.&quot;</h3>
+<h3 id="步驟四-填寫表單資料">步驟四: 填寫表單資料</h3>
+<h3 id="步驟五-複製留言的模板並建立disqushtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後並貼上您獲得的留言模板">步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板</h3>
+<p>範本應該會長得跟下面的代碼一樣:</p>
+<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    // Don't ever inject Disqus on localhost--it creates unwanted
+    // discussions from 'localhost:1313' on your Disqus account...
+    if (window.location.hostname == &quot;localhost&quot;)
+        return;
+
+
+    var d = document, s = d.createElement('script');
+    s.src = 'https://your_disqus_name.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+</code></pre><h3 id="步驟六-建立commentshtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後複製並貼上以下代碼到這個檔案裡面">步驟六: 建立comments.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後複製並貼上以下代碼到這個檔案裡面</h3>
+<pre tabindex="0"><code>{{- /* Comments area start */ -}}
+{{- /* partial &quot;disqus.html&quot; . */ -}}
+{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
+{{- /* Comments area end */ -}}
+</code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
+<h3 id="步驟八-恭喜-現在所有步驟都結束了您可以發布到您的github倉庫">步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫</h3>
+<h2 id="參考資料">參考資料</h2>
+<p><a href="https://disqus.com">Disqus</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>如何添加Google Analytics到Hugo?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
+      <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
+      <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
+如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到google analytics網站 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
+步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
+參考資料 DEFINITION Google Analytics
+Google Analytics
+Internal Templates | Hugo</description>
+      <content:encoded><![CDATA[<h2 id="什麼是google-analytics">什麼是Google Analytics?</h2>
+<p>Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。</p>
+<h2 id="如何添加google-analytics到hugo網站">如何添加google analytics到Hugo網站?</h2>
+<h3 id="步驟一-建立一個google帳號httpsaccountsgooglecomsignupv2webcreateaccountserviceanalyticscontinuehttps3a2f2fanalyticsgooglecom2fanalytics2fweb2fhlendshs9237899823a1643982945903281bizfalseflownameglifwebsigninflowentrysignupnogmtrue">步驟一: 建立一個<a href="https://accounts.google.com/signup/v2/webcreateaccount?service=analytics&amp;continue=https%3A%2F%2Fanalytics.google.com%2Fanalytics%2Fweb%2F&amp;hl=en&amp;dsh=S923789982%3A1643982945903281&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp&amp;nogm=true">google帳號</a></h3>
+<h3 id="步驟二-到google-analyticshttpsanalyticsgooglecomanalyticswebprovisionprovision網站">步驟二: 到<a href="https://analytics.google.com/analytics/web/provision/#/provision">google analytics</a>網站</h3>
+<h3 id="步驟三--在google-analytics設定好您要分析的網站資訊">步驟三:  在google analytics設定好您要分析的網站資訊</h3>
+<h3 id="步驟四-取得您給google-analytics分析的id">步驟四: 取得您給google analytics分析的ID</h3>
+<h3 id="步驟五-編輯您hugo的configyml">步驟五: 編輯您Hugo的config.yml</h3>
+<p>添加 <code>googleAnalytics: G-MEASUREMENT_ID</code> 到您的config.yml檔案。</p>
+<h3 id="步驟六-添加google-analytics模板到您hugo的主題">步驟六: 添加google analytics模板到您Hugo的主題</h3>
+<p>添加 <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> 到您的主題底下的head.html檔案 <code>&lt;head&gt;</code> 區塊內</p>
+<h2 id="參考資料">參考資料</h2>
+<p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
+<p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
+<p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>如何使用Hugo建立自己的部落格?</title>
+      <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
+如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
+事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
+首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
+Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵&amp;quot;Windows + S&amp;quot;，並輸入&amp;quot;CMD&amp;quot;，來開啟命令提示字元。 開啟後輸入以下指令。
+ git version 並會得到。
+git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
+Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到&amp;quot;View&amp;quot;下的&amp;quot;Extensions&amp;quot;(也可用Ctrl+Shift+X)去搜尋&amp;quot;Markdown&amp;quot;的 Extensions，找到&amp;quot;markdownlint&amp;quot;並安裝。 到目前為止，我們已經成功安裝了Git &amp;amp; Visual Studio Code w/ markdownlint Extension。
+接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
+Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.</description>
+      <content:encoded><![CDATA[<h1 id="手把手教學教您如何建立hugo靜態部落格並部屬到github">手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub!</h1>
+<h2 id="前言">前言</h2>
+<p>最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。</p>
+<p>如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。</p>
+<h2 id="事前準備">事前準備</h2>
+<p>因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。</p>
+<p>首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。</p>
+<h3 id="git安裝與確認">Git安裝與確認</h3>
+<p>首先我們先到Git的官網下載 Git 到 Windows. <a href="https://git-scm.com/download/win">Download for Windows</a>，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&quot;Next&quot;到&quot;Install&quot;即可無腦安裝完畢。
+<img loading="lazy" src="https://i.imgur.com/xCCcS5k.png" alt="git dwonload for Windows"  />
+
+<img loading="lazy" src="https://i.imgur.com/PTSyXhj.png" alt="git Setup"  />
+
+安裝完畢後，我們使用快捷鍵&quot;Windows + S&quot;，並輸入&quot;CMD&quot;，來開啟命令提示字元。
+<img loading="lazy" src="https://i.imgur.com/wjbN68m.png" alt="WinKey&#43;Shift&#43;CMD"  />
+
+開啟後輸入以下指令。</p>
+<pre tabindex="0"><code> git version
+</code></pre><p>並會得到。</p>
+<pre tabindex="0"><code>git version 2.xx.x.windows.x
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/kxjfjJw.png" alt="git version check"  />
+</p>
+<p>當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。
+再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。</p>
+<h3 id="visual-studio-code--markdown-plugin安裝">Visual Studio Code &amp; Markdown Plugin安裝</h3>
+<p>一樣我們到 <a href="https://code.visualstudio.com/">Visual Studio Code</a> 的官網下載安裝檔，並進行安裝，一樣&quot;Next&quot;到&quot;Install&quot;。
+<img loading="lazy" src="https://i.imgur.com/2isdgIM.png" alt="Visual Studio Code download"  />
+
+<img loading="lazy" src="https://i.imgur.com/qcjQ9ex.png" alt="Visual Studio Code Setup Next"  />
+
+<img loading="lazy" src="https://i.imgur.com/aEadDI2.png" alt="Visual Studio Code Setup Install"  />
+
+安裝完畢並開啟，應該會看到以下的畫面。
+<img loading="lazy" src="https://i.imgur.com/Ir3fuCX.png" alt="ms_VisualStudioCode_Get_Started"  />
+
+然後我們到&quot;View&quot;下的&quot;Extensions&quot;(也可用Ctrl+Shift+X)去搜尋&quot;Markdown&quot;的 Extensions，找到&quot;markdownlint&quot;並安裝。
+<img loading="lazy" src="https://i.imgur.com/cbg6cxa.png" alt="ms_VisualStudioCode_Get_Extensions"  />
+
+<img loading="lazy" src="https://i.imgur.com/s3G9wGL.png" alt="ms_VisualStudioCode_Install_Markdown_Extension"  />
+</p>
+<p><strong>到目前為止，我們已經成功安裝了Git &amp; Visual Studio Code w/ markdownlint Extension。</strong></p>
+<p>接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。</p>
+<h2 id="hugo安裝與建立自己的部落格">Hugo安裝與建立自己的部落格</h2>
+<p>在安裝Hugo前需要安裝<a href="https://chocolatey.org/install#individual">chocolatey</a>這個工具，這裡是直接使用&quot;Individual&quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。</p>
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+</code></pre><p><strong>安裝完chocolatey這工具後，我們可以開始建立我們的部落格了。</strong></p>
+<h3 id="第一步-安裝hugo">第一步: 安裝Hugo</h3>
+<p>我們依照<a href="https://gohugo.io/getting-started/quick-start/">官方快速開始</a>進行安裝Hugo。因為我們這次只需要使用一般版本，所以依照手冊使用以下指令安裝。</p>
+<pre tabindex="0"><code>choco install hugo -confirm
+</code></pre><p>安裝完 Hugo 後，我們需要進行確認是否安裝成功，我們可以輸入以下指令。</p>
+<pre tabindex="0"><code>hugo version
+</code></pre><h3 id="第二步-建立新網站">第二步: 建立新網站</h3>
+<p>接下來我們要建立我們的新網站，因為我們會使用到 <code>yml</code> 格式需使用到以下指令。</p>
+<pre tabindex="0"><code>hugo new site &lt;資料夾名稱&gt; -f yml
+</code></pre><p>出現以下畫面，即代表安裝成功了!
+<img loading="lazy" src="https://i.imgur.com/U86gMSu.png" alt="Create a new site with yml format"  />
+</p>
+<h3 id="第三步-添加hugo主題">第三步: 添加Hugo主題</h3>
+<p>完成 Hugo 網站建立後，我們要為 Hugo 添加一些主題，讓您的部落格，不會過於單調，可至 <a href="https://themes.gohugo.io/">Hugo Themes</a> 挑選您喜歡的主題，我這邊會使用 <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> 這個主題作為示範。</p>
+<p>首先我們要先切換到剛剛新增的資料夾目錄底下，我們可以在 CMD 輸入&quot;CD &lt;資料夾名稱&gt;&quot;，由於我們剛剛示範的資料夾名稱為&quot;its_demo_blog&quot;，所以我們要輸入以下指令。</p>
+<pre tabindex="0"><code>cd &lt;您的資料夾名稱&gt;
+</code></pre><p>再來我們需要先將這個資料夾，建立一個新的 Git 數據庫，我們要用到以下指令。</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>然後您會看到此結果。
+<img loading="lazy" src="https://i.imgur.com/BSdMrfg.png" alt="git init"  />
+</p>
+<p>接下來，我們需要將我們剛剛選好的主題，透過 Git 指令加入到我們的資料夾跟目錄底下的&quot;themes/PaperMod&quot;，指令為下。</p>
+<pre tabindex="0"><code>git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</code></pre><p>執行完應該會顯示如下。
+<img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
+</p>
+<p>之後我們依照 PaperMod 的<a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">官方文件</a>，進行修改我們的<code>config.yml</code>。</p>
+<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #等等GitHub庫的網址
+title: its demo blog #網站標題
+paginate: 5
+# 預設語系配置
+defaultContentLanguage: zh-tw
+# 主題配置
+theme: PaperMod #這次使用到的主題 PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# GooleAnalytics服務，這個之後會再寫到如何設定
+googleAnalytics: UA-123-45
+
+
+# 連結配置
+permalinks:
+  posts: /:year/:month/:title/
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: its demo blog
+  description: &quot;its demo blog description&quot;
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
+  DateFormat: &quot;January 2, 2006&quot;
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: &quot;&lt;link / abs url&gt;&quot;
+    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
+    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
+    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
+    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+
+  label:
+    text: &quot;its demo blog&quot;
+    #icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: &quot;This is subtitle&quot;
+    imageUrl: &quot;&lt;img location&gt;&quot;
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode 這是教學使用 Home-info 模式，預設也為這個
+  homeInfoParams:
+    Title: &quot;嗨 大家 \U0001F44B&quot;
+    Content: 歡迎來到我的部落格。
+
+  # 可以放自己社交平台的連結
+  socialIcons:
+    - name: twitter
+      url: &quot;https://twitter.com/&quot;
+    - name: stackoverflow
+      url: &quot;https://stackoverflow.com&quot;
+    - name: github
+      url: &quot;https://github.com/&quot;
+
+  analytics:
+    google:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    bing:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    yandex:
+      SiteVerificationTag: &quot;XYZabc&quot;
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # 別人可以建議您修改，但我會將這個功能關閉
+  #editPost:
+    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+    #Text: &quot;Suggest Changes&quot; # edit text
+    #appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 1
+    - identifier: categories
+      name: 分類
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: 標籤
+      url: /tags/
+      weight: 3
+    #- identifier: search
+    #  name: 搜尋
+    #  url: search
+    #  weight: 4
+    #- identifier: about
+    #  name: 關於我
+    #  url: about
+    #  weight: 5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+</code></pre><p>修改好後，我們在根目錄底下打開 CMD 並輸入<code>hugo server -D</code>，並打開瀏覽器應該會看到下圖畫面。
+<img loading="lazy" src="https://i.imgur.com/fzuEDoz.png" alt="its demo blog"  />
+</p>
+<h3 id="第四步-建立第一篇文章">第四步: 建立第一篇文章</h3>
+<p>再來我們要新建第一篇文章，我們需要用到以下指令，來建立第一篇文章，不免俗的當然要來一下 Hello World 啦!(老闆我會所有程式的Hello World? 這樣應徵比較有優勢嗎?)</p>
+<pre tabindex="0"><code>hugo new posts/hello_world.md
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/JgnAVrI.png" alt="hugo new posts"  />
+</p>
+<p>然後我們打開之前下載的Visual Studio Code，來編寫我們的第一篇文章吧!但開始進入到&quot;content/posts/hello_world.md&quot;應該會看到這個畫面。
+<img loading="lazy" src="https://i.imgur.com/suv5MPR.png" alt="hello_world.md"  />
+</p>
+<p>我們修改為下。</p>
+<pre tabindex="0"><code>---
+title: &quot;Hello_World!&quot;
+date: 2022-01-06T14:00:09Z
+draft: false
+# weight: 1
+# aliases: [&quot;/AirTag&quot;]
+tags: [&quot;第一篇文章&quot;, &quot;Hello World&quot;]
+author: &quot;Me&quot;
+# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+showToc: false
+TocOpen: false
+hidemeta: false
+comments: true
+#description: &quot;Hello World&quot;
+#canonicalURL: &quot;https://canonical.url/to/page&quot;
+disableHLJS: true # to disable highlightjs
+disableShare: true
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+#cover:
+#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
+#    alt: &quot;&lt;alt text&gt;&quot; # alt text
+#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    relative: true # when using page bundles set this to true
+#    hidden: true # only hide on current single page
+#editPost:
+#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+#    Text: &quot;Suggest Changes&quot; # edit text
+#    appendFilePath: false # to append file path to Edit link
+---
+# Hello World!!!
+
+這是我的第一篇文章啦!
+</code></pre><h3 id="第五步-開啟hugo伺服器">第五步: 開啟Hugo伺服器</h3>
+<p>Hugo本地預覽網站功能，只需要在 Windows PowerShell 或 CMD 的部落格跟目錄底下打<code>hugo server -D</code>，即可在本地端預覽網站，初始網址:<code>http://localhost:1313/</code>。</p>
+<p>目前的網頁應該會呈現如下。
+<img loading="lazy" src="https://i.imgur.com/lbjHm5O.png" alt="First Post"  />
+</p>
+<p><strong>到目前步驟我們已經成功，建立出 Demo Blog 並發了第一篇文章，再來就是部屬到GitHub Pages了。</strong></p>
+<h3 id="第六步-將hugo部落格部屬到github上">第六步: 將Hugo部落格部屬到GitHub上</h3>
+<p>首先您需要有GitHub的帳號，沒有請左轉Google後申請。我們需要在GitHub建立一個存放網站用的庫，並命名為<code>&lt;username&gt;.github.io</code> username為您在GitHub上的使用者名稱。</p>
+<p><strong>註: 因為這個是demo site所以名稱沒有按照上面規則走!</strong>
+<img loading="lazy" src="https://i.imgur.com/H22voyQ.png" alt="Create a new repository"  />
+</p>
+<p>接下來我們需要在此庫底下建立另條分支<code>gh-pages</code>，這個分支是用來展示我們的部落格的，我們等下會使用到 GitHub Action的功能來進行內容自動化部屬，自動產生文件到<code>gh-pages</code>上。</p>
+<pre tabindex="0"><code># 加入所有檔案
+git add .
+# 新增commit內容
+git commit -m &quot;init its demo blog&quot;
+# 新增main分支
+git branch -M main
+# 新增遠端版本庫
+git remote add origin https://github.com/&lt;使用者名稱&gt;/&lt;使用者名稱&gt;.github.io.git
+# 將部落格內容上傳到remote
+git push -u origin main
+
+# 新增gh-pages孤兒分支
+git checkout --orphan gh-pages
+# 新增一個README.md檔
+echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+# 加入所有檔案
+git add .
+# 新增commit內容
+git commit -m &quot;init gh-pages branch&quot;
+# 將分支內容上傳到remote
+git push -u origin gh-pages
+# 切換到main分支
+git checkout main
+</code></pre><p>跑完以上指令後，您的庫應該會有兩個分支 <code>main</code> &amp; <code>gh-pages</code>。</p>
+<h3 id="第七步-設定github-action來執行自動化部屬">第七步: 設定GitHub Action來執行自動化部屬</h3>
+<p>我們需要在 main 分支上有做變更時，自動化部屬到 gh-pages。</p>
+<h4 id="事前準備-1">事前準備</h4>
+<p>我們要先到<a href="https://github.com/settings/tokens/new">此頁</a>，取得我們的Token，為了接下來的步驟。勾選的選項如下圖。
+<img loading="lazy" src="https://i.imgur.com/ELdM2bq.png" alt="New personal access token"  />
+</p>
+<p>然後到頁面最下方，點選&quot;Generate Token&quot;，並將 Token 複製下來。
+<img loading="lazy" src="https://i.imgur.com/sfTO3EW.png" alt="Generate Token"  />
+
+<img loading="lazy" src="https://i.imgur.com/ZuYMGa1.png" alt="Personal access tokens"  />
+</p>
+<p>接下來，我們需要存放您 Hugo 部落格的 Token，路徑為: Repository &gt; Settings &gt; Secret &gt; New repository secret，如下圖，Name 可以取您喜歡的，Value 需要設定為我們剛取得的 Token，然後按下&quot;Add Secret&quot;。
+<img loading="lazy" src="https://i.imgur.com/OVHpiZp.png" alt="New secret"  />
+</p>
+<p><strong>到這裡，目前的事前準備已告一段落，我們接下來要設定workflow。</strong></p>
+<h4 id="workflow設定">workflow設定</h4>
+<p>我們會參考<a href="https://github.com/peaceiris/actions-hugo">此文</a>的workflow，來設定 GitHub Action。</p>
+<p>我們先來到 GitHub Action 頁面，並點選&quot;set up a workflow yourself -&gt;&quot;
+<img loading="lazy" src="https://i.imgur.com/20ozHSn.png" alt="set up a workflow yourself"  />
+</p>
+<p>並將下方文件複製貼上，並做些修改。</p>
+<pre tabindex="0"><code>name: Build GH-Pages #這個可以改為您想要的名稱
+
+on:
+  push:
+    paths-ignore:
+      - 'images/**'
+      - 'LICENSE'
+      - 'README.md'
+    branches:
+      - main
+  workflow_dispatch:
+    # manual run
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Get Theme
+        run: git submodule update --init --recursive
+
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --buildDrafts --gc --verbose --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
+</code></pre><p>修改好後，點選右上角的&quot;Star commit&quot;儲存完 workflow的設定文件，就可以在庫底下的&quot;Action&quot;頁面看到執行的狀態了，若執行狀態前面顯示綠色打勾即代表部屬成功!
+<img loading="lazy" src="https://i.imgur.com/Cw58W5x.png" alt="workflow file"  />
+
+<img loading="lazy" src="https://i.imgur.com/88styb1.png" alt="workflows"  />
+
+<img loading="lazy" src="https://i.imgur.com/9dz2Awx.png" alt="workflows successed"  />
+</p>
+<h3 id="第八步-發佈部落格新文章">第八步: 發佈部落格新文章</h3>
+<p>當您完成前面的步驟後，您需要到 Repository &gt; Settings 底下的 Pages 將 Source 的分支改為 gh-pages 就完成了所有步驟了。</p>
+<p>以後要發表新文章只需要做:</p>
+<ol>
+<li>使用Visual Studio Code打開部落格對應的資料夾。</li>
+<li>在&quot;content/posts&quot;底下建立一個新 markdown 檔案，並撰寫您的內容。</li>
+<li>再將整個專案檔案使用 git 上傳到您對應的庫。</li>
+</ol>
+<h2 id="結語">結語</h2>
+<p>這算我的第一篇公開的筆記吧!也參考了網路上很多大大的文章，才有這個結果，希望可以清楚地幫助到想要自己建立部落格的人。</p>
+<h2 id="參考資料">參考資料</h2>
+<p><a href="https://andrewwu29.github.io/itsdemoblog/">此文Demo Site</a></p>
+<p><a href="https://github.com/AndrewWu29/itsdemoblog">此文Git庫</a></p>
+<p><a href="https://yurepo.tw/2021/03/%E5%A6%82%E4%BD%95%E5%B0%87hugo%E9%83%A8%E8%90%BD%E6%A0%BC%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/">如何將Hugo部落格部署到Github上?</a></p>
+<p><a href="https://lexcao.io/zh/posts/hello-world/">代码笔记</a></p>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
+<p><a href="https://git-scm.com/">Git</a></p>
+<p><a href="https://chocolatey.org/install#individual">Chocolatey</a></p>
+<p><a href="https://adityatelange.github.io/hugo-PaperMod/">PaperMod Demo Site</a></p>
+<p><a href="https://github.com/adityatelange/hugo-PaperMod">hugo-PaperMod</a></p>
+<p><a href="https://ithelp.ithome.com.tw/articles/10235097">Hugo 貼身打造個人部落格</a></p>
+<p><a href="https://frankccccc.github.io/blog/posts/move_blog/">Golden Hat</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
