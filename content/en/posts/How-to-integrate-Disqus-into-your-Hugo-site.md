@@ -92,7 +92,7 @@ The template will be like below:
 
 ### Step 8: Congratulations, now it is all done. You can push it to your GitHub repo
 
-## Resources
+## References
 
 [Disqus](https://disqus.com)
 

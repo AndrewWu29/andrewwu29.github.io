@@ -68,6 +68,6 @@ outputs:
 
 **完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。**
 
-## 參考資源
+## 參考資料
 
 [Setting up an RSS feed for a Hugo blog using the PaperMod Theme](https://link.medium.com/8MgjDu9vqnb)

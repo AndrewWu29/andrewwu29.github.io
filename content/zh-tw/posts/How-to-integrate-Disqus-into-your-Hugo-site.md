@@ -93,7 +93,7 @@ ShowCodeCopyButtons: true
 
 ### 步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫
 
-## 參考資源
+## 參考資料
 
 [Disqus](https://disqus.com)
 

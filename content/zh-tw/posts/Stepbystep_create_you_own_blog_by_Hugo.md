@@ -486,11 +486,12 @@ jobs:
 2. 在"content/posts"底下建立一個新 markdown 檔案，並撰寫您的內容。
 3. 再將整個專案檔案使用 git 上傳到您對應的庫。
 
-# 結語
+## 結語
 
 這算我的第一篇公開的筆記吧!也參考了網路上很多大大的文章，才有這個結果，希望可以清楚地幫助到想要自己建立部落格的人。
 
-### 參考資源
+## 參考資料
+
 [此文Demo Site](https://andrewwu29.github.io/itsdemoblog/)
 
 [此文Git庫](https://github.com/AndrewWu29/itsdemoblog)

@@ -97,6 +97,6 @@ ShowCodeCopyButtons: true
 
 官網：[Newcastle](https://www.newcastleairport.com)
 
-## 參考資源
+## 參考資料
 
 [維基百科](https://zh.m.wikipedia.org/zh-tw/約克座堂)

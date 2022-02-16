@@ -68,6 +68,6 @@ outputs:
 
 **After finishing the above steps, now your Hugo PaperMod theme site can support an RSS feed.**
 
-## Resoreces
+## References
 
 [Setting up an RSS feed for a Hugo blog using the PaperMod Theme](https://link.medium.com/8MgjDu9vqnb)

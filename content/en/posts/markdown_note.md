@@ -366,7 +366,7 @@ Blockquotes can contain other Markdown elements, including headers, lists, and c
 > 
 >     return shell_exec("echo $input | $markdown_script");
 
-## Resources
+## References
 
 [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax#img)
 

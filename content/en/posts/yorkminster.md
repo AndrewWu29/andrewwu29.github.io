@@ -73,6 +73,6 @@ WebSite: http://yorkminster.org/
 
 Getting here: https://yorkminster.org/visit/plan-your-visit/#getting-here
 
-## Resources
+## References
 
 [Wikipedia](https://en.wikipedia.org/wiki/York_Minster)
