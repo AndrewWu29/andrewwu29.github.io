@@ -4,6 +4,7 @@ date: 2022-02-07T20:24:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["科技", "EDC", "每日攜帶", "2022", "最少"]
+categories: ["科技", "EDC"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

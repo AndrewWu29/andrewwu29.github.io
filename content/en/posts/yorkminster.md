@@ -4,6 +4,7 @@ date: 2022-02-12T16:46:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Travel", "UK", "England", "York", "York Minster"]
+categories: ["Travel", "UK", "England"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

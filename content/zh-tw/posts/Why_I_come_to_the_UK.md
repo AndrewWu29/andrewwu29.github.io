@@ -4,6 +4,7 @@ date: 2022-01-05T11:30:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["UK", "英國", "分享", "打工度假", "YMS2020"]
+categories: ["英國", "打工度假", "分享", "YMS2020"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

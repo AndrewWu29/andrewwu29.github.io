@@ -4,6 +4,7 @@ date: 2022-02-04T14:25:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Hugo", "筆記", "GoogleAnalytics"]
+categories: ["Hugo", "筆記", "GoogleAnalytics"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

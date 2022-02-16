@@ -4,6 +4,7 @@ date: 2022-02-05T16:44:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Hugo", "Note", "Disqus", "Commands"]
+categories: ["Note", "Hugo", "PaperMod", "Disqus"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

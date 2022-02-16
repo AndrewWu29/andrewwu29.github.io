@@ -4,6 +4,7 @@ date: 2021-12-27T12:42:04Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["AirTag", "開箱"]
+categories: ["AirTag", "開箱", "科技"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

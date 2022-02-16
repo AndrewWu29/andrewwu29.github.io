@@ -4,6 +4,7 @@ date: 2022-02-07T20:24:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Tech", "EDC", "Everday Carry", "2022", "Minimum"]
+categories: ["Tech", "EDC"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

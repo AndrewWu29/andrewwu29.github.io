@@ -4,6 +4,7 @@ date: 2022-02-06T12:52:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Hugo", "Note", "PaperMod", "RSS", "RSS feed"]
+categories: ["Note", "Hugo", "PaperMod", "RSS"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

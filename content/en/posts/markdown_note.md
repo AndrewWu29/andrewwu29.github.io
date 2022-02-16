@@ -4,6 +4,7 @@ date: 2022-02-15T17:22:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Markdown", "note", "systax"]
+categories: ["Note", "Markdown", "systax"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

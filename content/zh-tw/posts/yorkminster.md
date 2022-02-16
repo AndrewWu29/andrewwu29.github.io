@@ -4,6 +4,7 @@ date: 2022-02-12T16:46:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["旅行", "英國", "英格蘭", "約克", "約克大教堂"]
+categories: ["旅行", "英國", "英格蘭"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

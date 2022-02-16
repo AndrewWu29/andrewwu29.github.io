@@ -4,6 +4,7 @@ date: 2022-01-03T12:00:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Sony", "WF-1000XM4", "開箱"]
+categories: ["科技", "Sony", "WF-1000XM4", "開箱"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -4,6 +4,7 @@ date: 2022-01-05T17:13:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Git", "Hugo", "手把手", "教學", "筆記", GitHub, PaperMod, "部屬"]
+categories: ["Git", "Hugo", "手把手", "教學", "筆記", GitHub, PaperMod, "部屬"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true

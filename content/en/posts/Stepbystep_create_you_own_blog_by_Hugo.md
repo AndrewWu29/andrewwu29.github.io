@@ -4,6 +4,7 @@ date: 2022-01-05T17:13:00Z
 # weight: 1
 # aliases: ["/AirTag"]
 tags: ["Git", "Hugo", "Stepbystep", "Tutorail", "Note", GitHub, PaperMod, "Deploy"]
+categories: ["Git", "Hugo", "PaperMod", "GitHub", "Note", "Deploy"]
 author: "Andrew Wu"
 # author: ["Me", "You"] # multiple authors
 showToc: true
