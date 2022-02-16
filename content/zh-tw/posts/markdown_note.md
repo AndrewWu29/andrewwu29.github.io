@@ -372,7 +372,7 @@ id sem consectetuer libero luctus adipiscing.
 > 
 >     return shell_exec("echo $input | $markdown_script");
 
-## 參考資源
+## 參考資料
 
 [Markdown文件](https://markdown.tw/)
 
