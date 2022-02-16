@@ -371,7 +371,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 <pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
 </code></pre>
 </blockquote>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://markdown.tw/">Markdown文件</a></p>
 <p><a href="https://fakestandard.github.io/post/markdown/markdown-1-heymarkdown/">Markdown筆記神器</a></p>
 ]]></content:encoded>
