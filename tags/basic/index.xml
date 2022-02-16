@@ -73,7 +73,7 @@ git blame #show who last edited which line
 git stash #temporarily remove modifications to working directory
 git bisect #binary search history (e.g. for regressions)
 .gitignore #specify intentionally untracked files to ignore
-</code></pre><h2 id="resources">Resources</h2>
+</code></pre><h2 id="references">References</h2>
 <p><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control (Git)</a></p>
 <p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
 <p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>

@@ -71,7 +71,7 @@ git blame #檢視最後修改某列的使用者
 git stash #暫時移除工作目錄下的變更
 git bisect #透過二分搜尋來搜尋歷史紀錄
 .gitignore #指定忽視且不會再追蹤的檔案
-</code></pre><h2 id="參考資源">參考資源</h2>
+</code></pre><h2 id="參考資料">參考資料</h2>
 <p><a href="https://missing-semester-zh-hant.github.io/2020/version-control/">版本控制</a></p>
 <p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
 <p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>

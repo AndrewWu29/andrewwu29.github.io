@@ -337,7 +337,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 <pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
 </code></pre>
 </blockquote>
-<h2 id="resources">Resources</h2>
+<h2 id="references">References</h2>
 <p><a href="https://daringfireball.net/projects/markdown/syntax#img">Markdown: Syntax</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a></p>
 <p><a href="https://fakestandard.github.io/post/markdown/markdown-1-heymarkdown/">Markdown筆記神器</a></p>
@@ -375,7 +375,7 @@ outputs:
         - RSS # Supports your site output including RSS format
         - JSON
 </code></pre><p><strong>After finishing the above steps, now your Hugo PaperMod theme site can support an RSS feed.</strong></p>
-<h2 id="resoreces">Resoreces</h2>
+<h2 id="references">References</h2>
 <p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
 ]]></content:encoded>
     </item>
@@ -430,7 +430,7 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="step-7-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">Step 7: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
 <h3 id="step-8-congratulations-now-it-is-all-done-you-can-push-it-to-your-github-repo">Step 8: Congratulations, now it is all done. You can push it to your GitHub repo</h3>
-<h2 id="resources">Resources</h2>
+<h2 id="references">References</h2>
 <p><a href="https://disqus.com">Disqus</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
 ]]></content:encoded>
@@ -455,7 +455,7 @@ How to add google analytics to Hugo site? Step 1: Create a google account Step 2
 <p>Add <code>googleAnalytics: G-MEASUREMENT_ID</code> in your config.yml file.</p>
 <h3 id="step-6-add-google-analytics-template-in-your-hugo-theme">Step 6: Add google analytics template in your Hugo theme</h3>
 <p>Add <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> in your theme’s head.html file <code>&lt;head&gt;</code> section</p>
-<h2 id="resources">Resources</h2>
+<h2 id="references">References</h2>
 <p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
 <p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
@@ -525,7 +525,7 @@ git blame #show who last edited which line
 git stash #temporarily remove modifications to working directory
 git bisect #binary search history (e.g. for regressions)
 .gitignore #specify intentionally untracked files to ignore
-</code></pre><h2 id="resources">Resources</h2>
+</code></pre><h2 id="references">References</h2>
 <p><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control (Git)</a></p>
 <p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
 <p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>
@@ -934,7 +934,7 @@ jobs:
 <h2 id="finally">Finally</h2>
 <p>It&rsquo;s my first public tutorial!
 And I refer to lots of articles then finally I have this result, I hope this tutorial can help those who want to create their own blogs.</p>
-<h3 id="resources">Resources</h3>
+<h2 id="references">References</h2>
 <p><a href="https://andrewwu29.github.io/itsdemoblog/">This post demo Site</a></p>
 <p><a href="https://github.com/AndrewWu29/itsdemoblog">This Git repo</a></p>
 <p><a href="https://yurepo.tw/2021/03/%E5%A6%82%E4%BD%95%E5%B0%87hugo%E9%83%A8%E8%90%BD%E6%A0%BC%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/">如何將Hugo部落格部署到Github上?</a></p>

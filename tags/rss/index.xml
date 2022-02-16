@@ -41,7 +41,7 @@ outputs:
         - RSS # Supports your site output including RSS format
         - JSON
 </code></pre><p><strong>After finishing the above steps, now your Hugo PaperMod theme site can support an RSS feed.</strong></p>
-<h2 id="resoreces">Resoreces</h2>
+<h2 id="references">References</h2>
 <p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
 ]]></content:encoded>
     </item>

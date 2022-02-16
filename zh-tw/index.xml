@@ -402,7 +402,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 官網：Manchester
 紐卡斯爾（新堡）機場
 官網：Newcastle
-參考資源 維基百科</description>
+參考資料 維基百科</description>
       <content:encoded><![CDATA[<h2 id="約克大教堂">約克大教堂</h2>
 <p>約克大教堂（英語：York Minster）位於英國北部約克市，是英格蘭教會約克教區的座堂，也是歐洲北部第二大的哥德式教堂。約克大教堂的正式名稱為「約克聖彼得座堂和大主教教堂」（The Cathedral and Metropolitical Church of St Peter in York）。</p>
 <p>約克大教堂表現了典型的哥德式風格：裝飾風格（1275－1380）的中殿和聖堂參事堂，詩班席和東端為垂直式造型，北翼和南翼則採用了英國早期的風格。中殿的「大西窗」於1338年建造，而在聖母堂最東端的「大東窗」（1408年完成）是全世界最大的中世紀彩繪玻璃。在教堂北面的「五姊妹窗」（Five Sisters Window），每個尖頂窗都超過16米（52英尺）高，是座堂歷史最悠久的玻璃窗，而南面是著名的玫瑰窗，有「哥德建築的眼睛」之美稱。</p>
@@ -447,7 +447,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 <p>官網：<a href="https://www.manchesterairport.co.uk">Manchester</a></p>
 <p>紐卡斯爾（新堡）機場</p>
 <p>官網：<a href="https://www.newcastleairport.com">Newcastle</a></p>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://zh.m.wikipedia.org/zh-tw/%E7%B4%84%E5%85%8B%E5%BA%A7%E5%A0%82">維基百科</a></p>
 ]]></content:encoded>
     </item>
@@ -525,7 +525,7 @@ outputs:
         - RSS # Supports your site output including RSS format
         - JSON
 </code></pre><p><strong>完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</strong></p>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
 ]]></content:encoded>
     </item>
@@ -581,7 +581,7 @@ outputs:
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
 <h3 id="步驟八-恭喜-現在所有步驟都結束了您可以發布到您的github倉庫">步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫</h3>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://disqus.com">Disqus</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
 ]]></content:encoded>
@@ -596,7 +596,7 @@ outputs:
       <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
 如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到google analytics網站 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
 步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
-參考資源 DEFINITION Google Analytics
+參考資料 DEFINITION Google Analytics
 Google Analytics
 Internal Templates | Hugo</description>
       <content:encoded><![CDATA[<h2 id="什麼是google-analytics">什麼是Google Analytics?</h2>
@@ -610,7 +610,7 @@ Internal Templates | Hugo</description>
 <p>添加 <code>googleAnalytics: G-MEASUREMENT_ID</code> 到您的config.yml檔案。</p>
 <h3 id="步驟六-添加google-analytics模板到您hugo的主題">步驟六: 添加google analytics模板到您Hugo的主題</h3>
 <p>添加 <code>{{ template &quot;_internal/google_analytics.html&quot; . }}</code> 到您的主題底下的head.html檔案 <code>&lt;head&gt;</code> 區塊內</p>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://searchbusinessanalytics.techtarget.com/definition/Google-Analytics">DEFINITION Google Analytics</a></p>
 <p><a href="https://analytics.google.com/analytics/web/provision/#/provision">Google Analytics</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
@@ -678,7 +678,7 @@ git blame #檢視最後修改某列的使用者
 git stash #暫時移除工作目錄下的變更
 git bisect #透過二分搜尋來搜尋歷史紀錄
 .gitignore #指定忽視且不會再追蹤的檔案
-</code></pre><h2 id="參考資源">參考資源</h2>
+</code></pre><h2 id="參考資料">參考資料</h2>
 <p><a href="https://missing-semester-zh-hant.github.io/2020/version-control/">版本控制</a></p>
 <p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
 <p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>
@@ -1090,9 +1090,9 @@ jobs:
 <li>在&quot;content/posts&quot;底下建立一個新 markdown 檔案，並撰寫您的內容。</li>
 <li>再將整個專案檔案使用 git 上傳到您對應的庫。</li>
 </ol>
-<h1 id="結語">結語</h1>
+<h2 id="結語">結語</h2>
 <p>這算我的第一篇公開的筆記吧!也參考了網路上很多大大的文章，才有這個結果，希望可以清楚地幫助到想要自己建立部落格的人。</p>
-<h3 id="參考資源">參考資源</h3>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://andrewwu29.github.io/itsdemoblog/">此文Demo Site</a></p>
 <p><a href="https://github.com/AndrewWu29/itsdemoblog">此文Git庫</a></p>
 <p><a href="https://yurepo.tw/2021/03/%E5%A6%82%E4%BD%95%E5%B0%87hugo%E9%83%A8%E8%90%BD%E6%A0%BC%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/">如何將Hugo部落格部署到Github上?</a></p>

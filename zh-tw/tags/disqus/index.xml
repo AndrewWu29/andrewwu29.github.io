@@ -61,7 +61,7 @@
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
 <h3 id="步驟八-恭喜-現在所有步驟都結束了您可以發布到您的github倉庫">步驟八: 恭喜! 現在所有步驟都結束了，您可以發布到您的GitHub倉庫</h3>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://disqus.com">Disqus</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
 ]]></content:encoded>

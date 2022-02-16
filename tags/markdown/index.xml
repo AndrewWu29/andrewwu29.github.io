@@ -337,7 +337,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 <pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
 </code></pre>
 </blockquote>
-<h2 id="resources">Resources</h2>
+<h2 id="references">References</h2>
 <p><a href="https://daringfireball.net/projects/markdown/syntax#img">Markdown: Syntax</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a></p>
 <p><a href="https://fakestandard.github.io/post/markdown/markdown-1-heymarkdown/">Markdown筆記神器</a></p>

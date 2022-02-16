@@ -43,7 +43,7 @@ outputs:
         - RSS # Supports your site output including RSS format
         - JSON
 </code></pre><p><strong>完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</strong></p>
-<h2 id="參考資源">參考資源</h2>
+<h2 id="參考資料">參考資料</h2>
 <p><a href="https://link.medium.com/8MgjDu9vqnb">Setting up an RSS feed for a Hugo blog using the PaperMod Theme</a></p>
 ]]></content:encoded>
     </item>

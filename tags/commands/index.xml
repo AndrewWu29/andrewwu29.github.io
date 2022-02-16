@@ -60,7 +60,7 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="step-7-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">Step 7: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
 <h3 id="step-8-congratulations-now-it-is-all-done-you-can-push-it-to-your-github-repo">Step 8: Congratulations, now it is all done. You can push it to your GitHub repo</h3>
-<h2 id="resources">Resources</h2>
+<h2 id="references">References</h2>
 <p><a href="https://disqus.com">Disqus</a></p>
 <p><a href="https://gohugo.io/templates/internal/">Internal Templates | Hugo</a></p>
 ]]></content:encoded>
