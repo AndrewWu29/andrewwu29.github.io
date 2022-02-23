@@ -40,6 +40,19 @@
     <loc>https://AndrewWu29.github.io/zh-tw/categories/%E5%80%AB%E6%95%A6/</loc>
     <lastmod>2022-02-17T13:34:00+00:00</lastmod>
   </url><url>
+    <loc>https://AndrewWu29.github.io/zh-tw/posts/</loc>
+    <lastmod>2022-02-17T13:34:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://AndrewWu29.github.io/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://AndrewWu29.github.io/zh-tw/posts/"
+                />
+  </url><url>
     <loc>https://AndrewWu29.github.io/zh-tw/tags/%E6%97%85%E8%A1%8C/</loc>
     <lastmod>2022-02-17T13:34:00+00:00</lastmod>
   </url><url>
@@ -82,19 +95,6 @@
   </url><url>
     <loc>https://AndrewWu29.github.io/zh-tw/tags/%E8%B2%B4%E8%B3%93%E5%AE%A4/</loc>
     <lastmod>2022-02-17T13:34:00+00:00</lastmod>
-  </url><url>
-    <loc>https://AndrewWu29.github.io/zh-tw/posts/</loc>
-    <lastmod>2022-02-17T13:34:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://AndrewWu29.github.io/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://AndrewWu29.github.io/zh-tw/posts/"
-                />
   </url><url>
     <loc>https://AndrewWu29.github.io/zh-tw/tags/%E9%A0%AD%E7%AD%89%E8%89%99/</loc>
     <lastmod>2022-02-17T13:34:00+00:00</lastmod>
