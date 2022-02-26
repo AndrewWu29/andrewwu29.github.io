@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://AndrewWu29.github.io/sitemap.xml
+Sitemap: https://andrewwu29.github.io/sitemap.xml

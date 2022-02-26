@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>筆記 on Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/zh-tw/categories/%E7%AD%86%E8%A8%98/</link>
+    <link>https://andrewwu29.github.io/zh-tw/categories/%E7%AD%86%E8%A8%98/</link>
     <description>Recent content in 筆記 on Andrew&#39;s Blog</description>
     <image>
-      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/zh-tw/categories/%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/categories/%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown 筆記 基本語法使用</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 15 Feb 2022 17:22:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</guid>
       <description>什麼是Markdown? Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。
 由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。
 所以只要熟悉相關語法，Markdown可以讓您輕鬆快速地撰寫筆記、文章、說明文件等。
@@ -379,10 +379,10 @@ id sem consectetuer libero luctus adipiscing.</p>
     
     <item>
       <title>如何添加RSS feed到您的Hugo PaperMod主題?</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
       <description>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
 什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
 所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
@@ -417,10 +417,10 @@ outputs:
     
     <item>
       <title>如何整合Disqus到您的Hugo網站?</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
 &amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
@@ -474,10 +474,10 @@ outputs:
     
     <item>
       <title>如何添加Google Analytics到Hugo?</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
       <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
 如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到google analytics網站 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
 步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
@@ -504,10 +504,10 @@ Internal Templates | Hugo</description>
     
     <item>
       <title>Git基本指令</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
       <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;quot;提交訊息&amp;quot; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
       <content:encoded><![CDATA[<h2 id="確認git是否安裝成功">確認Git是否安裝成功</h2>
 <pre tabindex="0"><code>git --version
@@ -572,10 +572,10 @@ git bisect #透過二分搜尋來搜尋歷史紀錄
     
     <item>
       <title>如何使用Hugo建立自己的部落格?</title>
-      <link>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
       <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
 如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
 事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。

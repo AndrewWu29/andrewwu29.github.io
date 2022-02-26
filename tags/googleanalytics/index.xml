@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GoogleAnalytics on Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/tags/googleanalytics/</link>
+    <link>https://andrewwu29.github.io/tags/googleanalytics/</link>
     <description>Recent content in GoogleAnalytics on Andrew&#39;s Blog</description>
     <image>
-      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/tags/googleanalytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 14:25:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/tags/googleanalytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add Google Analytics to Hugo?</title>
-      <link>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
+      <link>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
       <description>What is Google Analytics? Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes. The service is part of the Google Marketing Platform and is available for free to anyone with a Google account.
 How to add google analytics to Hugo site? Step 1: Create a google account Step 2: Go to google analytics site Step 3: Set up your site details in google analytics Step 4: Get your site google analytics ID Step 5: Set up your Hugo config.</description>
       <content:encoded><![CDATA[<h2 id="what-is-google-analytics">What is Google Analytics?</h2>

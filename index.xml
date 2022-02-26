@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Andrew&#39;s Blog</title>
-    <link>https://AndrewWu29.github.io/</link>
+    <link>https://andrewwu29.github.io/</link>
     <description>Recent content on Andrew&#39;s Blog</description>
     <image>
-      <url>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://AndrewWu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://AndrewWu29.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Basic Systax</title>
-      <link>https://AndrewWu29.github.io/2022/02/markdown-basic-systax/</link>
+      <link>https://andrewwu29.github.io/2022/02/markdown-basic-systax/</link>
       <pubDate>Tue, 15 Feb 2022 17:22:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/markdown-basic-systax/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/markdown-basic-systax/</guid>
       <description>What is Markdown? Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files. from Wikipedia.
 PHILOSOPHY
 Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</description>
@@ -346,10 +346,10 @@ id sem consectetuer libero luctus adipiscing.</p>
     
     <item>
       <title>[UK York] York Minster</title>
-      <link>https://AndrewWu29.github.io/2022/02/uk-york-york-minster/</link>
+      <link>https://andrewwu29.github.io/2022/02/uk-york-york-minster/</link>
       <pubDate>Sat, 12 Feb 2022 16:46:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/uk-york-york-minster/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/uk-york-york-minster/</guid>
       <description>York Minster The Cathedral and Metropolitical Church of Saint Peter in York, commonly known as York Minster, is the cathedral of York, North Yorkshire, England, and is one of the largest of its kind in Northern Europe.
 Some of the stained glass in York Minster dates back to the 12th century and much of the glass (white or coloured) came from Germany. The glass was painted, fired, then joined with lead strips (came) into the windows.</description>
       <content:encoded><![CDATA[<h2 id="york-minster">York Minster</h2>
@@ -388,10 +388,10 @@ Some of the stained glass in York Minster dates back to the 12th century and muc
     
     <item>
       <title>My Tech EDC Essentials Minimum 2022?</title>
-      <link>https://AndrewWu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/</link>
+      <link>https://andrewwu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/</link>
       <pubDate>Mon, 07 Feb 2022 20:24:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/my-tech-edc-essentials-minimum-2022/</guid>
       <description>SmartPhone: iPhone SE Second Generation I wouldn&amp;rsquo;t say I like a big phone, so for me, I think iPhone SE 2nd Gen it&amp;rsquo;s a perfect size, and during Covid-19, I usually wear a mask when I go out and unlock my phone I don&amp;rsquo;t have to take off my mask. And second-generation Touch ID is a fixed button; I don&amp;rsquo;t worry press it too many, and unlocking my phone is quicker than my iPhone 5S.</description>
       <content:encoded><![CDATA[<h2 id="smartphone-iphone-se-second-generationhttpswwwapplecomukshopbuy-iphoneiphone-se">SmartPhone: <a href="https://www.apple.com/uk/shop/buy-iphone/iphone-se">iPhone SE Second Generation</a></h2>
 <p>I wouldn&rsquo;t say I like a big phone, so for me, I think iPhone SE 2nd Gen it&rsquo;s a perfect size, and during Covid-19, I usually wear a mask when I go out and unlock my phone I don&rsquo;t have to take off my mask.
@@ -417,10 +417,10 @@ And second-generation Touch ID is a fixed button; I don&rsquo;t worry press it t
     
     <item>
       <title>How to add an RSS feed to your Hugo PaperMod theme?</title>
-      <link>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
+      <link>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
       <description>Hugo is a popular static site generator, and PaperMod comes with a default RSS 2.0 template.
 What is an RSS feed? RSS stands for Really Simple Syndication, and it’s is a simple, standardized content distribution method that can help you stay up-to-date with your favorite newscasts, blogs, websites, and social media channels.
 Means supported an RSS feed function on your blog, can keep those who follow you up-to-date with your newest posts.</description>
@@ -453,10 +453,10 @@ outputs:
     
     <item>
       <title>How to integrate Disqus into your Hugo site?</title>
-      <link>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
+      <link>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
       <description>What is Disqus? The internet&amp;rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
 Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
       <content:encoded><![CDATA[<h2 id="what-is-disqus">What is Disqus?</h2>
@@ -509,10 +509,10 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
     
     <item>
       <title>How to add Google Analytics to Hugo?</title>
-      <link>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
+      <link>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
+      <guid>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
       <description>What is Google Analytics? Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes. The service is part of the Google Marketing Platform and is available for free to anyone with a Google account.
 How to add google analytics to Hugo site? Step 1: Create a google account Step 2: Go to google analytics site Step 3: Set up your site details in google analytics Step 4: Get your site google analytics ID Step 5: Set up your Hugo config.</description>
       <content:encoded><![CDATA[<h2 id="what-is-google-analytics">What is Google Analytics?</h2>
@@ -535,10 +535,10 @@ How to add google analytics to Hugo site? Step 1: Create a google account Step 2
     
     <item>
       <title>Git Basic Commands</title>
-      <link>https://AndrewWu29.github.io/2022/01/git-basic-commands/</link>
+      <link>https://andrewwu29.github.io/2022/01/git-basic-commands/</link>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/01/git-basic-commands/</guid>
+      <guid>https://andrewwu29.github.io/2022/01/git-basic-commands/</guid>
       <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
       <content:encoded><![CDATA[<h2 id="checks-your-git-version">Checks your Git version</h2>
 <pre tabindex="0"><code>git --version
@@ -605,10 +605,10 @@ git bisect #binary search history (e.g. for regressions)
     
     <item>
       <title>How to use Hugo to create your Blog?</title>
-      <link>https://AndrewWu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</link>
+      <link>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
+      <guid>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
       <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
       <content:encoded><![CDATA[<h1 id="step-by-step-teach-you-to-create-a-static-blog-and-deploy-it-to-github">Step by step, teach you to create a static Blog, and deploy it to GitHub!</h1>
 <h2 id="preface">Preface</h2>
@@ -1022,10 +1022,10 @@ And I refer to lots of articles then finally I have this result, I hope this tut
     
     <item>
       <title>About</title>
-      <link>https://AndrewWu29.github.io/about/</link>
+      <link>https://andrewwu29.github.io/about/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/about/</guid>
+      <guid>https://andrewwu29.github.io/about/</guid>
       <description>Hi Anyone! Welcome to my blog; I&amp;rsquo;m Andrew Wu.
 I will share my thoughts/tech/diary/unboxing/travel/food and anything I want to :).
 About Me I&amp;rsquo;m Taiwanese, live in Harpenden, United Kingdom, Now.
@@ -1052,10 +1052,10 @@ Of course, there will be corresponding Mandarin content.</description>
     
     <item>
       <title>Hello 2022!</title>
-      <link>https://AndrewWu29.github.io/2022/01/hello-2022/</link>
+      <link>https://andrewwu29.github.io/2022/01/hello-2022/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://AndrewWu29.github.io/2022/01/hello-2022/</guid>
+      <guid>https://andrewwu29.github.io/2022/01/hello-2022/</guid>
       <description>Hello 2022: Today is the first day of 2022.
 This world has changed a lot since Covid-19 for almost two years, and yesterday I saw many countries and cities celebrate New Year&amp;rsquo;s Eve and had firework shows.
 And I hope it&amp;rsquo;s the final stage of Covid-19, and this world can go back to normal, and people cannot worry about this virus, meet their family or friends, and travel this world to explore their futures.</description>
