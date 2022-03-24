@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Command on Andrew&#39;s Blog</title>
+    <link>https://andrewwu29.github.io/tags/command/</link>
+    <description>Recent content in Command on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Basic Commands</title>
+      <link>https://andrewwu29.github.io/2022/01/git-basic-commands/</link>
+      <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
+      
+      <guid>https://andrewwu29.github.io/2022/01/git-basic-commands/</guid>
+      <description>Checks your Git version git --versionSettings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot;git config --global user.email &amp;quot;user@gmail.com&amp;quot;Checks your configurations git config --listGet Help git help &amp;lt;command&amp;gt; #get help for a git commandCreates a new git repo git init # create a new git repo, with data stored in the `.git` directoryShows current repo status git status #tells you what&#39;s going onAdds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin areagit add .</description>
+      <content:encoded><![CDATA[<h2 id="checks-your-git-version">Checks your Git version</h2>
+<pre tabindex="0"><code>git --version
+</code></pre><h2 id="settings-your-git-user-name--email">Settings your Git user name &amp; email</h2>
+<pre tabindex="0"><code>git config --global user.name &quot;Andrew_Wu&quot;
+git config --global user.email &quot;user@gmail.com&quot;
+</code></pre><h3 id="checks-your-configurations">Checks your configurations</h3>
+<pre tabindex="0"><code>git config --list
+</code></pre><h2 id="get-help">Get Help</h2>
+<pre tabindex="0"><code>git help &lt;command&gt; #get help for a git command
+</code></pre><h2 id="creates-a-new-git-repo">Creates a new git repo</h2>
+<pre tabindex="0"><code>git init # create a new git repo, with data stored in the `.git` directory
+</code></pre><h2 id="shows-current-repo-status">Shows current repo status</h2>
+<pre tabindex="0"><code>git status #tells you what's going on
+</code></pre><h2 id="adds-files-to-stage">Adds files to stage</h2>
+<pre tabindex="0"><code>git add &lt;filename&gt; #adds seleted filename to stagin area
+git add . #add all files to staging area
+</code></pre><h2 id="creates-a-new-commit">Creates a new commit</h2>
+<pre tabindex="0"><code>git commit
+git commit -m &quot;commit message&quot; #-m means Message
+</code></pre><h2 id="shows-a-log">Shows a log</h2>
+<pre tabindex="0"><code>git log #shows a flattened log of history
+git log --all --graph --decorate #visualizes history as a DAG
+</code></pre><h2 id="show-changes">Show changes</h2>
+<pre tabindex="0"><code>git diff &lt;filename&gt; #show changes you made relative to the staging area
+git diff &lt;revision&gt; &lt;filename&gt; #shows differences in a file between snapshots
+</code></pre><h2 id="branch">Branch</h2>
+<pre tabindex="0"><code>git checkout &lt;revision&gt; #updates HEAD and current branch
+git branch #shows branches
+git branch &lt;name&gt; #creates a branch
+git branch -d &lt;name&gt; #deleted a branch
+git checkout -b &lt;name&gt; #creates a branch and switches to it
+same as git branch &lt;name&gt;; git checkout &lt;name&gt;
+</code></pre><h2 id="merge">Merge</h2>
+<pre tabindex="0"><code>git merge &lt;revision&gt; #merges into current branch
+git mergetool #use a fancy tool to help resolve merge conflicts
+git rebase #rebase set of patches onto a new base
+git rebase -i HEAD~3 #modify history commit records
+</code></pre><h2 id="remote">Remote</h2>
+<pre tabindex="0"><code>git remote #list remotes
+git remote add &lt;name&gt; &lt;url&gt; #add a remote
+git push &lt;remote&gt; &lt;local branch&gt;:&lt;remote branch&gt; #send objects to reomote, and update reomte reference
+git branch --set-upstream-to=&lt;remote&gt;/&lt;remote branch&gt; #set up correspondence between local and remote branch
+git fetch #retrieve objects/references from a remote
+git pull #Sync local and remote repos，same as git fetch; git merge
+git clone #download repository form remote
+</code></pre><h2 id="undo">Undo</h2>
+<pre tabindex="0"><code>git commit --amend #edit a commit's contents/message
+git reset HEAD &lt;file&gt; #unstage a file
+git checkout -- &lt;file&gt; #discard changes
+</code></pre><h2 id="advance">Advance</h2>
+<pre tabindex="0"><code>git clown --depth=1 #shallow clone, without entire version history
+git add -p #interactive staging
+git blame #show who last edited which line
+git stash #temporarily remove modifications to working directory
+git bisect #binary search history (e.g. for regressions)
+.gitignore #specify intentionally untracked files to ignore
+</code></pre><h2 id="references">References</h2>
+<p><a href="https://missing.csail.mit.edu/2020/version-control/">Version Control (Git)</a></p>
+<p><a href="https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/">Git 與 Github 版本控制基本指令與操作入門教學</a></p>
+<p><a href="https://www.maxlist.xyz/2020/05/10/git-tutorial/">Git教學 初心者懶人包 Git 入門</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

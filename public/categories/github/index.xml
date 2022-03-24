@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Andrew&#39;s Blog</title>
+    <link>https://andrewwu29.github.io/categories/github/</link>
+    <description>Recent content in GitHub on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 05 Jan 2022 17:13:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Hugo to create your Blog?</title>
+      <link>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</link>
+      <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
+      
+      <guid>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
+      <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
+      <content:encoded><![CDATA[<h1 id="step-by-step-teach-you-to-create-a-static-blog-and-deploy-it-to-github">Step by step, teach you to create a static Blog, and deploy it to GitHub!</h1>
+<h2 id="preface">Preface</h2>
+<p>I recently had a thought to create my blog, and I used many blog services but ended up with nothing.
+And this time I made a decision, I want to write something, so after googling, I found &ldquo;Hugo&rdquo; this framework, you can use Markdown to create a static blog site.
+by the way, I don&rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.
+For me this solution, you can use the free GitHub service to be your site host or pay some money to be a private repository and you can show your site too.</p>
+<p>If you want to create your blog and you have budget concerns, you might consider using Hugo to deploy your blog site.</p>
+<h2 id="preparations">Preparations</h2>
+<p>First of all, we have to install Git to handle our stuff and deploy it to Git public repository, and then we need software to help us write Markdown files. (e.g.: Visual Studio Code with Markdown extension)</p>
+<h3 id="git-install--check">Git install &amp; check</h3>
+<p>First, we can go to Git official site to Windows. <a href="https://git-scm.com/download/win">Download for Windows</a> follow your system bit to download a related version, that double clicks mouse left button, then press &ldquo;Next&rdquo; to &ldquo;Install&rdquo;, and you can finish the installation.
+<img loading="lazy" src="https://i.imgur.com/xCCcS5k.png" alt="git dwonload for Windows"  />
+
+<img loading="lazy" src="https://i.imgur.com/PTSyXhj.png" alt="git Setup"  />
+
+After installation, we can use the Windows shortcuts &ldquo;Win key + S key&rdquo;, and type &ldquo;CMD&rdquo; to open Terminal.
+<img loading="lazy" src="https://i.imgur.com/wjbN68m.png" alt="WinKey&#43;Shift&#43;CMD"  />
+
+And then type command as below.</p>
+<pre tabindex="0"><code> git version
+</code></pre><p>you can get it as below.</p>
+<pre tabindex="0"><code>git version 2.xx.x.windows.x
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/kxjfjJw.png" alt="git version check"  />
+</p>
+<p>When we can query our git version, means we finished our git installation.
+And then we need to install Visual Studio Code, it&rsquo;s a free IDE, and we have to install an extension to handle Markdown.</p>
+<h3 id="visual-studio-code--markdown-extension-install">Visual Studio Code &amp; Markdown extension install</h3>
+<p>Same we go to <a href="https://code.visualstudio.com/">Visual Studio Code</a> site to download the install file and start to install, same &ldquo;Next&rdquo; to &ldquo;Install&rdquo;.
+<img loading="lazy" src="https://i.imgur.com/2isdgIM.png" alt="Visual Studio Code download"  />
+
+<img loading="lazy" src="https://i.imgur.com/qcjQ9ex.png" alt="Visual Studio Code Setup Next"  />
+
+<img loading="lazy" src="https://i.imgur.com/aEadDI2.png" alt="Visual Studio Code Setup Install"  />
+
+Installed and open it, you will see as below.
+<img loading="lazy" src="https://i.imgur.com/Ir3fuCX.png" alt="ms_VisualStudioCode_Get_Started"  />
+
+Then we go to &ldquo;View&rdquo; -&gt; &ldquo;Extensions&rdquo;(Also can use shortcuts Ctrl+Shift+X) to search &ldquo;Markdown&rdquo; Extensions, to find &ldquo;markdownlint&rdquo; and install it.
+<img loading="lazy" src="https://i.imgur.com/cbg6cxa.png" alt="ms_VisualStudioCode_Get_Extensions"  />
+
+<img loading="lazy" src="https://i.imgur.com/s3G9wGL.png" alt="ms_VisualStudioCode_Install_Markdown_Extension"  />
+</p>
+<p><strong>Now, we have already installed Git &amp; Visual Studio Code w/ markdownlint Extension.</strong></p>
+<p>after we have to install Hugo and create our blog&rsquo;s first post.</p>
+<h2 id="hugo-install-and-create-our-site">Hugo install and create our site</h2>
+<p>Before installing Hugo we have to install <a href="https://chocolatey.org/install#individual">chocolatey</a> this tool, here we use &ldquo;Individual&rdquo; with Administrative&rsquo;s PowerShell and use the below command to install.</p>
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+</code></pre><p><strong>Installed chocolatey this tool, we can start to build our blog site.</strong></p>
+<h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
+<p>We follow <a href="https://gohugo.io/getting-started/quick-start/">quick started</a>to install Hugo. This time we use the normal version, so follow the manual to use the below command to install it.</p>
+<pre tabindex="0"><code>choco install hugo -confirm
+</code></pre><p>After installing Hugo, we have to check are we installed success, we can use the command below.</p>
+<pre tabindex="0"><code>hugo version
+</code></pre><h3 id="step-2-create-a-site">Step 2: Create a site</h3>
+<p>After we need to create our site, we will use <code>yml</code> format, so we use the command below.</p>
+<pre tabindex="0"><code>hugo new site &lt;folder name&gt; -f yml
+</code></pre><p>When you see as below, means created successfully.
+<img loading="lazy" src="https://i.imgur.com/U86gMSu.png" alt="Create a new site with yml format"  />
+</p>
+<h3 id="step-3-add-hugoe-theme">Step 3: Add Hugoe theme</h3>
+<p>Finished Hugo site build, we have to add a theme for Hugo to make your site not look like too simple. We can go to <a href="https://themes.gohugo.io/">Hugo Themes</a> to pick up a theme for yourself.</p>
+<p>I will use <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> for this demo.</p>
+<p>First of all, we have to switch our path to our folder name, and we can go in terminal to type &ldquo;CD <!-- raw HTML omitted -->&rdquo;, and our created folder name is &ldquo;its_demo_blog&rdquo;, so we can type command as below.</p>
+<pre tabindex="0"><code>cd &lt;Your folder name&gt;
+</code></pre><p>Then we have to in this folder to create a new Git repo to use the command below.</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>The result will like below.
+<img loading="lazy" src="https://i.imgur.com/BSdMrfg.png" alt="git init"  />
+</p>
+<p>After we need to add our theme to our site folder to create &ldquo;themes/PaperMod&rdquo; under the root, we can use the command below.</p>
+<pre tabindex="0"><code>git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+</code></pre><p>After we will see as below.
+<img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
+</p>
+<p>Then we follow PaperMod&rsquo;s <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">Official Manual</a>, to modify our <code>config.yml</code>.</p>
+<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #GitHub repo URL
+title: its demo blog #site title
+paginate: 5
+# Default Language setting
+defaultContentLanguage: zh-tw
+# Theme setting
+theme: PaperMod #this time we use PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# GooleAnalytics servies
+googleAnalytics: UA-123-45
+
+
+# URL link setting
+permalinks:
+  posts: /:year/:month/:title/
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: its demo blog
+  description: &quot;its demo blog description&quot;
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
+  DateFormat: &quot;January 2, 2006&quot;
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: &quot;&lt;link / abs url&gt;&quot;
+    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
+    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
+    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
+    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+
+  label:
+    text: &quot;its demo blog&quot;
+    #icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: &quot;This is subtitle&quot;
+    imageUrl: &quot;&lt;img location&gt;&quot;
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode this time we use Home-info mode, also it's default setting
+  homeInfoParams:
+    Title: &quot;Hi All \U0001F44B&quot;
+    Content: Welcome to my blog.
+
+  # You can put your social site links
+  socialIcons:
+    - name: twitter
+      url: &quot;https://twitter.com/&quot;
+    - name: stackoverflow
+      url: &quot;https://stackoverflow.com&quot;
+    - name: github
+      url: &quot;https://github.com/&quot;
+
+  analytics:
+    google:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    bing:
+      SiteVerificationTag: &quot;XYZabc&quot;
+    yandex:
+      SiteVerificationTag: &quot;XYZabc&quot;
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # someone can mention you edit a post
+  #editPost:
+    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+    #Text: &quot;Suggest Changes&quot; # edit text
+    #appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 1
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    #- identifier: search
+    #  name: Search
+    #  url: search
+    #  weight: 4
+    #- identifier: about
+    #  name: About
+    #  url: about
+    #  weight: 5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+</code></pre><p>After we edited, we in our root folder to open a terminal and type <code>hugo server -D</code>, and then open our browser in search bar type <code>http://localhost:1313/</code>, then will see as the picture below.
+<img loading="lazy" src="https://i.imgur.com/fzuEDoz.png" alt="its demo blog"  />
+</p>
+<h3 id="step-4-create-a-first-post">Step 4: Create a first post</h3>
+<p>After that we need to create our first post, and we need to use a command as below.</p>
+<p>Here we use Hugo to create a new Markdown file under in posts folder, so you can change your Markdown file name to fit as your article name, but this time we use &ldquo;hello_world.md&rdquo; for teaching.</p>
+<pre tabindex="0"><code>hugo new posts/hello_world.md
+</code></pre><p><img loading="lazy" src="https://i.imgur.com/JgnAVrI.png" alt="hugo new posts"  />
+</p>
+<p>Then we open our Visual Studio Code to edit our first post, when we open &ldquo;content/posts/hello_world.md&rdquo;. You will see your screen likes below.
+<img loading="lazy" src="https://i.imgur.com/suv5MPR.png" alt="hello_world.md"  />
+</p>
+<p>We edited like below.</p>
+<pre tabindex="0"><code>---
+title: &quot;Hello_World!&quot;
+date: 2022-01-06T14:00:09Z
+draft: false
+# weight: 1
+# aliases: [&quot;/AirTag&quot;]
+tags: [&quot;First post&quot;, &quot;Hello World&quot;]
+author: &quot;Me&quot;
+# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+showToc: false
+TocOpen: false
+hidemeta: false
+comments: true
+#description: &quot;Hello World&quot;
+#canonicalURL: &quot;https://canonical.url/to/page&quot;
+disableHLJS: true # to disable highlightjs
+disableShare: true
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+#cover:
+#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
+#    alt: &quot;&lt;alt text&gt;&quot; # alt text
+#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    relative: true # when using page bundles set this to true
+#    hidden: true # only hide on current single page
+#editPost:
+#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
+#    Text: &quot;Suggest Changes&quot; # edit text
+#    appendFilePath: false # to append file path to Edit link
+---
+# Hello World!!!
+
+This is my first post!
+</code></pre><h3 id="step-5-open-hugo-server">Step 5: Open Hugo server</h3>
+<p>Hugo local preview function, we only need to in Windows PowerShell or Terminal and in the site folder root, in command line to type <code>hugo server -D</code>, and we can in local to preview our sites, the initial URL  is <code>http://localhost:1313/</code>.</p>
+<p>Now our site will like below.
+<img loading="lazy" src="https://i.imgur.com/lbjHm5O.png" alt="First Post"  />
+</p>
+<p><strong>For now we already created a demo blog and posted our first post, and then we need to deploy to GitHub Pages.</strong></p>
+<h3 id="step-6-publish-hugo-blog-to-github">Step 6: Publish Hugo blog to GitHub</h3>
+<p>First of all you have a GitHub account if you don&rsquo;t have yet, you can googling and sign up. We need to in GitHub to create a repository to store our site and named <code>&lt;username&gt;.github.io</code>, the username is your GitHub username.</p>
+<p><strong>PS: Because it&rsquo;s a demo site, so the name is not following the rule.</strong>
+<img loading="lazy" src="https://i.imgur.com/H22voyQ.png" alt="Create a new repository"  />
+</p>
+<p>And then we need to in our main repository to create a new branch <code>gh-pages</code>, this branch is for display our blog site, and later we will use GitHub Action function to do automated deploy to create files to <code>gh-pages</code>.</p>
+<pre tabindex="0"><code># Add all of files
+git add .
+# Add commit message
+git commit -m &quot;init its demo blog&quot;
+# Add main branch
+git branch -M main
+# Add remote repo
+git remote add origin https://github.com/&lt;username&gt;/&lt;username&gt;.github.io.git
+# Upload site contents to remote repo
+git push -u origin main
+
+# Add gh-pages orphan branch
+git checkout --orphan gh-pages
+# Add a README.md
+echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+# Add all of files
+git add .
+# Add commit message
+git commit -m &quot;init gh-pages branch&quot;
+# Upload site contents to remote repo
+git push -u origin gh-pages
+# Switch branch to main
+git checkout main
+</code></pre><p>Ran down all of above commands, your repository will have two branches <code>main</code> and <code>gh-pages</code>.</p>
+<h3 id="step-7-setting-github-action-to-achieve-automated-deploy">Step 7: Setting GitHub Action to achieve automated deploy</h3>
+<p>We need to in main branch has changed to trigger automation to deploy to gh-pages.</p>
+<h4 id="preparations-1">Preparations</h4>
+<p>First time to <a href="https://github.com/settings/tokens/new">This page</a> to claim ours Token for next steps, we selected options as the below picture.
+<img loading="lazy" src="https://i.imgur.com/ELdM2bq.png" alt="New personal access token"  />
+</p>
+<p>Then to end of the page to press &ldquo;Generate Token&rdquo;, and copy the Token.
+<img loading="lazy" src="https://i.imgur.com/sfTO3EW.png" alt="Generate Token"  />
+
+<img loading="lazy" src="https://i.imgur.com/ZuYMGa1.png" alt="Personal access tokens"  />
+</p>
+<p>After, we need to store your Hugo blog&rsquo;s Token, the path: Repository &gt; Settings &gt; Secret &gt; New repository secret, like below picture, the Name you can named what you like, but the Value you have to set up as the Token we just got and press &ldquo;Add Secret&rdquo;.
+<img loading="lazy" src="https://i.imgur.com/OVHpiZp.png" alt="New secret"  />
+</p>
+<p><strong>For now our preparation is done, then we have to set up our workflow.</strong></p>
+<h4 id="workflow-settings">workflow settings</h4>
+<p>We will follow this <a href="https://github.com/peaceiris/actions-hugo">Article</a>&rsquo;s workflow to set up GitHub Action.</p>
+<p>First we go to GitHub Action page and click &ldquo;set up a workflow yourself -&gt;&rdquo;
+<img loading="lazy" src="https://i.imgur.com/20ozHSn.png" alt="set up a workflow yourself"  />
+</p>
+<p>Copy and paste the below code and do some modifications.</p>
+<pre tabindex="0"><code>name: Build GH-Pages #you can be named what you want
+
+on:
+  push:
+    paths-ignore:
+      - 'images/**'
+      - 'LICENSE'
+      - 'README.md'
+    branches:
+      - main
+  workflow_dispatch:
+    # manual run
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Get Theme
+        run: git submodule update --init --recursive
+
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --buildDrafts --gc --verbose --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
+</code></pre><p>After modified, click the upper left angle button &ldquo;Star commit&rdquo; to store the workflow settings file, then you can go to your repository&rsquo;s &ldquo;Action&rdquo; page to see your process states. when the process state shows a green ticked, means deployed success.
+<img loading="lazy" src="https://i.imgur.com/Cw58W5x.png" alt="workflow file"  />
+
+<img loading="lazy" src="https://i.imgur.com/88styb1.png" alt="workflows"  />
+
+<img loading="lazy" src="https://i.imgur.com/9dz2Awx.png" alt="workflows successed"  />
+</p>
+<h3 id="step-8-publish-blog-new-posts">Step 8: Publish blog new posts</h3>
+<p>When you finish the previous steps, you need to go to the Repository &gt; Settings page to find &ldquo;Pages&rdquo; to change the &ldquo;Source&rdquo; branch to &ldquo;gh-pages&rdquo;, and you finish all of the steps.</p>
+<p>After when you want to publish a new post, only do:</p>
+<ol>
+<li>Use Visual Studio Code to open your blog folder.</li>
+<li>Create a new Markdown file at &ldquo;content/posts&rdquo; below and write your content.</li>
+<li>Then use git to upload the entire project file to your corresponding repository.</li>
+</ol>
+<h2 id="finally">Finally</h2>
+<p>It&rsquo;s my first public tutorial!
+And I refer to lots of articles then finally I have this result, I hope this tutorial can help those who want to create their own blogs.</p>
+<h2 id="references">References</h2>
+<p><a href="https://andrewwu29.github.io/itsdemoblog/">This post demo Site</a></p>
+<p><a href="https://github.com/AndrewWu29/itsdemoblog">This Git repo</a></p>
+<p><a href="https://yurepo.tw/2021/03/%E5%A6%82%E4%BD%95%E5%B0%87hugo%E9%83%A8%E8%90%BD%E6%A0%BC%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A/">如何將Hugo部落格部署到Github上?</a></p>
+<p><a href="https://lexcao.io/zh/posts/hello-world/">代码笔记</a></p>
+<p><a href="https://code.visualstudio.com/">Visual Studio Code</a></p>
+<p><a href="https://git-scm.com/">Git</a></p>
+<p><a href="https://chocolatey.org/install#individual">Chocolatey</a></p>
+<p><a href="https://adityatelange.github.io/hugo-PaperMod/">PaperMod Demo Site</a></p>
+<p><a href="https://github.com/adityatelange/hugo-PaperMod">hugo-PaperMod</a></p>
+<p><a href="https://ithelp.ithome.com.tw/articles/10235097">Hugo 貼身打造個人部落格</a></p>
+<p><a href="https://frankccccc.github.io/blog/posts/move_blog/">Golden Hat</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

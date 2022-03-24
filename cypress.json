@@ -1,0 +1,14 @@
+{
+    "watchForFileChanges": true,
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir":"cypress/reports"
+    },
+    "baseUrl": "http://localhost:1313/",
+    "video": false,
+    "chromeWebSecurity": false
+}

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Andrew&#39;s Blog</title>
+    <link>https://andrewwu29.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Basic Systax</title>
+      <link>https://andrewwu29.github.io/2022/02/markdown-basic-systax/</link>
+      <pubDate>Tue, 15 Feb 2022 17:22:00 +0000</pubDate>
+      
+      <guid>https://andrewwu29.github.io/2022/02/markdown-basic-systax/</guid>
+      <description>What is Markdown? Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files. from Wikipedia.
+PHILOSOPHY
+Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</description>
+      <content:encoded><![CDATA[<h2 id="what-is-markdown">What is Markdown?</h2>
+<p>Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files. from Wikipedia.</p>
+<p><strong>PHILOSOPHY</strong></p>
+<p>Markdown is intended to be as <strong>easy-to-read</strong> and <strong>easy-to-write</strong> as is feasible.</p>
+<p>So when you are familiar with Markdown syntax, You can easily and quickly write notes, articles and documentation etc&hellip;</p>
+<h2 id="basic-syntax">BASIC SYNTAX</h2>
+<h3 id="headers">HEADERS</h3>
+<pre><code># This is an H1
+## This is an H2
+### This is an H3
+#### This is an H4
+##### This is an H5
+###### This is an H6
+</code></pre>
+<p><strong>Result</strong></p>
+<h1 id="this-is-an-h1">This is an H1</h1>
+<h2 id="this-is-an-h2">This is an H2</h2>
+<h3 id="this-is-an-h3">This is an H3</h3>
+<h4 id="this-is-an-h4">This is an H4</h4>
+<h5 id="this-is-an-h5">This is an H5</h5>
+<h6 id="this-is-an-h6">This is an H6</h6>
+<h3 id="emphasis">EMPHASIS</h3>
+<h4 id="bold">BOLD</h4>
+<pre><code>**double asterisks**
+__double underscores__
+</code></pre>
+<p><strong>Result</strong></p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<h4 id="italic">ITALIC</h4>
+<pre><code>*single asterisks*
+_single underscores_
+</code></pre>
+<p><strong>Result</strong></p>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<h4 id="bold-italic">BOLD ITALIC</h4>
+<pre><code>***Triple asterisks***
+___Triple underscores___
+</code></pre>
+<p><strong>Result</strong></p>
+<p><em><strong>Triple asterisks</strong></em></p>
+<p><em><strong>Triple underscores</strong></em></p>
+<h3 id="paragraphs">PARAGRAPHS</h3>
+<p>A paragraph is composed of more than one connected line sentence, and more than one blank line will split into different paragraphs.</p>
+<pre><code>This is the first paragraph.
+
+This is the second paragraph.
+</code></pre>
+<h3 id="lists">LISTS</h3>
+<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
+<p>Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:</p>
+<h4 id="unordered-lists">Unordered lists</h4>
+<pre><code>* Red
+* Orange
+* Yellen
+
++ Red
++ Orange
++ Yellen
+
+- Red
+- Orange
+- Yellen
+</code></pre>
+<p><strong>Result</strong></p>
+<ul>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellen</li>
+</ul>
+<ul>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellen</li>
+</ul>
+<ul>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellen</li>
+</ul>
+<h4 id="ordered-lists-use-numbers-followed-by-periods">Ordered lists use numbers followed by periods:</h4>
+<pre><code>1. Red
+2. Orange
+3. Yellen
+</code></pre>
+<p><strong>Result</strong></p>
+<ol>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellen</li>
+</ol>
+<p>To use a multi-level list, use an indent or two half-spaces on the next level.</p>
+<pre><code>- Red
+- Orange
+- Yellen
+    - Sub Red
+    - Sub Orange
+        - three
+</code></pre>
+<p><strong>Result</strong></p>
+<ul>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellen
+<ul>
+<li>Sub Red</li>
+<li>Sub Orange
+<ul>
+<li>three</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="checkbox">CHECKBOX</h3>
+<p>For to-do or confirmation items, use the * [] symbol at the beginning of the item, and an x in brackets means it is selected.</p>
+<pre><code>* [x] This is a complete item
+* [ ] This is an incomplete item
+</code></pre>
+<p><strong>Result</strong></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> This is a complete item</li>
+<li><input disabled="" type="checkbox"> This is an incomplete item</li>
+</ul>
+<h3 id="horizontal-rules">HORIZONTAL RULES</h3>
+<p>You can produce a horizontal rule tag (&lt;hr /&gt;) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks. Each of the following lines will produce a horizontal rule:</p>
+<pre><code>***
+---
+___
+
+********
+* * *
+----------
+- - -
+</code></pre>
+<p><strong>Result</strong></p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h2 id="advance-syntax">ADVANCE SYNTAX</h2>
+<h3 id="links">LINKS</h3>
+<ol>
+<li>A square bracket to place the link text</li>
+<li>A parenthesis, place the link path or URL, enclosed in double quotes to add prompt text</li>
+</ol>
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+</code></pre><p><strong>Result</strong></p>
+<p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
+<h3 id="images">IMAGES</h3>
+<p>Admittedly, it’s fairly difficult to devise a “natural” syntax for placing images into a plain text document format.</p>
+<p>Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.</p>
+<p>Inline image syntax looks like this:</p>
+<pre><code>![Img](/path/image.jpg)
+![Img](/path/image.jpg &quot;title&quot;)
+</code></pre>
+<p><strong>Result</strong></p>
+<p>inline
+<img loading="lazy" src="https://i.imgur.com/C40N0ds.jpg" alt="York Minster Pic"  />
+
+reference
+<img loading="lazy" src="https://i.imgur.com/C40N0ds.jpg" alt="York Minster Pic"  title="York Minster"  />
+</p>
+<h3 id="automatic-links">AUTOMATIC LINKS</h3>
+<p>Markdown supports a shortcut style for creating “automatic” links for URLs and email addresses: simply surround the URL or email address with angle brackets. What this means is that if you want to show the actual text of a URL or email address, and also have it be a clickable link, you can do this:</p>
+<pre><code>&lt;https://andrewwu29.github.io&gt;
+</code></pre>
+<p><strong>Result</strong></p>
+<p><a href="https://andrewwu29.github.io">https://andrewwu29.github.io</a></p>
+<h3 id="table">TABLE</h3>
+<p>Markdown table is a little bit complicated, and the layout is not too beautiful if you want to use it, and try not to make a large table.</p>
+<ul>
+<li>The outer pipe is not required.</li>
+<li>Left-aligned writing is to add : on the left side, such as :&mdash;, similarly, right-aligned is to add a colon on the right &mdash;:</li>
+<li>Center alignment is rendered by adding colons :&ndash;: on both sides.</li>
+</ul>
+<pre tabindex="0"><code>| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+</code></pre><h3 id="code">CODE</h3>
+<p>To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:</p>
+<pre><code>Use the `printf()` function.
+
+``There is a literal backtick (`) here.``
+
+A single backtick in a code span: `` ` ``
+
+A backtick-delimited string in a code span: `` `foo` ``
+</code></pre>
+<p><strong>Result</strong></p>
+<p>Use the <code>printf()</code> function.</p>
+<p><code>There is a literal backtick (`) here.</code></p>
+<p>A single backtick in a code span: <code>`</code></p>
+<p>A backtick-delimited string in a code span: <code>`foo`</code></p>
+<h4 id="code-blocks">CODE BLOCKS</h4>
+<p>To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. For example, given this input:</p>
+<pre><code>Here is an example of AppleScript:
+
+    tell application &quot;Foo&quot;
+        beep
+    end tell
+</code></pre>
+<p><strong>Result</strong></p>
+<p>Here is an example of AppleScript:</p>
+<pre><code>tell application &quot;Foo&quot;
+    beep
+end tell
+</code></pre>
+<h3 id="backslash-escapes">BACKSLASH ESCAPES</h3>
+<p>Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax.</p>
+<p>Markdown provides backslash escapes for the following characters:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">characters</th>
+<th style="text-align:center">name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\</td>
+<td style="text-align:center">backslash</td>
+</tr>
+<tr>
+<td style="text-align:center">`</td>
+<td style="text-align:center">backtick</td>
+</tr>
+<tr>
+<td style="text-align:center">*</td>
+<td style="text-align:center">asterisk</td>
+</tr>
+<tr>
+<td style="text-align:center">_</td>
+<td style="text-align:center">underscore</td>
+</tr>
+<tr>
+<td style="text-align:center">{}</td>
+<td style="text-align:center">curly braces</td>
+</tr>
+<tr>
+<td style="text-align:center">[]</td>
+<td style="text-align:center">square brackets</td>
+</tr>
+<tr>
+<td style="text-align:center">()</td>
+<td style="text-align:center">parentheses</td>
+</tr>
+<tr>
+<td style="text-align:center">#</td>
+<td style="text-align:center">hash mark</td>
+</tr>
+<tr>
+<td style="text-align:center">+</td>
+<td style="text-align:center">plus sign</td>
+</tr>
+<tr>
+<td style="text-align:center">-</td>
+<td style="text-align:center">minus sign (hyphen)</td>
+</tr>
+<tr>
+<td style="text-align:center">.</td>
+<td style="text-align:center">dot</td>
+</tr>
+<tr>
+<td style="text-align:center">!</td>
+<td style="text-align:center">exclamation mark</td>
+</tr>
+</tbody>
+</table>
+<h3 id="blockquotes">BLOCKQUOTES</h3>
+<p>Markdown uses email-style &gt; characters for blockquoting.</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Markdown allows you only put the &gt; before the first line of a hard-wrapped paragraph:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+</blockquote>
+<blockquote>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of &gt;:</p>
+<blockquote>
+<p>This is the first level of quoting.</p>
+<blockquote>
+<p>This is nested blockquote.</p>
+<blockquote>
+<p>Back to the first level.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Blockquotes can contain other Markdown elements, including headers, lists, and code blocks:</p>
+<blockquote>
+<h2 id="this-is-a-header">This is a header.</h2>
+<ol>
+<li>This is the first list item.</li>
+<li>This is the second list item.</li>
+</ol>
+<p>Here&rsquo;s some example code:</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre>
+</blockquote>
+<h2 id="references">References</h2>
+<p><a href="https://daringfireball.net/projects/markdown/syntax#img">Markdown: Syntax</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a></p>
+<p><a href="https://fakestandard.github.io/post/markdown/markdown-1-heymarkdown/">Markdown筆記神器</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
