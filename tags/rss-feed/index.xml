@@ -33,7 +33,7 @@ Means supported an RSS feed function on your blog, can keep those who follow you
   
   socialIcons:
     - name: rss # Shows an RSS feed icon on your site`
-      url: &quot;index.xml&quot; # Your RSS feed url path
+      url: &#34;index.xml&#34; # Your RSS feed url path
 
 outputs:
     home:

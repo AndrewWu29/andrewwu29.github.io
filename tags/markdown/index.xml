@@ -169,7 +169,7 @@ ___
 <li>A square bracket to place the link text</li>
 <li>A parenthesis, place the link path or URL, enclosed in double quotes to add prompt text</li>
 </ol>
-<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &#34;My GitHub&#34;)
 </code></pre><p><strong>Result</strong></p>
 <p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
 <h3 id="images">IMAGES</h3>

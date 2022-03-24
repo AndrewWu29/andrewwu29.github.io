@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrewwu29.github.io/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://andrewwu29.github.io/categories/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -27,6 +27,53 @@
                 hreflang="en"
                 href="https://andrewwu29.github.io/categories/"
                 />
+  </url><url>
+    <loc>https://andrewwu29.github.io/tags/note/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/categories/note/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/posts/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://andrewwu29.github.io/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andrewwu29.github.io/posts/"
+                />
+  </url><url>
+    <loc>https://andrewwu29.github.io/tags/shortcut/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/categories/shortcut/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/tags/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://andrewwu29.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andrewwu29.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://andrewwu29.github.io/tags/vim/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/categories/vim/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewwu29.github.io/2022/03/vim-note/</loc>
+    <lastmod>2022-03-12T15:07:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewwu29.github.io/tags/markdown/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
@@ -67,43 +114,11 @@
                 href="https://andrewwu29.github.io/2022/02/markdown-basic-systax/"
                 />
   </url><url>
-    <loc>https://andrewwu29.github.io/tags/note/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewwu29.github.io/categories/note/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewwu29.github.io/posts/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://andrewwu29.github.io/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://andrewwu29.github.io/posts/"
-                />
-  </url><url>
     <loc>https://andrewwu29.github.io/tags/systax/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewwu29.github.io/categories/systax/</loc>
     <lastmod>2022-02-15T17:22:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewwu29.github.io/tags/</loc>
-    <lastmod>2022-02-15T17:22:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://andrewwu29.github.io/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://andrewwu29.github.io/tags/"
-                />
   </url><url>
     <loc>https://andrewwu29.github.io/2022/02/uk-york-york-minster/</loc>
     <lastmod>2022-02-12T16:46:00+00:00</lastmod>

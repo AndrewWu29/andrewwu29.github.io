@@ -181,7 +181,7 @@ ___
 <li>一個中括號，放置連結文字</li>
 <li>一個小括號，放置連結路徑或網址，一樣可使用雙引號來添加 prompt 文字</li>
 </ol>
-<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &#34;My GitHub&#34;)
 </code></pre><p><strong>效果</strong></p>
 <p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
 <h3 id="圖片">圖片</h3>
@@ -387,7 +387,7 @@ id sem consectetuer libero luctus adipiscing.</p>
 什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
 所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
 建立RSS feed到您的Hugo PaperMod主題，只要三步驟 步驟一: 確認config.yml檔案裡的output的清單有RSS 步驟二: 新增RSS feed圖示到您的網站 步驟三: 開啟所有文章內容支持產生RSS XML檔案 所以現在config.yml檔案裡應該要有以下的代碼::
-params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary socialIcons: - name: rss # Shows an RSS feed icon on your site` url: &amp;quot;index.xml&amp;quot; # Your RSS feed url path outputs: home: - HTML - RSS # Supports your site output including RSS format - JSON 完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</description>
+params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary socialIcons: - name: rss # Shows an RSS feed icon on your site` url: &amp;#34;index.xml&amp;#34; # Your RSS feed url path outputs: home: - HTML - RSS # Supports your site output including RSS format - JSON 完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</description>
       <content:encoded><![CDATA[<p>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。</p>
 <h2 id="什麼是rss-feed">什麼是RSS feed?</h2>
 <p>RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。</p>
@@ -402,7 +402,7 @@ params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, n
   
   socialIcons:
     - name: rss # Shows an RSS feed icon on your site`
-      url: &quot;index.xml&quot; # Your RSS feed url path
+      url: &#34;index.xml&#34; # Your RSS feed url path
 
 outputs:
     home:
@@ -423,7 +423,7 @@ outputs:
       <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
-&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
+&amp;lt;div id=&amp;#34;disqus_thread&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&amp;#39;s canonical URL variable this.</description>
       <content:encoded><![CDATA[<h2 id="什麼是disqus">什麼是Disqus?</h2>
 <p>是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。</p>
 <h2 id="手把手教學教您整合disqus到您的hugo網站">手把手教學，教您整合Disqus到您的Hugo網站</h2>
@@ -433,35 +433,35 @@ outputs:
 <h3 id="步驟四-填寫表單資料">步驟四: 填寫表單資料</h3>
 <h3 id="步驟五-複製留言的模板並建立disqushtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後並貼上您獲得的留言模板">步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板</h3>
 <p>範本應該會長得跟下面的代碼一樣:</p>
-<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+<pre tabindex="0"><code>&lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
     };
     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    // Don't ever inject Disqus on localhost--it creates unwanted
-    // discussions from 'localhost:1313' on your Disqus account...
-    if (window.location.hostname == &quot;localhost&quot;)
+    (function() { // DON&#39;T EDIT BELOW THIS LINE
+    // Don&#39;t ever inject Disqus on localhost--it creates unwanted
+    // discussions from &#39;localhost:1313&#39; on your Disqus account...
+    if (window.location.hostname == &#34;localhost&#34;)
         return;
 
 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://your_disqus_name.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+    var d = document, s = d.createElement(&#39;script&#39;);
+    s.src = &#39;https://your_disqus_name.disqus.com/embed.js&#39;;
+    s.setAttribute(&#39;data-timestamp&#39;, +new Date());
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&#34;https://disqus.com/?ref_noscript&#34;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 </code></pre><h3 id="步驟六-建立commentshtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後複製並貼上以下代碼到這個檔案裡面">步驟六: 建立comments.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後複製並貼上以下代碼到這個檔案裡面</h3>
 <pre tabindex="0"><code>{{- /* Comments area start */ -}}
-{{- /* partial &quot;disqus.html&quot; . */ -}}
-{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* partial &#34;disqus.html&#34; . */ -}}
+{{ template &#34;_internal/disqus.html&#34; . }}
 {{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
@@ -508,12 +508,12 @@ Internal Templates | Hugo</description>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
       <guid>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
-      <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;quot;提交訊息&amp;quot; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
+      <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;#34;Andrew_Wu&amp;#34; git config --global user.email &amp;#34;user@gmail.com&amp;#34; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;#34;提交訊息&amp;#34; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
       <content:encoded><![CDATA[<h2 id="確認git是否安裝成功">確認Git是否安裝成功</h2>
 <pre tabindex="0"><code>git --version
 </code></pre><h2 id="設定git使用者名稱跟信箱">設定Git使用者名稱跟信箱</h2>
-<pre tabindex="0"><code>git config --global user.name &quot;Andrew_Wu&quot;
-git config --global user.email &quot;user@gmail.com&quot;
+<pre tabindex="0"><code>git config --global user.name &#34;Andrew_Wu&#34;
+git config --global user.email &#34;user@gmail.com&#34;
 </code></pre><h3 id="確認輸入的資料是否正確">確認輸入的資料是否正確</h3>
 <pre tabindex="0"><code>git config --list
 </code></pre><h2 id="獲取幫助">獲取幫助</h2>
@@ -527,7 +527,7 @@ git config --global user.email &quot;user@gmail.com&quot;
 git add . #將工作目錄內所有檔案建立索引
 </code></pre><h2 id="建立新提交">建立新提交</h2>
 <pre tabindex="0"><code>git commit
-git commit -m &quot;提交訊息&quot; #-m means Message
+git commit -m &#34;提交訊息&#34; #-m means Message
 </code></pre><h2 id="顯示歷史日誌">顯示歷史日誌</h2>
 <pre tabindex="0"><code>git log #顯示歷史日誌的詳細資訊
 git log --all --graph --decorate #以DAG方式顯示歷史日誌
@@ -631,7 +631,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <p>接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。</p>
 <h2 id="hugo安裝與建立自己的部落格">Hugo安裝與建立自己的部落格</h2>
 <p>在安裝Hugo前需要安裝<a href="https://chocolatey.org/install#individual">chocolatey</a>這個工具，這裡是直接使用&quot;Individual&quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。</p>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
 </code></pre><p><strong>安裝完chocolatey這工具後，我們可以開始建立我們的部落格了。</strong></p>
 <h3 id="第一步-安裝hugo">第一步: 安裝Hugo</h3>
 <p>我們依照<a href="https://gohugo.io/getting-started/quick-start/">官方快速開始</a>進行安裝Hugo。因為我們這次只需要使用一般版本，所以依照手冊使用以下指令安裝。</p>
@@ -659,7 +659,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
 </p>
 <p>之後我們依照 PaperMod 的<a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">官方文件</a>，進行修改我們的<code>config.yml</code>。</p>
-<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #等等GitHub庫的網址
+<pre tabindex="0"><code>baseURL: &#34;&lt;username.github.io&gt;&#34; #等等GitHub庫的網址
 title: its demo blog #網站標題
 paginate: 5
 # 預設語系配置
@@ -687,12 +687,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: its demo blog
-  description: &quot;its demo blog description&quot;
+  description: &#34;its demo blog description&#34;
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
-  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
-  DateFormat: &quot;January 2, 2006&quot;
+  # author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+  images: [&#34;&lt;link or path of image for opengraph, twitter-cards&gt;&#34;]
+  DateFormat: &#34;January 2, 2006&#34;
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -712,14 +712,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: &quot;&lt;link / abs url&gt;&quot;
-    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
-    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
-    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
-    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+    favicon: &#34;&lt;link / abs url&gt;&#34;
+    favicon16x16: &#34;&lt;link / abs url&gt;&#34;
+    favicon32x32: &#34;&lt;link / abs url&gt;&#34;
+    apple_touch_icon: &#34;&lt;link / abs url&gt;&#34;
+    safari_pinned_tab: &#34;&lt;link / abs url&gt;&#34;
 
   label:
-    text: &quot;its demo blog&quot;
+    text: &#34;its demo blog&#34;
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -727,8 +727,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: &quot;This is subtitle&quot;
-    imageUrl: &quot;&lt;img location&gt;&quot;
+    subtitle: &#34;This is subtitle&#34;
+    imageUrl: &#34;&lt;img location&gt;&#34;
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -740,25 +740,25 @@ params:
 
   # home-info mode 這是教學使用 Home-info 模式，預設也為這個
   homeInfoParams:
-    Title: &quot;嗨 大家 \U0001F44B&quot;
+    Title: &#34;嗨 大家 \U0001F44B&#34;
     Content: 歡迎來到我的部落格。
 
   # 可以放自己社交平台的連結
   socialIcons:
     - name: twitter
-      url: &quot;https://twitter.com/&quot;
+      url: &#34;https://twitter.com/&#34;
     - name: stackoverflow
-      url: &quot;https://stackoverflow.com&quot;
+      url: &#34;https://stackoverflow.com&#34;
     - name: github
-      url: &quot;https://github.com/&quot;
+      url: &#34;https://github.com/&#34;
 
   analytics:
     google:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     bing:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     yandex:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -767,8 +767,8 @@ params:
 
   # 別人可以建議您修改，但我會將這個功能關閉
   #editPost:
-    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-    #Text: &quot;Suggest Changes&quot; # edit text
+    #URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    #Text: &#34;Suggest Changes&#34; # edit text
     #appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -780,7 +780,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;, &#34;content&#34;]
 menu:
   main:
     - identifier: posts
@@ -825,20 +825,20 @@ menu:
 </p>
 <p>我們修改為下。</p>
 <pre tabindex="0"><code>---
-title: &quot;Hello_World!&quot;
+title: &#34;Hello_World!&#34;
 date: 2022-01-06T14:00:09Z
 draft: false
 # weight: 1
-# aliases: [&quot;/AirTag&quot;]
-tags: [&quot;第一篇文章&quot;, &quot;Hello World&quot;]
-author: &quot;Me&quot;
-# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+# aliases: [&#34;/AirTag&#34;]
+tags: [&#34;第一篇文章&#34;, &#34;Hello World&#34;]
+author: &#34;Me&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-#description: &quot;Hello World&quot;
-#canonicalURL: &quot;https://canonical.url/to/page&quot;
+#description: &#34;Hello World&#34;
+#canonicalURL: &#34;https://canonical.url/to/page&#34;
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -848,14 +848,14 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 #cover:
-#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
-#    alt: &quot;&lt;alt text&gt;&quot; # alt text
-#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    image: &#34;&lt;image path/url&gt;&#34; # image path/url
+#    alt: &#34;&lt;alt text&gt;&#34; # alt text
+#    caption: &#34;&lt;text&gt;&#34; # display caption under cover
 #    relative: true # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 #editPost:
-#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-#    Text: &quot;Suggest Changes&quot; # edit text
+#    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+#    Text: &#34;Suggest Changes&#34; # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
 # Hello World!!!
@@ -876,7 +876,7 @@ ShowPostNavLinks: true
 <pre tabindex="0"><code># 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init its demo blog&quot;
+git commit -m &#34;init its demo blog&#34;
 # 新增main分支
 git branch -M main
 # 新增遠端版本庫
@@ -887,11 +887,11 @@ git push -u origin main
 # 新增gh-pages孤兒分支
 git checkout --orphan gh-pages
 # 新增一個README.md檔
-echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+echo &#34;gh-pages&#34; &gt; &#34;README.md&#34;
 # 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init gh-pages branch&quot;
+git commit -m &#34;init gh-pages branch&#34;
 # 將分支內容上傳到remote
 git push -u origin gh-pages
 # 切換到main分支
@@ -923,9 +923,9 @@ git checkout main
 on:
   push:
     paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
+      - &#39;images/**&#39;
+      - &#39;LICENSE&#39;
+      - &#39;README.md&#39;
     branches:
       - main
   workflow_dispatch:
@@ -949,7 +949,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: &#39;latest&#39;
 
       - name: Build
         run: hugo --buildDrafts --gc --verbose --minify

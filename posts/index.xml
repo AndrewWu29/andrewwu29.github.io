@@ -9,7 +9,606 @@
       <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Feb 2022 17:22:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Mar 2022 15:07:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim note</title>
+      <link>https://andrewwu29.github.io/2022/03/vim-note/</link>
+      <pubDate>Sat, 12 Mar 2022 15:07:00 +0000</pubDate>
+      
+      <guid>https://andrewwu29.github.io/2022/03/vim-note/</guid>
+      <description>What is Vim? Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X.
+Vim is rock stable and is continuously being developed to become even better. Among its features are:
+ persistent, multi-level undo tree extensive plugin system support for hundreds of programming languages and file formats powerful search and replace integrates with many tools  BASIC Vim modes Vim supports multiple modes.</description>
+      <content:encoded><![CDATA[<h2 id="what-is-vim">What is Vim?</h2>
+<p>Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X.</p>
+<p>Vim is rock stable and is continuously being developed to become even better. Among its features are:</p>
+<ul>
+<li>persistent, multi-level undo tree</li>
+<li>extensive plugin system</li>
+<li>support for hundreds of programming languages and file formats</li>
+<li>powerful search and replace</li>
+<li>integrates with many tools</li>
+</ul>
+<h2 id="basic">BASIC</h2>
+<h3 id="vim-modes">Vim modes</h3>
+<p>Vim supports multiple modes. This section discusses some of the important modes which will be used on day-to-day basis.</p>
+<h3 id="command-mode">Command mode</h3>
+<p>This is the default mode in which Vim starts. We can enter editor commands in this mode. We can use variety of commands in this mode like copy, paste, delete, replace and many more. We’ll discuss these commands in later sections.</p>
+<h3 id="insert-mode">Insert mode</h3>
+<p>You can use this mode to enter/edit text. To switch from default command to insert mode press i key. It will show current mode in bottom left corner of editor.</p>
+<p>Use Escape key to switch back to command mode from this mode.</p>
+<p>We can enter any text once we are in insert mode. Below image shows this.</p>
+<h3 id="command-line-mode">Command line mode</h3>
+<p>This mode is also used to enter commands. Commands in this mode starts with colon(:). For instance, in previous section quit command was entered in this mode. We can go to this mode either from command or insert mode.</p>
+<ul>
+<li>
+<p>To switch from command mode to this mode just type colon</p>
+</li>
+<li>
+<p>To switch from insert mode to this mode press Escape and type colon</p>
+</li>
+</ul>
+<h3 id="visual-mode">Visual mode</h3>
+<p>In this mode we can visually select text and run commands on selected sections.</p>
+<ul>
+<li>
+<p>To switch from command mode to visual mode type v</p>
+</li>
+<li>
+<p>To switch from any other mode to visual mode first switch back to command mode by pressing Escape, then type v to switch to visual mode</p>
+</li>
+</ul>
+<p>In below image bottom left corner shows visual mode.</p>
+<h3 id="create-new-file">Create new file</h3>
+<p>Perform below steps to create and save new file −</p>
+<ul>
+<li>
+<p>Execute following command to open Vim</p>
+<p><code>$ vim</code></p>
+</li>
+<li>
+<p>Type following command in Vim</p>
+<p><code>:edit message.txt</code></p>
+</li>
+</ul>
+<p>It will reload file if, it exist already</p>
+<ul>
+<li>
+<p>Switch to insert mode</p>
+<p><code>i</code></p>
+</li>
+<li>
+<p>Enter some text</p>
+</li>
+<li>
+<p>Switch back to command mode</p>
+<p><code>Esc</code></p>
+</li>
+<li>
+<p>Save changes to file</p>
+<p><code>:w</code></p>
+</li>
+</ul>
+<p>Now message.txt file will be created.</p>
+<ul>
+<li>
+<p>Quit Vim</p>
+<p><code>:q</code></p>
+</li>
+</ul>
+<h3 id="open-file-in-read-only-mode">Open file in read-only mode</h3>
+<p>Use –R option to open file in read-only mode</p>
+<pre><code>`$ vim -R message.txt`
+</code></pre>
+<h3 id="edit-existing-file">Edit existing file</h3>
+<p>Perform below steps to edit existing file −</p>
+<ul>
+<li>
+<p>Open file using Vim</p>
+<p><code>$ vim message.txt</code></p>
+</li>
+<li>
+<p>Switch to insert mode and enter some text there.</p>
+<p><code>i</code></p>
+</li>
+<li>
+<p>Quit editor without saving changes.</p>
+<p><code>:q!</code></p>
+</li>
+</ul>
+<p>OR</p>
+<ul>
+<li>
+<p>Save changes and quit editor using following command.</p>
+<p><code>:wq</code></p>
+</li>
+</ul>
+<h3 id="access-help-manual">Access help manual</h3>
+<p>Help manual is shipped with Vim editor itself and it is really comprehensive. To access help execute below command</p>
+<pre><code>:help
+</code></pre>
+<h3 id="help-on-specific-topic">Help on specific topic</h3>
+<p>Help manual will show entire help about Vim. But what if, we are only interested in certain topic. Vim provides command for that as well with following syntax</p>
+<pre><code>:help &lt;topic-name&gt;
+</code></pre>
+<p>In above command replace &lt;topic-name&gt; with topic in which you are interested. Forinstance to access help about vim mode, execute following command</p>
+<pre><code>:help modes
+</code></pre>
+<h3 id="search-help-phrase-in-manual">Search help phrase in manual</h3>
+<p>You can search specific topic only if you know its name. But what if, you don’t know the exact name of help topic. In that case you can use below command</p>
+<pre><code>:helpgrep &lt;phrase&gt;
+</code></pre>
+<p>For instance, to access help about navigation in Vim execute below command</p>
+<pre><code>:helpgrep navigation
+</code></pre>
+<p>Vim provides many commands which make editing functionality really powerful. In this chapter, we will discuss following items −</p>
+<ul>
+<li>Insert</li>
+<li>Append</li>
+<li>Open new line</li>
+<li>Substitute</li>
+<li>Change</li>
+<li>Replace</li>
+<li>Join</li>
+</ul>
+<h3 id="insert-text-before-cursor">Insert text before cursor</h3>
+<p>To insert text before cursor perform following steps −</p>
+<ul>
+<li>To insert text before cursor perform following steps</li>
+<li>Switch to insert mode
+i</li>
+</ul>
+<h3 id="insert-text-at-the-beginning-of-line">Insert text at the beginning of line</h3>
+<p>Let us suppose you are in the middle of line and you want to insert text at the beginning of current line then perform following steps</p>
+<ul>
+<li>Switch to command mode
+Esc</li>
+<li>Activate insert mode
+I</li>
+</ul>
+<p>This action will move cursor to the beginning of current line and switch Vim in insert mode</p>
+<h3 id="append-text-after-cursor">Append text after cursor</h3>
+<p>To append text after cursor perform following steps</p>
+<ul>
+<li>Switch to command mode and move cursor to appropriate position
+Esc</li>
+<li>Switch to insert mode
+a
+This action will move cursor next by one position and switch Vim in insert mode.</li>
+</ul>
+<h3 id="append-text-at-the-end-of-line">Append text at the end of line</h3>
+<p>Let us suppose you are in the middle of line and you want to append text at the end of current line then perform following steps</p>
+<ul>
+<li>Switch to command mode
+Esc</li>
+<li>Switch to insert mode
+A</li>
+</ul>
+<p>This action will move cursor to the end of line and switch Vim in insert mode</p>
+<h3 id="open-new-line-below-cursor">Open new line below cursor</h3>
+<p>Let us suppose you are in the middle of line and you want to open new line below current line then perform following steps</p>
+<ul>
+<li>Switch to command mode
+Esc</li>
+<li>Switch to insert mode
+o
+This action will insert blank line below current line and switch Vim in insert mode</li>
+</ul>
+<h3 id="open-new-line-above-cursor">Open new line above cursor</h3>
+<p>Let us suppose you are in the middle of line and you want to open new line above current line then perform following steps</p>
+<p>Switch to command mode
+Esc
+Switch to insert mode
+o
+This action will insert blank line above current line and switch Vim in insert mode</p>
+<h3 id="substitute-text">Substitute text</h3>
+<p>Let us suppose you want to substitute single character then perform following steps</p>
+<ul>
+<li>
+<p>Switch to command mode
+Esc</p>
+</li>
+<li>
+<p>Move cursor to appropriate position</p>
+</li>
+<li>
+<p>Switch to insert mode
+s
+This action will delete character under cursor and switch Vim in insert mode To substitute entire line use</p>
+<p>s
+This action will delete entire line and switch Vim in insert mode.</p>
+</li>
+</ul>
+<h3 id="change-text">Change text</h3>
+<p>Let us suppose you want to change text in current line then perform following steps</p>
+<ul>
+<li>Switch to command mode
+Esc</li>
+<li>Execute following command
+cc
+This is similar to substitute action using S</li>
+</ul>
+<p>To change text from current cursor position, execute following command</p>
+<pre><code>C
+</code></pre>
+<p>This action will delete text after current cursor position and switch Vim in insert mode.</p>
+<h3 id="replace-text">Replace text</h3>
+<p>To replace single character perform following steps</p>
+<ul>
+<li>
+<p>Switch to command mode
+Esc</p>
+</li>
+<li>
+<p>Move cursor to appropriate position</p>
+</li>
+<li>
+<p>Execute following command
+r</p>
+</li>
+<li>
+<p>Enter character to be substituted.
+Note that this command will not switch Vim in insert mode</p>
+</li>
+</ul>
+<p>To replace entire line execute</p>
+<pre><code>R
+</code></pre>
+<h3 id="join-text">Join text</h3>
+<p>To join two lines perform following steps</p>
+<ul>
+<li>Switch to command mode
+Esc</li>
+<li>Move cursor to appropriate line</li>
+<li>Execute following command
+J</li>
+</ul>
+<h3 id="basic-navigation">Basic navigation</h3>
+<p>In basic navigation we can navigate to left, right, up and down by position. Below commands can be used for this</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>h</code> Move cursor to left by one position</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>l</code> Move cursor to right by one position</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>k</code> Move cursor to upward direction by one line</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>j</code> Move cursor to downward direction by one line</td>
+</tr>
+</tbody>
+</table>
+<p>To perform multi-position navigation use number with these commands. For instance to navigate cursor 10 line below from current line, execute following command</p>
+<pre><code>10j
+</code></pre>
+<p>You can use numbers with remaining commands as well.</p>
+<p>In addition to this, below commands also perform some useful navigation.</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>0</code> Move cursor to the beginning of current line</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>$</code> Move cursor to the end of current line</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>Ctrl + f</code> Scroll down entire page</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>Ctrl + b</code> Scroll up entire page</td>
+</tr>
+</tbody>
+</table>
+<h3 id="navigate-to-lines">Navigate to lines</h3>
+<p>Below command can be used to navigate to specific line −</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>:n</code> Jump to the nth line</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>:0</code> Jump to the start of file</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>:$</code> Jump to the end of file</td>
+</tr>
+</tbody>
+</table>
+<h3 id="word-navigation">Word navigation</h3>
+<p>We can use following commands for word navigation</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>w</code> Move cursor to the beginning of the next word</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>e</code> Move cursor to the end of the current word</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>b</code> Move cursor to the beginning of the previous word</td>
+</tr>
+</tbody>
+</table>
+<h3 id="using-jumps">Using jumps</h3>
+<p>Vim keeps track of your navigation using a jump list. You can go backward and forward through that list.</p>
+<p>The jump list keeps tracks of all the places you’ve been to by tracking file name, line number and column number.</p>
+<p>To view jump list execute following command</p>
+<pre><code>:jumps
+</code></pre>
+<p>Following command are based on jump list</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>Ctrl + o</code> Jump back to the previous position</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>Ctrl + i</code> Jump to the next position</td>
+</tr>
+</tbody>
+</table>
+<h2 id="advance">ADVANCE</h2>
+<p>We have seen basic editing earlier. Let us understand some other editing features of Vim. In this section, we will discuss following items</p>
+<ul>
+<li>Buffer</li>
+<li>Swap files</li>
+<li>Cut, copy, delete, paste actions</li>
+<li>Undo and redo actions</li>
+</ul>
+<h3 id="buffer">Buffer</h3>
+<p>Buffer is temporary memory used by Vim. When we open a file in editor, Vim loads its contents from disk drive. These contents are stored in memory (RAM) whenever we edit a file we are actually editing file from buffer. Once we finish editing and save file that time only buffer contents are transferred to appropriate file.</p>
+<h3 id="swap">Swap</h3>
+<p>Swap area is a file created by Vim to store buffer contents periodically. While editing file our changes may be lost because of any reasons and Vim provides swap files to provide data recovery.</p>
+<p>To get actual name of swap file execute following command</p>
+<pre><code>:swapname
+</code></pre>
+<h3 id="cut-copy-and-paste-actions">Cut, Copy and paste actions</h3>
+<p>We often perform cut, copy and paste actions on text. Vim provides following commands to perform these actions (y stands for yank and p stands for paste action)</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>x</code> Delete character from cursor position</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>X</code> Delete previous character from cursor position</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>y</code> Copy single character from cursor position</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>p</code> Paste character after cursor position</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>P</code> Paste character before cursor position</td>
+</tr>
+</tbody>
+</table>
+<h3 id="multi-position-command">Multi-position command</h3>
+<p>We can use cut, copy and paste commands with words and sentences as well. Below table shows this</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>dw</code> Delete word from cursor position</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>D</code> Delete entire line from cursor position</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>dd</code> Delete entire line</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>Y</code> Copies entire line</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>yy</code> Copies entire line</td>
+</tr>
+</tbody>
+</table>
+<p>To perform multi-line/multi-word actions just use numbers with command. You can use this syntax with other commands as well. For instance, to delete 3 words use</p>
+<pre><code>3dw
+</code></pre>
+<h3 id="undo">Undo</h3>
+<p>We can undo single or multiple actions. To perform one time undo action execute</p>
+<pre><code>u
+</code></pre>
+<p>To perform multiple undo action, use number with same command. For instance, below command will undo last 3 actions</p>
+<pre><code>3u
+</code></pre>
+<p>In addition to this, to undo all execute following command</p>
+<pre><code>U
+</code></pre>
+<h3 id="redo">Redo</h3>
+<p>Redo is apposite action of undo. Execute any of the command to perform redo action.</p>
+<pre><code>Ctrl + r
+OR
+: red
+</code></pre>
+<h3 id="search-related-settings">Search related settings</h3>
+<p>To perform incremental search execute following command</p>
+<pre><code>:set incsearch
+</code></pre>
+<p>To highlight search execute following command</p>
+<pre><code>:set hlsearch
+</code></pre>
+<p>To disable incremental and highlighted search execute following commands</p>
+<pre><code>:set noincsearch
+:set nohlsearch
+</code></pre>
+<h3 id="search-in-current-file">Search in current file</h3>
+<h4 id="search-in-forward-direction">Search in forward direction</h4>
+<p>Use following commands to perform search in forward direction −</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>/&lt;expression&gt;</code> Search expression in forward direction</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>n</code> Find next occurrence. This is same and find next</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>N</code> Find previous occurrence. This is same as find previous</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>//</code> Repeat previous forward search</td>
+</tr>
+</tbody>
+</table>
+<h4 id="search-in-backward-direction">Search in backward direction</h4>
+<p>Use following commands to perform search in backward direction</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>?&lt;expression&gt;</code> Search expression in backward direction</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>n</code> Find previous occurrence. This is same and find previous</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>N</code> Find next occurrence. This is same as find next</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>??</code> Repeat previous backward search</td>
+</tr>
+</tbody>
+</table>
+<h4 id="search-word-under-cursor">Search word under cursor</h4>
+<p>Place cursor under any word and execute following commands to perform search operation</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>*</code> Search next occurrence of current word</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>#</code> Search previous occurrence of current word</td>
+</tr>
+</tbody>
+</table>
+<h4 id="search-in-multiple-files">Search in multiple files</h4>
+<p>Using vimgrep command we can search <code>&lt;expression&gt;</code> in multiple files. For instance below command searches string - <code>Jarvis</code> in all text files.</p>
+<pre><code>:vimgrep Jarvis *.txt
+</code></pre>
+<p>Note that to go to next and previous occurrence we have to use following commands</p>
+<table>
+<thead>
+<tr>
+<th>Sr.No</th>
+<th>Command &amp; Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>:cn</code> Go to next occurrence of expression</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>:cN</code> Go to previous occurrence of expression</td>
+</tr>
+</tbody>
+</table>
+<h2 id="references">References</h2>
+<p><a href="https://www.tutorialspoint.com/vim/vim_quick_guide.htm">vim_quick_guide</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Markdown Basic Systax</title>
       <link>https://andrewwu29.github.io/2022/02/markdown-basic-systax/</link>
@@ -169,7 +768,7 @@ ___
 <li>A square bracket to place the link text</li>
 <li>A parenthesis, place the link path or URL, enclosed in double quotes to add prompt text</li>
 </ol>
-<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &#34;My GitHub&#34;)
 </code></pre><p><strong>Result</strong></p>
 <p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
 <h3 id="images">IMAGES</h3>
@@ -438,7 +1037,7 @@ Means supported an RSS feed function on your blog, can keep those who follow you
   
   socialIcons:
     - name: rss # Shows an RSS feed icon on your site`
-      url: &quot;index.xml&quot; # Your RSS feed url path
+      url: &#34;index.xml&#34; # Your RSS feed url path
 
 outputs:
     home:
@@ -468,35 +1067,35 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
 <h3 id="step-4-fill-in-the-form-details-for-your-hugo-site">Step 4: Fill in the Form details for your Hugo site</h3>
 <h3 id="step-5-copy-the-discussion-templates-and-create-a-disqushtml-file-under-your-hugo-site-folder-layoutspartials-then-paste-it-inside-the-file">Step 5: Copy the discussion templates, and create a disqus.html file under your Hugo site folder layouts/partials, then paste it inside the file</h3>
 <p>The template will be like below:</p>
-<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+<pre tabindex="0"><code>&lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
     };
     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    // Don't ever inject Disqus on localhost--it creates unwanted
-    // discussions from 'localhost:1313' on your Disqus account...
-    if (window.location.hostname == &quot;localhost&quot;)
+    (function() { // DON&#39;T EDIT BELOW THIS LINE
+    // Don&#39;t ever inject Disqus on localhost--it creates unwanted
+    // discussions from &#39;localhost:1313&#39; on your Disqus account...
+    if (window.location.hostname == &#34;localhost&#34;)
         return;
 
 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://your_disqus_name.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+    var d = document, s = d.createElement(&#39;script&#39;);
+    s.src = &#39;https://your_disqus_name.disqus.com/embed.js&#39;;
+    s.setAttribute(&#39;data-timestamp&#39;, +new Date());
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&#34;https://disqus.com/?ref_noscript&#34;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 </code></pre><h3 id="step-6-create-a-commentshtml-file-under-your-hugo-site-folder-layoutspartials-and-copy-and-paste-the-below-code-inside-the-file">Step 6: Create a comments.html file under your Hugo site folder layouts/partials, and copy and paste the below code inside the file</h3>
 <pre tabindex="0"><code>{{- /* Comments area start */ -}}
-{{- /* partial &quot;disqus.html&quot; . */ -}}
-{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* partial &#34;disqus.html&#34; . */ -}}
+{{ template &#34;_internal/disqus.html&#34; . }}
 {{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="step-7-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">Step 7: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>
@@ -539,12 +1138,12 @@ How to add google analytics to Hugo site? Step 1: Create a google account Step 2
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
       <guid>https://andrewwu29.github.io/2022/01/git-basic-commands/</guid>
-      <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;quot;Andrew_Wu&amp;quot; git config --global user.email &amp;quot;user@gmail.com&amp;quot; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
+      <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;#34;Andrew_Wu&amp;#34; git config --global user.email &amp;#34;user@gmail.com&amp;#34; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&amp;#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
       <content:encoded><![CDATA[<h2 id="checks-your-git-version">Checks your Git version</h2>
 <pre tabindex="0"><code>git --version
 </code></pre><h2 id="settings-your-git-user-name--email">Settings your Git user name &amp; email</h2>
-<pre tabindex="0"><code>git config --global user.name &quot;Andrew_Wu&quot;
-git config --global user.email &quot;user@gmail.com&quot;
+<pre tabindex="0"><code>git config --global user.name &#34;Andrew_Wu&#34;
+git config --global user.email &#34;user@gmail.com&#34;
 </code></pre><h3 id="checks-your-configurations">Checks your configurations</h3>
 <pre tabindex="0"><code>git config --list
 </code></pre><h2 id="get-help">Get Help</h2>
@@ -552,13 +1151,13 @@ git config --global user.email &quot;user@gmail.com&quot;
 </code></pre><h2 id="creates-a-new-git-repo">Creates a new git repo</h2>
 <pre tabindex="0"><code>git init # create a new git repo, with data stored in the `.git` directory
 </code></pre><h2 id="shows-current-repo-status">Shows current repo status</h2>
-<pre tabindex="0"><code>git status #tells you what's going on
+<pre tabindex="0"><code>git status #tells you what&#39;s going on
 </code></pre><h2 id="adds-files-to-stage">Adds files to stage</h2>
 <pre tabindex="0"><code>git add &lt;filename&gt; #adds seleted filename to stagin area
 git add . #add all files to staging area
 </code></pre><h2 id="creates-a-new-commit">Creates a new commit</h2>
 <pre tabindex="0"><code>git commit
-git commit -m &quot;commit message&quot; #-m means Message
+git commit -m &#34;commit message&#34; #-m means Message
 </code></pre><h2 id="shows-a-log">Shows a log</h2>
 <pre tabindex="0"><code>git log #shows a flattened log of history
 git log --all --graph --decorate #visualizes history as a DAG
@@ -586,7 +1185,7 @@ git fetch #retrieve objects/references from a remote
 git pull #Sync local and remote repos，same as git fetch; git merge
 git clone #download repository form remote
 </code></pre><h2 id="undo">Undo</h2>
-<pre tabindex="0"><code>git commit --amend #edit a commit's contents/message
+<pre tabindex="0"><code>git commit --amend #edit a commit&#39;s contents/message
 git reset HEAD &lt;file&gt; #unstage a file
 git checkout -- &lt;file&gt; #discard changes
 </code></pre><h2 id="advance">Advance</h2>
@@ -656,7 +1255,7 @@ Then we go to &ldquo;View&rdquo; -&gt; &ldquo;Extensions&rdquo;(Also can use sho
 <p>after we have to install Hugo and create our blog&rsquo;s first post.</p>
 <h2 id="hugo-install-and-create-our-site">Hugo install and create our site</h2>
 <p>Before installing Hugo we have to install <a href="https://chocolatey.org/install#individual">chocolatey</a> this tool, here we use &ldquo;Individual&rdquo; with Administrative&rsquo;s PowerShell and use the below command to install.</p>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
 </code></pre><p><strong>Installed chocolatey this tool, we can start to build our blog site.</strong></p>
 <h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
 <p>We follow <a href="https://gohugo.io/getting-started/quick-start/">quick started</a>to install Hugo. This time we use the normal version, so follow the manual to use the below command to install it.</p>
@@ -685,7 +1284,7 @@ Then we go to &ldquo;View&rdquo; -&gt; &ldquo;Extensions&rdquo;(Also can use sho
 <img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
 </p>
 <p>Then we follow PaperMod&rsquo;s <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">Official Manual</a>, to modify our <code>config.yml</code>.</p>
-<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #GitHub repo URL
+<pre tabindex="0"><code>baseURL: &#34;&lt;username.github.io&gt;&#34; #GitHub repo URL
 title: its demo blog #site title
 paginate: 5
 # Default Language setting
@@ -713,12 +1312,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: its demo blog
-  description: &quot;its demo blog description&quot;
+  description: &#34;its demo blog description&#34;
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
-  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
-  DateFormat: &quot;January 2, 2006&quot;
+  # author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+  images: [&#34;&lt;link or path of image for opengraph, twitter-cards&gt;&#34;]
+  DateFormat: &#34;January 2, 2006&#34;
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -738,14 +1337,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: &quot;&lt;link / abs url&gt;&quot;
-    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
-    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
-    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
-    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+    favicon: &#34;&lt;link / abs url&gt;&#34;
+    favicon16x16: &#34;&lt;link / abs url&gt;&#34;
+    favicon32x32: &#34;&lt;link / abs url&gt;&#34;
+    apple_touch_icon: &#34;&lt;link / abs url&gt;&#34;
+    safari_pinned_tab: &#34;&lt;link / abs url&gt;&#34;
 
   label:
-    text: &quot;its demo blog&quot;
+    text: &#34;its demo blog&#34;
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -753,8 +1352,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: &quot;This is subtitle&quot;
-    imageUrl: &quot;&lt;img location&gt;&quot;
+    subtitle: &#34;This is subtitle&#34;
+    imageUrl: &#34;&lt;img location&gt;&#34;
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -764,27 +1363,27 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode this time we use Home-info mode, also it's default setting
+  # home-info mode this time we use Home-info mode, also it&#39;s default setting
   homeInfoParams:
-    Title: &quot;Hi All \U0001F44B&quot;
+    Title: &#34;Hi All \U0001F44B&#34;
     Content: Welcome to my blog.
 
   # You can put your social site links
   socialIcons:
     - name: twitter
-      url: &quot;https://twitter.com/&quot;
+      url: &#34;https://twitter.com/&#34;
     - name: stackoverflow
-      url: &quot;https://stackoverflow.com&quot;
+      url: &#34;https://stackoverflow.com&#34;
     - name: github
-      url: &quot;https://github.com/&quot;
+      url: &#34;https://github.com/&#34;
 
   analytics:
     google:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     bing:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     yandex:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -793,8 +1392,8 @@ params:
 
   # someone can mention you edit a post
   #editPost:
-    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-    #Text: &quot;Suggest Changes&quot; # edit text
+    #URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    #Text: &#34;Suggest Changes&#34; # edit text
     #appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -806,7 +1405,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;, &#34;content&#34;]
 menu:
   main:
     - identifier: posts
@@ -852,20 +1451,20 @@ menu:
 </p>
 <p>We edited like below.</p>
 <pre tabindex="0"><code>---
-title: &quot;Hello_World!&quot;
+title: &#34;Hello_World!&#34;
 date: 2022-01-06T14:00:09Z
 draft: false
 # weight: 1
-# aliases: [&quot;/AirTag&quot;]
-tags: [&quot;First post&quot;, &quot;Hello World&quot;]
-author: &quot;Me&quot;
-# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+# aliases: [&#34;/AirTag&#34;]
+tags: [&#34;First post&#34;, &#34;Hello World&#34;]
+author: &#34;Me&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-#description: &quot;Hello World&quot;
-#canonicalURL: &quot;https://canonical.url/to/page&quot;
+#description: &#34;Hello World&#34;
+#canonicalURL: &#34;https://canonical.url/to/page&#34;
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -875,14 +1474,14 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 #cover:
-#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
-#    alt: &quot;&lt;alt text&gt;&quot; # alt text
-#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    image: &#34;&lt;image path/url&gt;&#34; # image path/url
+#    alt: &#34;&lt;alt text&gt;&#34; # alt text
+#    caption: &#34;&lt;text&gt;&#34; # display caption under cover
 #    relative: true # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 #editPost:
-#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-#    Text: &quot;Suggest Changes&quot; # edit text
+#    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+#    Text: &#34;Suggest Changes&#34; # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
 # Hello World!!!
@@ -903,7 +1502,7 @@ This is my first post!
 <pre tabindex="0"><code># Add all of files
 git add .
 # Add commit message
-git commit -m &quot;init its demo blog&quot;
+git commit -m &#34;init its demo blog&#34;
 # Add main branch
 git branch -M main
 # Add remote repo
@@ -914,11 +1513,11 @@ git push -u origin main
 # Add gh-pages orphan branch
 git checkout --orphan gh-pages
 # Add a README.md
-echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+echo &#34;gh-pages&#34; &gt; &#34;README.md&#34;
 # Add all of files
 git add .
 # Add commit message
-git commit -m &quot;init gh-pages branch&quot;
+git commit -m &#34;init gh-pages branch&#34;
 # Upload site contents to remote repo
 git push -u origin gh-pages
 # Switch branch to main
@@ -950,9 +1549,9 @@ git checkout main
 on:
   push:
     paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
+      - &#39;images/**&#39;
+      - &#39;LICENSE&#39;
+      - &#39;README.md&#39;
     branches:
       - main
   workflow_dispatch:
@@ -976,7 +1575,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: &#39;latest&#39;
 
       - name: Build
         run: hugo --buildDrafts --gc --verbose --minify

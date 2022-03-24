@@ -27,35 +27,35 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
 <h3 id="step-4-fill-in-the-form-details-for-your-hugo-site">Step 4: Fill in the Form details for your Hugo site</h3>
 <h3 id="step-5-copy-the-discussion-templates-and-create-a-disqushtml-file-under-your-hugo-site-folder-layoutspartials-then-paste-it-inside-the-file">Step 5: Copy the discussion templates, and create a disqus.html file under your Hugo site folder layouts/partials, then paste it inside the file</h3>
 <p>The template will be like below:</p>
-<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+<pre tabindex="0"><code>&lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
     };
     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    // Don't ever inject Disqus on localhost--it creates unwanted
-    // discussions from 'localhost:1313' on your Disqus account...
-    if (window.location.hostname == &quot;localhost&quot;)
+    (function() { // DON&#39;T EDIT BELOW THIS LINE
+    // Don&#39;t ever inject Disqus on localhost--it creates unwanted
+    // discussions from &#39;localhost:1313&#39; on your Disqus account...
+    if (window.location.hostname == &#34;localhost&#34;)
         return;
 
 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://your_disqus_name.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+    var d = document, s = d.createElement(&#39;script&#39;);
+    s.src = &#39;https://your_disqus_name.disqus.com/embed.js&#39;;
+    s.setAttribute(&#39;data-timestamp&#39;, +new Date());
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&#34;https://disqus.com/?ref_noscript&#34;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 </code></pre><h3 id="step-6-create-a-commentshtml-file-under-your-hugo-site-folder-layoutspartials-and-copy-and-paste-the-below-code-inside-the-file">Step 6: Create a comments.html file under your Hugo site folder layouts/partials, and copy and paste the below code inside the file</h3>
 <pre tabindex="0"><code>{{- /* Comments area start */ -}}
-{{- /* partial &quot;disqus.html&quot; . */ -}}
-{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* partial &#34;disqus.html&#34; . */ -}}
+{{ template &#34;_internal/disqus.html&#34; . }}
 {{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="step-7-add-disqus-shortname-disqusshortname--your-disqus-shortname-in-your-configyml-file">Step 7: Add Disqus shortname <code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code> in your config.yml file</h3>

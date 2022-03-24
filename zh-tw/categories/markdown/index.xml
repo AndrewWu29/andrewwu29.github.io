@@ -181,7 +181,7 @@ ___
 <li>一個中括號，放置連結文字</li>
 <li>一個小括號，放置連結路徑或網址，一樣可使用雙引號來添加 prompt 文字</li>
 </ol>
-<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &#34;My GitHub&#34;)
 </code></pre><p><strong>效果</strong></p>
 <p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
 <h3 id="圖片">圖片</h3>

@@ -71,7 +71,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <p>接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。</p>
 <h2 id="hugo安裝與建立自己的部落格">Hugo安裝與建立自己的部落格</h2>
 <p>在安裝Hugo前需要安裝<a href="https://chocolatey.org/install#individual">chocolatey</a>這個工具，這裡是直接使用&quot;Individual&quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。</p>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
 </code></pre><p><strong>安裝完chocolatey這工具後，我們可以開始建立我們的部落格了。</strong></p>
 <h3 id="第一步-安裝hugo">第一步: 安裝Hugo</h3>
 <p>我們依照<a href="https://gohugo.io/getting-started/quick-start/">官方快速開始</a>進行安裝Hugo。因為我們這次只需要使用一般版本，所以依照手冊使用以下指令安裝。</p>
@@ -99,7 +99,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
 </p>
 <p>之後我們依照 PaperMod 的<a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">官方文件</a>，進行修改我們的<code>config.yml</code>。</p>
-<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #等等GitHub庫的網址
+<pre tabindex="0"><code>baseURL: &#34;&lt;username.github.io&gt;&#34; #等等GitHub庫的網址
 title: its demo blog #網站標題
 paginate: 5
 # 預設語系配置
@@ -127,12 +127,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: its demo blog
-  description: &quot;its demo blog description&quot;
+  description: &#34;its demo blog description&#34;
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
-  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
-  DateFormat: &quot;January 2, 2006&quot;
+  # author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+  images: [&#34;&lt;link or path of image for opengraph, twitter-cards&gt;&#34;]
+  DateFormat: &#34;January 2, 2006&#34;
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -152,14 +152,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: &quot;&lt;link / abs url&gt;&quot;
-    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
-    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
-    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
-    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+    favicon: &#34;&lt;link / abs url&gt;&#34;
+    favicon16x16: &#34;&lt;link / abs url&gt;&#34;
+    favicon32x32: &#34;&lt;link / abs url&gt;&#34;
+    apple_touch_icon: &#34;&lt;link / abs url&gt;&#34;
+    safari_pinned_tab: &#34;&lt;link / abs url&gt;&#34;
 
   label:
-    text: &quot;its demo blog&quot;
+    text: &#34;its demo blog&#34;
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -167,8 +167,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: &quot;This is subtitle&quot;
-    imageUrl: &quot;&lt;img location&gt;&quot;
+    subtitle: &#34;This is subtitle&#34;
+    imageUrl: &#34;&lt;img location&gt;&#34;
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -180,25 +180,25 @@ params:
 
   # home-info mode 這是教學使用 Home-info 模式，預設也為這個
   homeInfoParams:
-    Title: &quot;嗨 大家 \U0001F44B&quot;
+    Title: &#34;嗨 大家 \U0001F44B&#34;
     Content: 歡迎來到我的部落格。
 
   # 可以放自己社交平台的連結
   socialIcons:
     - name: twitter
-      url: &quot;https://twitter.com/&quot;
+      url: &#34;https://twitter.com/&#34;
     - name: stackoverflow
-      url: &quot;https://stackoverflow.com&quot;
+      url: &#34;https://stackoverflow.com&#34;
     - name: github
-      url: &quot;https://github.com/&quot;
+      url: &#34;https://github.com/&#34;
 
   analytics:
     google:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     bing:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     yandex:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -207,8 +207,8 @@ params:
 
   # 別人可以建議您修改，但我會將這個功能關閉
   #editPost:
-    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-    #Text: &quot;Suggest Changes&quot; # edit text
+    #URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    #Text: &#34;Suggest Changes&#34; # edit text
     #appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -220,7 +220,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;, &#34;content&#34;]
 menu:
   main:
     - identifier: posts
@@ -265,20 +265,20 @@ menu:
 </p>
 <p>我們修改為下。</p>
 <pre tabindex="0"><code>---
-title: &quot;Hello_World!&quot;
+title: &#34;Hello_World!&#34;
 date: 2022-01-06T14:00:09Z
 draft: false
 # weight: 1
-# aliases: [&quot;/AirTag&quot;]
-tags: [&quot;第一篇文章&quot;, &quot;Hello World&quot;]
-author: &quot;Me&quot;
-# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+# aliases: [&#34;/AirTag&#34;]
+tags: [&#34;第一篇文章&#34;, &#34;Hello World&#34;]
+author: &#34;Me&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-#description: &quot;Hello World&quot;
-#canonicalURL: &quot;https://canonical.url/to/page&quot;
+#description: &#34;Hello World&#34;
+#canonicalURL: &#34;https://canonical.url/to/page&#34;
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -288,14 +288,14 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 #cover:
-#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
-#    alt: &quot;&lt;alt text&gt;&quot; # alt text
-#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    image: &#34;&lt;image path/url&gt;&#34; # image path/url
+#    alt: &#34;&lt;alt text&gt;&#34; # alt text
+#    caption: &#34;&lt;text&gt;&#34; # display caption under cover
 #    relative: true # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 #editPost:
-#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-#    Text: &quot;Suggest Changes&quot; # edit text
+#    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+#    Text: &#34;Suggest Changes&#34; # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
 # Hello World!!!
@@ -316,7 +316,7 @@ ShowPostNavLinks: true
 <pre tabindex="0"><code># 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init its demo blog&quot;
+git commit -m &#34;init its demo blog&#34;
 # 新增main分支
 git branch -M main
 # 新增遠端版本庫
@@ -327,11 +327,11 @@ git push -u origin main
 # 新增gh-pages孤兒分支
 git checkout --orphan gh-pages
 # 新增一個README.md檔
-echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+echo &#34;gh-pages&#34; &gt; &#34;README.md&#34;
 # 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init gh-pages branch&quot;
+git commit -m &#34;init gh-pages branch&#34;
 # 將分支內容上傳到remote
 git push -u origin gh-pages
 # 切換到main分支
@@ -363,9 +363,9 @@ git checkout main
 on:
   push:
     paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
+      - &#39;images/**&#39;
+      - &#39;LICENSE&#39;
+      - &#39;README.md&#39;
     branches:
       - main
   workflow_dispatch:
@@ -389,7 +389,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: &#39;latest&#39;
 
       - name: Build
         run: hugo --buildDrafts --gc --verbose --minify
