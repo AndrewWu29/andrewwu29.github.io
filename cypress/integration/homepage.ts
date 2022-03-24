@@ -1,4 +1,4 @@
-import {BlogHomePage} from "./blog_pages/blog_homepages"
+import {BlogHomePage} from "../blog_pages/blog_homepages"
 
 const homePage = new BlogHomePage()
 

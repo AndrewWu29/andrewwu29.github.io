@@ -1,5 +1,5 @@
 import { htmlPrefilter } from "cypress/types/jquery"
-import { BlogPostsPage } from "./blog_pages/blog_posts"
+import { BlogPostsPage } from "../blog_pages/blog_posts"
 
 const postsPage = new BlogPostsPage()
 
