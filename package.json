@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "rimraf -r ./cypress/reports/*.json",
-    "test": "npm run cypress:cli || npm run posttest",
+    "start": "hugo && npm run hugo:watch",
+    "hugo:watch": "hugo server --config config.yml --bind=0.0.0.0",
+    "test": "start-server-and-test http://localhost:1313 cypress:cli",
     "cypress:cli": "cypress run",
     "posttest": "npm run merge-reports && npm run generate-htmlreport",
     "merge-reports": "mochawesome-merge ./cypress/reports/*.json > ./report1.json",
