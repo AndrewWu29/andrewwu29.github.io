@@ -18,19 +18,20 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x, 13x]
+    runs-on: ubuntu-18.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Action Hugo
-        # You may pin to the exact commit or the version.
-        # uses: kevvurs/action-hugo@23ea7d07ea54e66257252f150e06622c47bc24ed
-        uses: kevvurs/action-hugo@v1.0-rc2
+      - name: npm install
+        run: npm install
+      - name: Get Hugo
+        run: wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.47.1/hugo_0.47.1_Linux-64bit.deb
+      - name: Install Hugo
+        run: sudo dpkg -i /tmp/hugo.deb
+      - name: Link Hugo
+        run: sudo ln /usr/local/bin/hugo /usr/local/bin/hugo-0.47.1
       - name: Cypress.io
         uses: cypress-io/github-action@v2.9.7
         with:
