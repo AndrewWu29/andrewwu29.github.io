@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Disqus on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/zh-tw/tags/disqus/</link>
+    <link>https://andrewu.page/zh-tw/tags/disqus/</link>
     <description>Recent content in Disqus on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/zh-tw/tags/disqus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何整合Disqus到您的Hugo網站?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
 &amp;lt;div id=&amp;#34;disqus_thread&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&amp;#39;s canonical URL variable this.</description>

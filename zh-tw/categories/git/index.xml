@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/zh-tw/categories/git/</link>
+    <link>https://andrewu.page/zh-tw/categories/git/</link>
     <description>Recent content in Git on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/zh-tw/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git基本指令</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
       <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;#34;Andrew_Wu&amp;#34; git config --global user.email &amp;#34;user@gmail.com&amp;#34; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;#34;提交訊息&amp;#34; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
       <content:encoded><![CDATA[<h2 id="確認git是否安裝成功">確認Git是否安裝成功</h2>
 <pre tabindex="0"><code>git --version
@@ -80,10 +80,10 @@ git bisect #透過二分搜尋來搜尋歷史紀錄
     
     <item>
       <title>如何使用Hugo建立自己的部落格?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
       <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
 如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
 事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。

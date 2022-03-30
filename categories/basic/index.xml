@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Basic on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/categories/basic/</link>
+    <link>https://andrewu.page/categories/basic/</link>
     <description>Recent content in Basic on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/categories/basic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jan 2022 15:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/basic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Basic Commands</title>
-      <link>https://andrewwu29.github.io/2022/01/git-basic-commands/</link>
+      <link>https://andrewu.page/2022/01/git-basic-commands/</link>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/01/git-basic-commands/</guid>
+      <guid>https://andrewu.page/2022/01/git-basic-commands/</guid>
       <description>Checks your Git version git --version Settings your Git user name &amp;amp; email git config --global user.name &amp;#34;Andrew_Wu&amp;#34; git config --global user.email &amp;#34;user@gmail.com&amp;#34; Checks your configurations git config --list Get Help git help &amp;lt;command&amp;gt; #get help for a git command Creates a new git repo git init # create a new git repo, with data stored in the `.git` directory Shows current repo status git status #tells you what&amp;#39;s going on Adds files to stage git add &amp;lt;filename&amp;gt; #adds seleted filename to stagin area git add .</description>
       <content:encoded><![CDATA[<h2 id="checks-your-git-version">Checks your Git version</h2>
 <pre tabindex="0"><code>git --version

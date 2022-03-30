@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Comment on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/tags/comment/</link>
+    <link>https://andrewu.page/tags/comment/</link>
     <description>Recent content in Comment on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/tags/comment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Feb 2022 16:44:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/comment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to integrate Disqus into your Hugo site?</title>
-      <link>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
+      <link>https://andrewu.page/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
+      <guid>https://andrewu.page/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
       <description>What is Disqus? The internet&amp;rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
 Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
       <content:encoded><![CDATA[<h2 id="what-is-disqus">What is Disqus?</h2>

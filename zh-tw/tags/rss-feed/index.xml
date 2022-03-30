@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RSS feed on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/zh-tw/tags/rss-feed/</link>
+    <link>https://andrewu.page/zh-tw/tags/rss-feed/</link>
     <description>Recent content in RSS feed on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/tags/rss-feed/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/zh-tw/tags/rss-feed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何添加RSS feed到您的Hugo PaperMod主題?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
       <description>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
 什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
 所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。

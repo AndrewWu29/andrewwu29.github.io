@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>RSS on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/categories/rss/</link>
+    <link>https://andrewu.page/categories/rss/</link>
     <description>Recent content in RSS on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/categories/rss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/rss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add an RSS feed to your Hugo PaperMod theme?</title>
-      <link>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
+      <link>https://andrewu.page/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
+      <guid>https://andrewu.page/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
       <description>Hugo is a popular static site generator, and PaperMod comes with a default RSS 2.0 template.
 What is an RSS feed? RSS stands for Really Simple Syndication, and it’s is a simple, standardized content distribution method that can help you stay up-to-date with your favorite newscasts, blogs, websites, and social media channels.
 Means supported an RSS feed function on your blog, can keep those who follow you up-to-date with your newest posts.</description>

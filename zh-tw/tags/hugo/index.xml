@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/zh-tw/tags/hugo/</link>
+    <link>https://andrewu.page/zh-tw/tags/hugo/</link>
     <description>Recent content in Hugo on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/zh-tw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何添加RSS feed到您的Hugo PaperMod主題?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
       <description>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
 什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
 所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
@@ -50,10 +50,10 @@ outputs:
     
     <item>
       <title>如何整合Disqus到您的Hugo網站?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
 &amp;lt;div id=&amp;#34;disqus_thread&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&amp;#39;s canonical URL variable this.</description>
@@ -107,10 +107,10 @@ outputs:
     
     <item>
       <title>如何添加Google Analytics到Hugo?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
       <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
 如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到google analytics網站 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
 步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
@@ -137,10 +137,10 @@ Internal Templates | Hugo</description>
     
     <item>
       <title>如何使用Hugo建立自己的部落格?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
       <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
 如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
 事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/tags/hugo/</link>
+    <link>https://andrewu.page/tags/hugo/</link>
     <description>Recent content in Hugo on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 12:52:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to add an RSS feed to your Hugo PaperMod theme?</title>
-      <link>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
+      <link>https://andrewu.page/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
+      <guid>https://andrewu.page/2022/02/how-to-add-an-rss-feed-to-your-hugo-papermod-theme/</guid>
       <description>Hugo is a popular static site generator, and PaperMod comes with a default RSS 2.0 template.
 What is an RSS feed? RSS stands for Really Simple Syndication, and it’s is a simple, standardized content distribution method that can help you stay up-to-date with your favorite newscasts, blogs, websites, and social media channels.
 Means supported an RSS feed function on your blog, can keep those who follow you up-to-date with your newest posts.</description>
@@ -48,10 +48,10 @@ outputs:
     
     <item>
       <title>How to integrate Disqus into your Hugo site?</title>
-      <link>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
+      <link>https://andrewu.page/2022/02/how-to-integrate-disqus-into-your-hugo-site/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
+      <guid>https://andrewu.page/2022/02/how-to-integrate-disqus-into-your-hugo-site/</guid>
       <description>What is Disqus? The internet&amp;rsquo;s favorite comment plug-in makes it easy for publishers to bring their content to life, fuel colorful discussions, efficiently moderate comments, and build engaged communities.
 Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus Step 2: Install Disqus Step 3: Chose &amp;ldquo;I want to install Disqus on my site.&amp;rdquo; Step 4: Fill in the Form details for your Hugo site Step 5: Copy the discussion templates, and create a disqus.</description>
       <content:encoded><![CDATA[<h2 id="what-is-disqus">What is Disqus?</h2>
@@ -104,10 +104,10 @@ Step by step to integrate Disqus into your Hugo Site Step 1: Sign up for Disqus 
     
     <item>
       <title>How to add Google Analytics to Hugo?</title>
-      <link>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</link>
+      <link>https://andrewu.page/2022/02/how-to-add-google-analytics-to-hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/02/how-to-add-google-analytics-to-hugo/</guid>
+      <guid>https://andrewu.page/2022/02/how-to-add-google-analytics-to-hugo/</guid>
       <description>What is Google Analytics? Google Analytics is a web analytics service that provides statistics and basic analytical tools for search engine optimization (SEO) and marketing purposes. The service is part of the Google Marketing Platform and is available for free to anyone with a Google account.
 How to add google analytics to Hugo site? Step 1: Create a google account Step 2: Go to google analytics site Step 3: Set up your site details in google analytics Step 4: Get your site google analytics ID Step 5: Set up your Hugo config.</description>
       <content:encoded><![CDATA[<h2 id="what-is-google-analytics">What is Google Analytics?</h2>
@@ -130,10 +130,10 @@ How to add google analytics to Hugo site? Step 1: Create a google account Step 2
     
     <item>
       <title>How to use Hugo to create your Blog?</title>
-      <link>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</link>
+      <link>https://andrewu.page/2022/01/how-to-use-hugo-to-create-your-blog/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
+      <guid>https://andrewu.page/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
       <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
       <content:encoded><![CDATA[<h1 id="step-by-step-teach-you-to-create-a-static-blog-and-deploy-it-to-github">Step by step, teach you to create a static Blog, and deploy it to GitHub!</h1>
 <h2 id="preface">Preface</h2>
