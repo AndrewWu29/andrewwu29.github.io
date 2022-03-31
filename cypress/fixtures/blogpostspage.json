@@ -7,6 +7,8 @@
   "postsPagesList_zhtw": ["歸檔", "分類", "標籤", "搜尋", "關於我"],
   "archivesPagesList_en": ["Posts", "Categories", "Tags", "Search", "About"],
   "archivesPagesList_zhtw": ["文章", "分類", "標籤", "搜尋", "關於我"],
+  "categoriesPagesList_en": ["Posts", "Archives", "Tags", "Search", "About"],
+  "categoriesPagesList_zhtw": ["文章", "歸檔", "標籤", "搜尋", "關於我"],
   "Posts": "#menu > :nth-child(1) > a",
   "Archives": "#menu > :nth-child(2) > a",
   "Categories": "#menu > :nth-child(3) > a",
