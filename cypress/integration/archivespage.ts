@@ -122,7 +122,7 @@ describe('ArchivesPage Suite', () => {
     })
     it('Check span attributes in zh-tw', function (){
         postsPage.navigate('/zh-tw/archives')
-        cy.get('#top > main > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) > div > span')
+        cy.get('#top > main > div:nth-child(2) > div:nth-child(2) > div > div > div > span')
             .invoke('attr', 'title')
             .should('match', /^((19|20)?[0-9]{2}[-](0?[1-9]|1[012])[-](0?[1-9]|[12][0-9]|3[01])[ ](0[012]|0[1-9]|1[0-9]|2[0-4])[:]([0-6][0-9])[:]([0-6][0-9])[ ][+]0{4}[ ]UTC)/)
     })
