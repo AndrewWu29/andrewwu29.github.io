@@ -2,20 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文章 on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/zh-tw/posts/</link>
+    <link>https://andrewu.page/zh-tw/posts/</link>
     <description>Recent content in 文章 on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Feb 2022 13:34:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/zh-tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Mar 2022 09:09:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/zh-tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的工作環境配置</title>
+      <link>https://andrewu.page/zh-tw/2022/03/%E6%88%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 29 Mar 2022 09:09:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/zh-tw/2022/03/%E6%88%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE/</guid>
+      <description>前言 因看到皮樂大大，有分享他的工作環境配置，想說也來紀錄一下我自己的工作環境配置，然後因為要來英國所以很多東西，是來英國後才配置的，我會加減貼上我在英美亞馬遜購買的連結。
+這篇主要是以記錄為主，不會詳細介紹所有東西，還有我用的產品也不是主流上最新最好的，主要是以我自己用得到為主。
+另外我個人採買的風格，主要是以我的需求去購入的，也盡量不盲目的去追求最好、最新的產品，畢竟也盲目過，現在更清楚知道科技窮（我自創的），有點相識精緻窮。
+來張圖片紀錄一下，我在英國的配置，也感謝我男友，給我一個空間，讓我放我的工作環境，希望我可以順利，在英找到工作，然後可以繼續擴充我的工作環境。（朝向全蘋果全家桶的目標前進）
+桌面一眼望去，看起來好像沒有什麼線，但其實都是藏在桌面底下去了，另外鍵盤希望之後可以買HHKB的鍵盤。
+來看我的項目有哪些吧！
+   項目 產品名稱 購買日期 個人評分     筆記型電腦 Razer Blade Stealth 2018 13吋
+i7/16GB/1TB 2018/08 ★★   當初一直在猶豫要一台輕薄筆電，結果沒有買MacBook Pro買了這台，結果後來我掛遊戲一整晚，隔天起來，發現上蓋跟螢幕分離，結果在保固內送修時，還被要求付全額，我抗議後只跟我不收材料費，但還是跟我收了維修費一萬多塊，以後不買雷蛇了啦！
+結果加加總總跟我想買的MacBook Pro一樣價錢了。    手機 iPhone SE 第二代 128G 2020/07 ★★★   當初有小跳巢到Google Pixel 3一陣子，結果後來跟寵物同居後，她打賴給我時，一直有顯示問題，也不好接起來，但寵物又很心急直接掛掉，重打，然後再靠北我不接他電話，再來是因為我要用手機錄一些影片結果一直有過熱問題，後來我換一台整新機後，我就買了，這隻SE，整體使用下來，滿符合我的需求，偶爾打打遊戲，主要功用就是查地圖跟資料和接聽電話，剩下就是通勤看片了，至於拍照我就沒有特別講究了，反正我也不是魍魅。   平板 iPad Pro 11吋 第二代(不是M1) 2020/05 ★★★★   買前滿口，生產力，買後就變成網飛專用？ 一開始有順便買原廠的殼，結果有天手殘沒有拿好，敲到一個角，還好螢幕沒破，後來馬上買了UAG的殼來保護，結果要去換整新機，蘋果的天才吧的員工，還說功能都正常，快過期，再來修啦！不過後來因為要來英國，還是修一修，讓我心裡舒服。   螢幕 Samsung U32J590UQR 2021/11 ★★   因為筆電螢幕太小了，不易開啟多視窗辦公做事，然後在英國亞馬遜看到有特價，又沒有很貴，想說就買來用用看，這台支援4k 60Hz的螢幕，結果才用了三個多月，整合的電源開關就死掉了，只能調整模式跟音量，還有靜音，我再也無法進入到控制頁面，花了兩天左右的時間跟三星客服溝通後，才用好送修申請，好加在不是過保才壞，整體維修速度快又是DPD收送服務，還是給個讚。</description>
+      <content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>因看到皮樂大大，有分享他的工作環境配置，想說也來紀錄一下我自己的工作環境配置，然後因為要來英國所以很多東西，是來英國後才配置的，我會加減貼上我在英美亞馬遜購買的連結。</p>
+<p>這篇主要是以記錄為主，不會詳細介紹所有東西，還有我用的產品也不是主流上最新最好的，主要是以我自己用得到為主。</p>
+<p>另外我個人採買的風格，主要是以我的需求去購入的，也盡量不盲目的去追求最好、最新的產品，畢竟也盲目過，現在更清楚知道科技窮（我自創的），有點相識精緻窮。</p>
+<p>來張圖片紀錄一下，我在英國的配置，也感謝我男友，給我一個空間，讓我放我的工作環境，希望我可以順利，在英找到工作，然後可以繼續擴充我的工作環境。（朝向全蘋果全家桶的目標前進）</p>
+<p><img loading="lazy" src="https://i.imgur.com/2mhY9dI.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/va6IOSu.jpg" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/V528JYO.jpg?1" alt="Imgur"  />
+
+桌面一眼望去，看起來好像沒有什麼線，但其實都是藏在桌面底下去了，另外鍵盤希望之後可以買HHKB的鍵盤。</p>
+<p>來看我的項目有哪些吧！</p>
+
+
+<div style="overflow-x: auto;">
+    <table>
+        <thead>
+            <tr>
+                <th style="min-width: 75px;">項目</th>
+                <th>產品名稱</th>
+                <th>購買日期</th>
+                <th>個人評分</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">筆記型電腦</td>
+                <td>Razer Blade Stealth 2018 13吋<br>
+                i7/16GB/1TB</td>
+                <td>2018/08</td>
+                <td>★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">當初一直在猶豫要一台輕薄筆電，結果沒有買MacBook Pro買了這台，結果後來我掛遊戲一整晚，隔天起來，發現上蓋跟螢幕分離，結果在保固內送修時，還被要求付全額，我抗議後只跟我不收材料費，但還是跟我收了維修費一萬多塊，以後不買雷蛇了啦！<br>結果加加總總跟我想買的MacBook Pro一樣價錢了。
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">手機</td>
+                <td>iPhone SE 第二代 128G</td>
+                <td>2020/07</td>
+                <td>★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">當初有小跳巢到Google Pixel 3一陣子，結果後來跟寵物同居後，她打賴給我時，一直有顯示問題，也不好接起來，但寵物又很心急直接掛掉，重打，然後再靠北我不接他電話，再來是因為我要用手機錄一些影片結果一直有過熱問題，後來我換一台整新機後，我就買了，這隻SE，整體使用下來，滿符合我的需求，偶爾打打遊戲，主要功用就是查地圖跟資料和接聽電話，剩下就是通勤看片了，至於拍照我就沒有特別講究了，反正我也不是魍魅。</td>
+                </tr>
+            <tr>
+                <td rowspan="2">平板</td>
+                <td>iPad Pro 11吋 第二代(不是M1)</td>
+                <td>2020/05</td>
+                <td>★★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">買前滿口，生產力，買後就變成網飛專用？ 一開始有順便買原廠的殼，結果有天手殘沒有拿好，敲到一個角，還好螢幕沒破，後來馬上買了UAG的殼來保護，結果要去換整新機，蘋果的天才吧的員工，還說功能都正常，快過期，再來修啦！不過後來因為要來英國，還是修一修，讓我心裡舒服。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">螢幕</td>
+                <td>Samsung U32J590UQR</td>
+                <td>2021/11</td>
+                <td>★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">因為筆電螢幕太小了，不易開啟多視窗辦公做事，然後在英國亞馬遜看到有特價，又沒有很貴，想說就買來用用看，這台支援4k 60Hz的螢幕，結果才用了三個多月，整合的電源開關就死掉了，只能調整模式跟音量，還有靜音，我再也無法進入到控制頁面，花了兩天左右的時間跟三星客服溝通後，才用好送修申請，好加在不是過保才壞，整體維修速度快又是DPD收送服務，還是給個讚。<br>但預算夠的話，應該不會選這台了。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">螢幕臂</td>
+                <td>Invision Monitor Arm Bracket for 22”-35”</td>
+                <td>2022/01</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">用了螢幕臂後，我可以在我螢幕的正下方放我的Thunderbolt 3 Hub，也可以放JCB的iPod喇叭，瞬間省下滿多空間的，我的鍵盤也可以往前移到較符合人體工學的地方了，手臂也不在懸空，變成更加輕鬆的敲打我的鍵盤了。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">椅子</td>
+                <td>COMHOMA Office Desk Chair with Armrest</td>
+                <td>2021/11</td>
+                <td>★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">網布椅、價錢便宜～又有手臂可以靠的地方，所以沒什麼好說的。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">桌子</td>
+                <td>VASAGLE Computer Desk</td>
+                <td>2021/11</td>
+                <td>★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">桌板120x60cm剛好符合我的空間，加上我能坐，就不站的個性，很夠我用了。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">滑鼠</td>
+                <td>Logitech G604</td>
+                <td>2019</td>
+                <td>★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">滾輪不像我之前的Logitech MX Master用那種環保橡膠，用久了就爛爛黏黏的，然後只能上網買備品自己來修，然後按鍵數也夠我設定一些巨集，但最近我滾輪的左鍵有點要按到點，才會執行我設定的巨集，讓我真的是牙癢癢的，想買一個新的，如果有推薦的滑鼠可以跟我說。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">鍵盤</td>
+                <td>Leopold FC750R Grey/Blue靜音紅</td>
+                <td>2019</td>
+                <td>★★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">我用Monitormate的ProBase HD跟我同事換的，整體打起來比我之前的鍵盤好太多了，也不怕被我打換，我打字到底有多暴力。</td>
+            </tr>
+                <td rowspan="2">螢幕燈</td>
+                <td>BenQ ScreenBar Plus</td>
+                <td>2021/12</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">無意間跟男友提到，我想要這個當聖誕禮物，結果聖誕節，他就買這個送我，讓我超級開心的，螢幕燈的好只有用過才知道，愛你寶貝。</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Dock</td>
+                <td>OWC Thunderbolt 3 Dock</td>
+                <td>2018/08</td>
+                <td>★★★</td>
+            </tr>
+            <tr>
+                <td colspan="4">提供最高85W的供電，剛剛好可以充我的雷蛇筆電，可以一條線就連接我所有的設備，真是方便，還有提供1GbE的網孔，讓你要連接網路設備，做些設定也行。</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 id="參考資料">參考資料</h2>
+<p><a href="https://hiraku.tw/2022/03/6732/">皮樂的工作環境配置</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>【英國 火車】 LNER頭等艙、LNER貴賓室，倫敦到約克，經驗分享</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%81%AB%E8%BB%8A-lner%E9%A0%AD%E7%AD%89%E8%89%99lner%E8%B2%B4%E8%B3%93%E5%AE%A4%E5%80%AB%E6%95%A6%E5%88%B0%E7%B4%84%E5%85%8B%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%81%AB%E8%BB%8A-lner%E9%A0%AD%E7%AD%89%E8%89%99lner%E8%B2%B4%E8%B3%93%E5%AE%A4%E5%80%AB%E6%95%A6%E5%88%B0%E7%B4%84%E5%85%8B%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB/</link>
       <pubDate>Thu, 17 Feb 2022 13:34:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%81%AB%E8%BB%8A-lner%E9%A0%AD%E7%AD%89%E8%89%99lner%E8%B2%B4%E8%B3%93%E5%AE%A4%E5%80%AB%E6%95%A6%E5%88%B0%E7%B4%84%E5%85%8B%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%81%AB%E8%BB%8A-lner%E9%A0%AD%E7%AD%89%E8%89%99lner%E8%B2%B4%E8%B3%93%E5%AE%A4%E5%80%AB%E6%95%A6%E5%88%B0%E7%B4%84%E5%85%8B%E7%B6%93%E9%A9%97%E5%88%86%E4%BA%AB/</guid>
       <description>LNER倫敦東北鐵路公司 倫敦東北鐵路有限公司，以倫敦東北鐵路 (LNER)為品牌，將從2018年6月24日起擁有從國王十字站沿東海岸主線至蘇格蘭的東海岸城際專營。
 這次因為本人生日加上Mr. P想要去約克看大英鐵道博物館、約克大教堂，就幫我規劃了倫敦到約克的三十歲慶生之旅(心裡萬分感激，我都要哭了)，加上P先生習慣舒適的旅行，所以被寵幸搭乘人生第一次LNER的頭等艙。
 這篇我來分享我搭乘英國國鐵LNER頭等艙跟使用LNER貴賓室的經驗談。
@@ -29,7 +179,7 @@ LNER頭等艙 一上車就可以看到酒紅配色的絨布大座椅跟大桌子
 另外那個海鹽巧克力卡士達，真的是甜鹹交織，香濃苦甜，讓我一口接一口地吃，一下子，就解決了一個，差點想把Mr. P的都拿來吃了。
 至於廁所的空間，還蠻舒適的，只是水龍頭離洗手盆，有點距離，水還蠻容易濺出來的，廁所旁的有另外一個空間可供置放大型行李。
 心得 整體體驗下來，座位舒適寬敞，服務品質不錯，至於食物也有一定的水準，如果有多餘的預算，個人建議是可以體驗看看LNER的頭等艙
-交通資訊 倫敦國王十字站LNER貴賓室地址：Waitrose旁設施：廁所、Wi-Fi、插座供充電飲食：提供冷熱飲及輕食營業時間：週一 - 週五 07:00–21:25；週六08:00–20:15；週日 09:00-20:15約克站LNER貴賓室地址：第三月台設施：廁所、Wi-Fi、插座供充電飲食：提供冷熱飲及輕食營業時間：週一 - 週六 06:00 – 20:00；週日 08:00 - 19:00 參考資料 倫敦東北鐵路公司
+交通資訊 倫敦國王十字站LNER貴賓室 地址：Waitrose旁 設施：廁所、Wi-Fi、插座供充電 飲食：提供冷熱飲及輕食 營業時間：週一 - 週五 07:00–21:25；週六08:00–20:15；週日 09:00-20:15 約克站LNER貴賓室 地址：第三月台 設施：廁所、Wi-Fi、插座供充電 飲食：提供冷熱飲及輕食 營業時間：週一 - 週六 06:00 – 20:00；週日 08:00 - 19:00  參考資料 倫敦東北鐵路公司
 LNER LONDON NORTH EASTERN RAILWAY
 LNER FIRST CLASS MENUS</description>
       <content:encoded><![CDATA[<h2 id="lner倫敦東北鐵路公司">LNER倫敦東北鐵路公司</h2>
@@ -97,10 +247,10 @@ LNER FIRST CLASS MENUS</description>
     
     <item>
       <title>【英國 倫敦】 國王十字車站|哈利波特9又4分之3月台</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E5%80%AB%E6%95%A6-%E5%9C%8B%E7%8E%8B%E5%8D%81%E5%AD%97%E8%BB%8A%E7%AB%99%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B99%E5%8F%884%E5%88%86%E4%B9%8B3%E6%9C%88%E5%8F%B0/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E5%80%AB%E6%95%A6-%E5%9C%8B%E7%8E%8B%E5%8D%81%E5%AD%97%E8%BB%8A%E7%AB%99%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B99%E5%8F%884%E5%88%86%E4%B9%8B3%E6%9C%88%E5%8F%B0/</link>
       <pubDate>Thu, 17 Feb 2022 11:04:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E5%80%AB%E6%95%A6-%E5%9C%8B%E7%8E%8B%E5%8D%81%E5%AD%97%E8%BB%8A%E7%AB%99%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B99%E5%8F%884%E5%88%86%E4%B9%8B3%E6%9C%88%E5%8F%B0/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E5%80%AB%E6%95%A6-%E5%9C%8B%E7%8E%8B%E5%8D%81%E5%AD%97%E8%BB%8A%E7%AB%99%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B99%E5%8F%884%E5%88%86%E4%B9%8B3%E6%9C%88%E5%8F%B0/</guid>
       <description>英國倫敦國王十字車站(King&amp;rsquo;s Cross Station) 是一個1852年啟用的大型鐵路終點站，位於倫敦市中心的國王十字地區，可從這裡通往很多大城市，例如劍橋、彼得伯勒、赫爾河畔京斯頓、唐卡斯特、里茲、約克、紐塞、愛丁堡、格拉斯哥、鄧迪、亞伯丁和印威內斯，重要的交通樞紐。
 國王十字車站是英國鐵路幹線東海岸主線的南端終點站。它的西側緊靠著聖潘克拉斯火車站（St. Pancras Railway Station）。車站於19世紀維多利亞時期落成，成為倫敦工業重要的運輸樞紐。
 然而，歷經二次世界大戰，深受工業衰退的影響，周遭區域景色曾經一度衰頹。
@@ -110,12 +260,12 @@ LNER FIRST CLASS MENUS</description>
 周邊 在車站的西邊，鄰接著聖潘克拉斯站、大英圖書館和尤斯頓站。這些建築之間僅僅是幾分鐘的步行距離。
 哈利波特的九又四分之三月台 哈利波特電影中的火車站和九又四分之三月台，就是在國王十字車站取景。
 緊鄰通往九又四分之三月台的推車拍攝處，是哈利波特九又四分之三月台商店，在商店營業時間內，會有工作人員在外引導跟協助拍照，並提供魔仗供遊客使用，拍攝完畢，店員會引導您從旁邊的門進入商店，選擇是否購買照片，或是單純在商店逛街。
-哈利波特九又四分之三月台商店地址：London, N1 9AP. 國王十字車站大廳內，鄰近LNER貴賓室。電話：+44 20783 31137營業時間：週一-週六 08:00–20:00；週日 09:00-20:00 聖潘克拉斯站 聖潘克拉斯站（英語：St Pancras railway station），亦稱聖潘克拉斯國際車站（英語：St Pancras International），是位於英國首都倫敦聖潘克拉斯地區的一座大型鐵路車站，坐落在大英圖書館和國王十字車站之間。它最初於1868年由密德蘭鐵路公司啟用。當時它是該公司密德蘭幹線西南部的終點站，來自東密德蘭茲和約克郡的列車在此停靠。
+哈利波特九又四分之三月台商店 地址：London, N1 9AP. 國王十字車站大廳內，鄰近LNER貴賓室。 電話：+44 20783 31137 營業時間：週一-週六 08:00–20:00；週日 09:00-20:00  聖潘克拉斯站 聖潘克拉斯站（英語：St Pancras railway station），亦稱聖潘克拉斯國際車站（英語：St Pancras International），是位於英國首都倫敦聖潘克拉斯地區的一座大型鐵路車站，坐落在大英圖書館和國王十字車站之間。它最初於1868年由密德蘭鐵路公司啟用。當時它是該公司密德蘭幹線西南部的終點站，來自東密德蘭茲和約克郡的列車在此停靠。
 這座車站以建築結構聞名。在2000年代，這座車站修繕和擴建，並更名為「聖潘克拉斯國際車站」。作為歐洲之星在英國的終點站，車站新建了一個供歐洲之星列車停靠的安全密封區域。列車自聖潘克拉斯站出發，經英國南部的1號高速鐵路，穿過英倫海峽隧道，即到達歐洲大陸。為這座車站和鄰近的國王十字車站提供都市軌道運輸服務的是倫敦地鐵的國王十字聖潘克拉斯站。
 聖潘克拉斯站常被稱作「鐵路大教堂」，因為它擁有兩座維多利亞時代的著名建築。這座車站的主車庫是在1868年由工程師威廉·亨利·巴羅建造的，是當時最大的單跨建築。車站的正面是倫敦聖潘克拉斯萬麗酒店，是一座典型的維多利亞式、哥特復興式建築。
-聖潘克拉斯站地址：Euston Rd, London N1C 4QP.電話：+44 20784 37688 大英圖書館 大英圖書館（英語：British Library）是英國的國家圖書館，也是世界上最大的學術圖書館之一，擁有超過1.7億件館藏。作為英國的法定送存機構，大英圖書館會收藏在英國及愛爾蘭地區出版的所有文學作品，任何在英國發行書籍的出版商均須提供一件副本給大英圖書館。
+聖潘克拉斯站 地址：Euston Rd, London N1C 4QP. 電話：+44 20784 37688  大英圖書館 大英圖書館（英語：British Library）是英國的國家圖書館，也是世界上最大的學術圖書館之一，擁有超過1.7億件館藏。作為英國的法定送存機構，大英圖書館會收藏在英國及愛爾蘭地區出版的所有文學作品，任何在英國發行書籍的出版商均須提供一件副本給大英圖書館。
 大英圖書館中的館藏涵蓋400多種語言，包括各類書籍、手稿、期刊、報紙、雜誌、劇本、專利、資料庫、地圖、郵票、圖畫、錄影和錄音等印刷品和數位內容，其中有約1,400萬本藏書，以及可追溯至西元前2000年的大量手稿和歷史文獻，圖書館除收藏自英、愛兩地送存的出版物（約每日8,000件）外，亦設有館藏獲取計畫，每年增加約300萬件作品，每年需新增約9.6公里的書架放置，而圖書館內約可容納1,200名讀者。
-大英圖書館地址：96 Euston Rd, London NW1 2DB.電話：+44 33033 31144營業時間：週一-週四 09:30–20:00；週五 09:30–18:00；週六09:30–17:00；週日 11:00-17:00 交通資訊 國王十字車站地址：Euston Rd, London N1 9AL.</description>
+大英圖書館 地址：96 Euston Rd, London NW1 2DB. 電話：+44 33033 31144 營業時間：週一-週四 09:30–20:00；週五 09:30–18:00；週六09:30–17:00；週日 11:00-17:00  交通資訊 國王十字車站 地址：Euston Rd, London N1 9AL.</description>
       <content:encoded><![CDATA[<h2 id="英國倫敦國王十字車站kings-cross-station">英國倫敦國王十字車站(King&rsquo;s Cross Station)</h2>
 <p><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/King%27s_Cross_station%2C_August_2014.jpg/1024px-King%27s_Cross_station%2C_August_2014.jpg" alt="國王十字車站/King&amp;rsquo;s Cross railway station"  title="圖/George Rex"  />
 </p>
@@ -171,26 +321,26 @@ LNER FIRST CLASS MENUS</description>
     
     <item>
       <title>Markdown 筆記 基本語法使用</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</link>
       <pubDate>Tue, 15 Feb 2022 17:22:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/markdown-%E7%AD%86%E8%A8%98-%E5%9F%BA%E6%9C%AC%E8%AA%9E%E6%B3%95%E4%BD%BF%E7%94%A8/</guid>
       <description>什麼是Markdown? Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。
 由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。
 所以只要熟悉相關語法，Markdown可以讓您輕鬆快速地撰寫筆記、文章、說明文件等。
-基本語法 標題 # 標題一## 標題二### 標題三#### 標題四##### 標題五###### 標題六 效果
-標題一 標題二 標題三 標題四 標題五 標題六 強調 粗體 **粗體前後各兩個星號**__粗體前後各兩個底線__ 效果
+基本語法 標題 # 標題一 ## 標題二 ### 標題三 #### 標題四 ##### 標題五 ###### 標題六  效果
+標題一 標題二 標題三 標題四 標題五 標題六 強調 粗體 **粗體前後各兩個星號** __粗體前後各兩個底線__  效果
 粗體前後各兩個星號
 粗體前後各兩個底線
-斜體 *斜體前後各一個星號*_斜體前後各一個星號_ 效果
+斜體 *斜體前後各一個星號* _斜體前後各一個星號_  效果
 斜體前後各一個星號
 斜體前後各一個星號
-粗斜體 ***粗體前後各三個星號***___粗體前後各三個底線___ 效果
+粗斜體 ***粗體前後各三個星號*** ___粗體前後各三個底線___  效果
 粗體前後各三個星號
 粗體前後各三個底線
 文字段落 一個段落是由一個以上相連接的行句組成，而一個以上的空行則會切分出不同的段落。
-第一段第二段 清單 Markdown支援有序清單和無序清單。無序清單使用 * 、 + 或 - 作為清單標記，有序清單使用數字接著一個英文句點做為清單標記。
-無序清單 * 紅* 橙* 黃+ 紅+ 橙+ 黃- 紅- 橙- 黃 效果</description>
+第一段 第二段  清單 Markdown支援有序清單和無序清單。無序清單使用 * 、 + 或 - 作為清單標記，有序清單使用數字接著一個英文句點做為清單標記。
+無序清單 * 紅 * 橙 * 黃 + 紅 + 橙 + 黃 - 紅 - 橙 - 黃  效果</description>
       <content:encoded><![CDATA[<h2 id="什麼是markdown">什麼是Markdown?</h2>
 <p>Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。</p>
 <p>由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。</p>
@@ -340,7 +490,7 @@ ___
 <li>一個中括號，放置連結文字</li>
 <li>一個小括號，放置連結路徑或網址，一樣可使用雙引號來添加 prompt 文字</li>
 </ol>
-<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &quot;My GitHub&quot;)
+<pre tabindex="0"><code>[GitHub](https://andrewwu29.github.io &#34;My GitHub&#34;)
 </code></pre><p><strong>效果</strong></p>
 <p><a href="https://andrewwu29.github.io" title="My GitHub">GitHub</a></p>
 <h3 id="圖片">圖片</h3>
@@ -538,10 +688,10 @@ id sem consectetuer libero luctus adipiscing.</p>
     
     <item>
       <title>【英國 約克】 約克大教堂 歐洲北部第二大的哥德式教堂</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%B4%84%E5%85%8B-%E7%B4%84%E5%85%8B%E5%A4%A7%E6%95%99%E5%A0%82-%E6%AD%90%E6%B4%B2%E5%8C%97%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E5%93%A5%E5%BE%B7%E5%BC%8F%E6%95%99%E5%A0%82/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%B4%84%E5%85%8B-%E7%B4%84%E5%85%8B%E5%A4%A7%E6%95%99%E5%A0%82-%E6%AD%90%E6%B4%B2%E5%8C%97%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E5%93%A5%E5%BE%B7%E5%BC%8F%E6%95%99%E5%A0%82/</link>
       <pubDate>Sat, 12 Feb 2022 16:46:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%B4%84%E5%85%8B-%E7%B4%84%E5%85%8B%E5%A4%A7%E6%95%99%E5%A0%82-%E6%AD%90%E6%B4%B2%E5%8C%97%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E5%93%A5%E5%BE%B7%E5%BC%8F%E6%95%99%E5%A0%82/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E8%8B%B1%E5%9C%8B-%E7%B4%84%E5%85%8B-%E7%B4%84%E5%85%8B%E5%A4%A7%E6%95%99%E5%A0%82-%E6%AD%90%E6%B4%B2%E5%8C%97%E9%83%A8%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E5%93%A5%E5%BE%B7%E5%BC%8F%E6%95%99%E5%A0%82/</guid>
       <description>約克大教堂 約克大教堂（英語：York Minster）位於英國北部約克市，是英格蘭教會約克教區的座堂，也是歐洲北部第二大的哥德式教堂。約克大教堂的正式名稱為「約克聖彼得座堂和大主教教堂」（The Cathedral and Metropolitical Church of St Peter in York）。
 約克大教堂表現了典型的哥德式風格：裝飾風格（1275－1380）的中殿和聖堂參事堂，詩班席和東端為垂直式造型，北翼和南翼則採用了英國早期的風格。中殿的「大西窗」於1338年建造，而在聖母堂最東端的「大東窗」（1408年完成）是全世界最大的中世紀彩繪玻璃。在教堂北面的「五姊妹窗」（Five Sisters Window），每個尖頂窗都超過16米（52英尺）高，是座堂歷史最悠久的玻璃窗，而南面是著名的玫瑰窗，有「哥德建築的眼睛」之美稱。
 大東窗 一些照片 心得 約克是一個充滿歷史風情的一個城市，可漫步在約克舊城牆上，也可拜訪英國最大的約克大教堂，享受哥德式建築的宏偉，或是到Bettys嚐嚐百年歷史的英國傳統下午茶；肉舖街體驗中世紀的街道，也有人說是哈利波特的斜角巷(Diagon Alley)的原形，為了維持中世紀的街道，所以走起來有些許疲累，建議穿著舒適的鞋子，這樣遊走起來也必較不過過於疲勞。
@@ -613,10 +763,10 @@ id sem consectetuer libero luctus adipiscing.</p>
     
     <item>
       <title>我的最少日常攜帶科技產品2022?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E6%88%91%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%A5%E5%B8%B8%E6%94%9C%E5%B8%B6%E7%A7%91%E6%8A%80%E7%94%A2%E5%93%812022/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E6%88%91%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%A5%E5%B8%B8%E6%94%9C%E5%B8%B6%E7%A7%91%E6%8A%80%E7%94%A2%E5%93%812022/</link>
       <pubDate>Mon, 07 Feb 2022 20:24:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E6%88%91%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%A5%E5%B8%B8%E6%94%9C%E5%B8%B6%E7%A7%91%E6%8A%80%E7%94%A2%E5%93%812022/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E6%88%91%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%A5%E5%B8%B8%E6%94%9C%E5%B8%B6%E7%A7%91%E6%8A%80%E7%94%A2%E5%93%812022/</guid>
       <description>智慧手機： iPhone SE 第二代 我可以說我並不喜歡太大的手機，所以對我來說iPhone SE第二代的大小，我剛好可以一手掌握，加上疫情時候，我外出通常會戴上口罩，iPhone SE是使用第二代Touch ID，讓我可以不用脫下口罩就可以使用指紋解鎖我的手機，個人還是偏好指紋解鎖。
 至於相機對我來說不是太大的問題，我也不常拍攝夜晚的照片，所以iPhone SE已經夠我拍攝日間的照片了。
 手機保護殼： 犀牛盾 Mod NX 我一直有使用手機殼的習慣，保護我手機不小心摔到地上的機會，也可以讓我的手機用的更久。 一路下來，也用了不少牌子，但是我最愛的，還是犀牛盾Mod NX，我喜歡他們家的模組化設計，你可依照你個人的喜歡變更按鍵顏色背板圖片等，也可以選擇預設的透明背板，讓別人知道你是用什麼顏色的手機。
@@ -653,15 +803,15 @@ id sem consectetuer libero luctus adipiscing.</p>
     
     <item>
       <title>如何添加RSS feed到您的Hugo PaperMod主題?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</link>
       <pubDate>Sun, 06 Feb 2022 12:52:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0rss-feed%E5%88%B0%E6%82%A8%E7%9A%84hugo-papermod%E4%B8%BB%E9%A1%8C/</guid>
       <description>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。
 什麼是RSS feed? RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。
 所以意思指，如果有支援RSS服務的話，可以讓那些追蹤者，可以更簡單的追蹤到您最新文章或資訊。
 建立RSS feed到您的Hugo PaperMod主題，只要三步驟 步驟一: 確認config.yml檔案裡的output的清單有RSS 步驟二: 新增RSS feed圖示到您的網站 步驟三: 開啟所有文章內容支持產生RSS XML檔案 所以現在config.yml檔案裡應該要有以下的代碼::
-params:ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summarysocialIcons:- name: rss # Shows an RSS feed icon on your site`url: &amp;quot;index.xml&amp;quot; # Your RSS feed url pathoutputs:home:- HTML- RSS # Supports your site output including RSS format- JSON完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</description>
+params: ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary socialIcons: - name: rss # Shows an RSS feed icon on your site` url: &amp;#34;index.xml&amp;#34; # Your RSS feed url path outputs: home: - HTML - RSS # Supports your site output including RSS format - JSON 完成以上步驟後，現在您的Hugo PaperMod主題網站，已經可以支援RSS feed了。</description>
       <content:encoded><![CDATA[<p>Hugo是一個熱門的靜態網站產生工具，而PaperMod本身就內建了RSS 2.0模板。</p>
 <h2 id="什麼是rss-feed">什麼是RSS feed?</h2>
 <p>RSS其實是「Really Simple Syndication」的簡稱，中文翻譯為簡易資訊據合，目的其實很簡單，主要提供一個標準化格式，將新聞、部落格、網站或是社交平台頻道的更新資訊彙整到一個頁面。</p>
@@ -676,7 +826,7 @@ params:ShowFullTextinRSS: true # Supports to show your whole contents in RSS, n
   
   socialIcons:
     - name: rss # Shows an RSS feed icon on your site`
-      url: &quot;index.xml&quot; # Your RSS feed url path
+      url: &#34;index.xml&#34; # Your RSS feed url path
 
 outputs:
     home:
@@ -691,13 +841,13 @@ outputs:
     
     <item>
       <title>如何整合Disqus到您的Hugo網站?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</link>
       <pubDate>Sat, 05 Feb 2022 16:44:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%95%B4%E5%90%88disqus%E5%88%B0%E6%82%A8%E7%9A%84hugo%E7%B6%B2%E7%AB%99/</guid>
       <description>什麼是Disqus? 是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。
 手把手教學，教您整合Disqus到您的Hugo網站 步驟一: 註冊Disqus 步驟二: 安裝Disqus 步驟三: 選擇&amp;quot;I want to install Disqus on my site.&amp;quot; 步驟四: 填寫表單資料 步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板 範本應該會長得跟下面的代碼一樣:
-&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&#39;s canonical URL variable this.</description>
+&amp;lt;div id=&amp;#34;disqus_thread&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page&amp;#39;s canonical URL variable this.</description>
       <content:encoded><![CDATA[<h2 id="什麼是disqus">什麼是Disqus?</h2>
 <p>是互聯網最受歡迎的評論外掛程式，使出版者可輕鬆將他們的內容更加靈活，增加豐富多元的討論，並有效地審核評論和建立社群。</p>
 <h2 id="手把手教學教您整合disqus到您的hugo網站">手把手教學，教您整合Disqus到您的Hugo網站</h2>
@@ -707,35 +857,35 @@ outputs:
 <h3 id="步驟四-填寫表單資料">步驟四: 填寫表單資料</h3>
 <h3 id="步驟五-複製留言的模板並建立disqushtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後並貼上您獲得的留言模板">步驟五: 複製留言的模板，並建立disqus.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後並貼上您獲得的留言模板</h3>
 <p>範本應該會長得跟下面的代碼一樣:</p>
-<pre tabindex="0"><code>&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+<pre tabindex="0"><code>&lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     /*
     var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page&#39;s canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page&#39;s unique identifier variable
     };
     */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    // Don't ever inject Disqus on localhost--it creates unwanted
-    // discussions from 'localhost:1313' on your Disqus account...
-    if (window.location.hostname == &quot;localhost&quot;)
+    (function() { // DON&#39;T EDIT BELOW THIS LINE
+    // Don&#39;t ever inject Disqus on localhost--it creates unwanted
+    // discussions from &#39;localhost:1313&#39; on your Disqus account...
+    if (window.location.hostname == &#34;localhost&#34;)
         return;
 
 
-    var d = document, s = d.createElement('script');
-    s.src = 'https://your_disqus_name.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
+    var d = document, s = d.createElement(&#39;script&#39;);
+    s.src = &#39;https://your_disqus_name.disqus.com/embed.js&#39;;
+    s.setAttribute(&#39;data-timestamp&#39;, +new Date());
     (d.head || d.body).appendChild(s);
     })();
 &lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&#34;https://disqus.com/?ref_noscript&#34;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
 </code></pre><h3 id="步驟六-建立commentshtml檔案在您的hugo網站的檔案夾底下的layoutspartials然後複製並貼上以下代碼到這個檔案裡面">步驟六: 建立comments.html檔案在您的Hugo網站的檔案夾底下的layouts/partials，然後複製並貼上以下代碼到這個檔案裡面</h3>
 <pre tabindex="0"><code>{{- /* Comments area start */ -}}
-{{- /* partial &quot;disqus.html&quot; . */ -}}
-{{ template &quot;_internal/disqus.html&quot; . }}
+{{- /* partial &#34;disqus.html&#34; . */ -}}
+{{ template &#34;_internal/disqus.html&#34; . }}
 {{- /* to add comments read =&gt; https://gohugo.io/content-management/comments/ */ -}}
 {{- /* Comments area end */ -}}
 </code></pre><h3 id="步驟七-增加disqus簡稱disqusshortname--your-disqus-shortname到configyml檔案裡">步驟七: 增加Disqus簡稱<code>disqusShortname = &quot;&lt;your-disqus-shortname&gt;&quot;</code>到config.yml檔案裡</h3>
@@ -748,10 +898,10 @@ outputs:
     
     <item>
       <title>如何添加Google Analytics到Hugo?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
+      <link>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</link>
       <pubDate>Fri, 04 Feb 2022 14:25:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/02/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0google-analytics%E5%88%B0hugo/</guid>
       <description>什麼是Google Analytics? Google Analytics是一個網站分析服務，它提供統計和基本分析的工具，給搜尋引擎最佳化和行銷目的。這個服務是一部分Google行銷平台並免費提供給任何有Google帳號的用戶使用。
 如何添加google analytics到Hugo網站? 步驟一: 建立一個google帳號 步驟二: 到google analytics網站 步驟三: 在google analytics設定好您要分析的網站資訊 步驟四: 取得您給google analytics分析的ID 步驟五: 編輯您Hugo的config.yml 添加 googleAnalytics: G-MEASUREMENT_ID 到您的config.yml檔案。
 步驟六: 添加google analytics模板到您Hugo的主題 添加 {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} 到您的主題底下的head.html檔案 &amp;lt;head&amp;gt; 區塊內
@@ -778,16 +928,16 @@ Internal Templates | Hugo</description>
     
     <item>
       <title>Git基本指令</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</link>
       <pubDate>Wed, 12 Jan 2022 15:30:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
-      <description>確認Git是否安裝成功 git --version設定Git使用者名稱跟信箱 git config --global user.name &amp;quot;Andrew_Wu&amp;quot;git config --global user.email &amp;quot;user@gmail.com&amp;quot;確認輸入的資料是否正確 git config --list獲取幫助 git help &amp;lt;command&amp;gt;建立新的數據庫 git init顯示當前數據庫狀態 git status新增檔案到暫存區域 git add &amp;lt;filename&amp;gt;git add . #將工作目錄內所有檔案建立索引建立新提交 git commitgit commit -m &amp;quot;提交訊息&amp;quot; #-m means Message顯示歷史日誌 git log #顯示歷史日誌的詳細資訊git log --all --graph --decorate #以DAG方式顯示歷史日誌查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支git branch #顯示分支git branch &amp;lt;name&amp;gt; #建立分支git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt;合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支git mergetool #使用神奇工具處理合併衝突git rebase #合併版本git rebase -i HEAD~3 #修改歷史commit紀錄遠端 git remote #列出遠端git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯git fetch #從遠端擷取物件/參考git pull #更新本地端和遠端程式碼同步，同git fetch; git mergegit clone #從遠端下載數據庫回滾 git commit --amend #編輯提交的內容或資訊git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案git checkout -- &amp;lt;file&amp;gt; #回滾更改進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄git add -p #互動暫存git blame #檢視最後修改某列的使用者git stash #暫時移除工作目錄下的變更git bisect #透過二分搜尋來搜尋歷史紀錄.</description>
+      <guid>https://andrewu.page/zh-tw/2022/01/git%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</guid>
+      <description>確認Git是否安裝成功 git --version 設定Git使用者名稱跟信箱 git config --global user.name &amp;#34;Andrew_Wu&amp;#34; git config --global user.email &amp;#34;user@gmail.com&amp;#34; 確認輸入的資料是否正確 git config --list 獲取幫助 git help &amp;lt;command&amp;gt; 建立新的數據庫 git init 顯示當前數據庫狀態 git status 新增檔案到暫存區域 git add &amp;lt;filename&amp;gt; git add . #將工作目錄內所有檔案建立索引 建立新提交 git commit git commit -m &amp;#34;提交訊息&amp;#34; #-m means Message 顯示歷史日誌 git log #顯示歷史日誌的詳細資訊 git log --all --graph --decorate #以DAG方式顯示歷史日誌 查詢差異 git diff &amp;lt;filename&amp;gt; #顯示與上次提交時的差異 git diff &amp;lt;revision&amp;gt; &amp;lt;filename&amp;gt; #顯示某檔案與上次提交時的差異 分支 git checkout &amp;lt;revision&amp;gt; #更新HEAD與當前分支 git branch #顯示分支 git branch &amp;lt;name&amp;gt; #建立分支 git checkout -b &amp;lt;name&amp;gt; #建立分支並切換至該分支 同 git branch &amp;lt;name&amp;gt; ; git checkout &amp;lt;name&amp;gt; 合併 git merge &amp;lt;revision&amp;gt; #合併至當前分支 git mergetool #使用神奇工具處理合併衝突 git rebase #合併版本 git rebase -i HEAD~3 #修改歷史commit紀錄 遠端 git remote #列出遠端 git remote add &amp;lt;name&amp;gt; &amp;lt;url&amp;gt; #新增遠端 git push &amp;lt;remote&amp;gt; &amp;lt;local branch&amp;gt;:&amp;lt;remote branch&amp;gt; #將物件推送到遠端，並更新遠端參考 git branch --set-upstream-to=&amp;lt;remote&amp;gt;/&amp;lt;remote branch&amp;gt; #建立本地分支與遠端分支的關聯 git fetch #從遠端擷取物件/參考 git pull #更新本地端和遠端程式碼同步，同git fetch; git merge git clone #從遠端下載數據庫 回滾 git commit --amend #編輯提交的內容或資訊 git reset HEAD &amp;lt;file&amp;gt; #取消暫存檔案 git checkout -- &amp;lt;file&amp;gt; #回滾更改 進階 git clown --depth=1 #下載數據庫，但不下載歷史紀錄 git add -p #互動暫存 git blame #檢視最後修改某列的使用者 git stash #暫時移除工作目錄下的變更 git bisect #透過二分搜尋來搜尋歷史紀錄 .</description>
       <content:encoded><![CDATA[<h2 id="確認git是否安裝成功">確認Git是否安裝成功</h2>
 <pre tabindex="0"><code>git --version
 </code></pre><h2 id="設定git使用者名稱跟信箱">設定Git使用者名稱跟信箱</h2>
-<pre tabindex="0"><code>git config --global user.name &quot;Andrew_Wu&quot;
-git config --global user.email &quot;user@gmail.com&quot;
+<pre tabindex="0"><code>git config --global user.name &#34;Andrew_Wu&#34;
+git config --global user.email &#34;user@gmail.com&#34;
 </code></pre><h3 id="確認輸入的資料是否正確">確認輸入的資料是否正確</h3>
 <pre tabindex="0"><code>git config --list
 </code></pre><h2 id="獲取幫助">獲取幫助</h2>
@@ -801,7 +951,7 @@ git config --global user.email &quot;user@gmail.com&quot;
 git add . #將工作目錄內所有檔案建立索引
 </code></pre><h2 id="建立新提交">建立新提交</h2>
 <pre tabindex="0"><code>git commit
-git commit -m &quot;提交訊息&quot; #-m means Message
+git commit -m &#34;提交訊息&#34; #-m means Message
 </code></pre><h2 id="顯示歷史日誌">顯示歷史日誌</h2>
 <pre tabindex="0"><code>git log #顯示歷史日誌的詳細資訊
 git log --all --graph --decorate #以DAG方式顯示歷史日誌
@@ -846,17 +996,17 @@ git bisect #透過二分搜尋來搜尋歷史紀錄
     
     <item>
       <title>如何使用Hugo建立自己的部落格?</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC/</guid>
       <description>手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub! 前言 最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。
 如果想要架設自己的部落格，又有預算考量，可以考慮使用Hugo來架設，自己的部落格。
 事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
 首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
 Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵&amp;quot;Windows + S&amp;quot;，並輸入&amp;quot;CMD&amp;quot;，來開啟命令提示字元。 開啟後輸入以下指令。
- git version並會得到。
-git version 2.xx.x.windows.x當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
+ git version 並會得到。
+git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
 Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到&amp;quot;View&amp;quot;下的&amp;quot;Extensions&amp;quot;(也可用Ctrl+Shift+X)去搜尋&amp;quot;Markdown&amp;quot;的 Extensions，找到&amp;quot;markdownlint&amp;quot;並安裝。 到目前為止，我們已經成功安裝了Git &amp;amp; Visual Studio Code w/ markdownlint Extension。
 接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
 Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
@@ -905,7 +1055,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <p>接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。</p>
 <h2 id="hugo安裝與建立自己的部落格">Hugo安裝與建立自己的部落格</h2>
 <p>在安裝Hugo前需要安裝<a href="https://chocolatey.org/install#individual">chocolatey</a>這個工具，這裡是直接使用&quot;Individual&quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。</p>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
 </code></pre><p><strong>安裝完chocolatey這工具後，我們可以開始建立我們的部落格了。</strong></p>
 <h3 id="第一步-安裝hugo">第一步: 安裝Hugo</h3>
 <p>我們依照<a href="https://gohugo.io/getting-started/quick-start/">官方快速開始</a>進行安裝Hugo。因為我們這次只需要使用一般版本，所以依照手冊使用以下指令安裝。</p>
@@ -933,7 +1083,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 <img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
 </p>
 <p>之後我們依照 PaperMod 的<a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">官方文件</a>，進行修改我們的<code>config.yml</code>。</p>
-<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #等等GitHub庫的網址
+<pre tabindex="0"><code>baseURL: &#34;&lt;username.github.io&gt;&#34; #等等GitHub庫的網址
 title: its demo blog #網站標題
 paginate: 5
 # 預設語系配置
@@ -961,12 +1111,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: its demo blog
-  description: &quot;its demo blog description&quot;
+  description: &#34;its demo blog description&#34;
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
-  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
-  DateFormat: &quot;January 2, 2006&quot;
+  # author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+  images: [&#34;&lt;link or path of image for opengraph, twitter-cards&gt;&#34;]
+  DateFormat: &#34;January 2, 2006&#34;
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -986,14 +1136,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: &quot;&lt;link / abs url&gt;&quot;
-    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
-    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
-    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
-    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+    favicon: &#34;&lt;link / abs url&gt;&#34;
+    favicon16x16: &#34;&lt;link / abs url&gt;&#34;
+    favicon32x32: &#34;&lt;link / abs url&gt;&#34;
+    apple_touch_icon: &#34;&lt;link / abs url&gt;&#34;
+    safari_pinned_tab: &#34;&lt;link / abs url&gt;&#34;
 
   label:
-    text: &quot;its demo blog&quot;
+    text: &#34;its demo blog&#34;
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -1001,8 +1151,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: &quot;This is subtitle&quot;
-    imageUrl: &quot;&lt;img location&gt;&quot;
+    subtitle: &#34;This is subtitle&#34;
+    imageUrl: &#34;&lt;img location&gt;&#34;
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -1014,25 +1164,25 @@ params:
 
   # home-info mode 這是教學使用 Home-info 模式，預設也為這個
   homeInfoParams:
-    Title: &quot;嗨 大家 \U0001F44B&quot;
+    Title: &#34;嗨 大家 \U0001F44B&#34;
     Content: 歡迎來到我的部落格。
 
   # 可以放自己社交平台的連結
   socialIcons:
     - name: twitter
-      url: &quot;https://twitter.com/&quot;
+      url: &#34;https://twitter.com/&#34;
     - name: stackoverflow
-      url: &quot;https://stackoverflow.com&quot;
+      url: &#34;https://stackoverflow.com&#34;
     - name: github
-      url: &quot;https://github.com/&quot;
+      url: &#34;https://github.com/&#34;
 
   analytics:
     google:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     bing:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     yandex:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -1041,8 +1191,8 @@ params:
 
   # 別人可以建議您修改，但我會將這個功能關閉
   #editPost:
-    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-    #Text: &quot;Suggest Changes&quot; # edit text
+    #URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    #Text: &#34;Suggest Changes&#34; # edit text
     #appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -1054,7 +1204,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;, &#34;content&#34;]
 menu:
   main:
     - identifier: posts
@@ -1099,20 +1249,20 @@ menu:
 </p>
 <p>我們修改為下。</p>
 <pre tabindex="0"><code>---
-title: &quot;Hello_World!&quot;
+title: &#34;Hello_World!&#34;
 date: 2022-01-06T14:00:09Z
 draft: false
 # weight: 1
-# aliases: [&quot;/AirTag&quot;]
-tags: [&quot;第一篇文章&quot;, &quot;Hello World&quot;]
-author: &quot;Me&quot;
-# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+# aliases: [&#34;/AirTag&#34;]
+tags: [&#34;第一篇文章&#34;, &#34;Hello World&#34;]
+author: &#34;Me&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-#description: &quot;Hello World&quot;
-#canonicalURL: &quot;https://canonical.url/to/page&quot;
+#description: &#34;Hello World&#34;
+#canonicalURL: &#34;https://canonical.url/to/page&#34;
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -1122,14 +1272,14 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 #cover:
-#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
-#    alt: &quot;&lt;alt text&gt;&quot; # alt text
-#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    image: &#34;&lt;image path/url&gt;&#34; # image path/url
+#    alt: &#34;&lt;alt text&gt;&#34; # alt text
+#    caption: &#34;&lt;text&gt;&#34; # display caption under cover
 #    relative: true # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 #editPost:
-#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-#    Text: &quot;Suggest Changes&quot; # edit text
+#    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+#    Text: &#34;Suggest Changes&#34; # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
 # Hello World!!!
@@ -1150,7 +1300,7 @@ ShowPostNavLinks: true
 <pre tabindex="0"><code># 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init its demo blog&quot;
+git commit -m &#34;init its demo blog&#34;
 # 新增main分支
 git branch -M main
 # 新增遠端版本庫
@@ -1161,11 +1311,11 @@ git push -u origin main
 # 新增gh-pages孤兒分支
 git checkout --orphan gh-pages
 # 新增一個README.md檔
-echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+echo &#34;gh-pages&#34; &gt; &#34;README.md&#34;
 # 加入所有檔案
 git add .
 # 新增commit內容
-git commit -m &quot;init gh-pages branch&quot;
+git commit -m &#34;init gh-pages branch&#34;
 # 將分支內容上傳到remote
 git push -u origin gh-pages
 # 切換到main分支
@@ -1197,9 +1347,9 @@ git checkout main
 on:
   push:
     paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
+      - &#39;images/**&#39;
+      - &#39;LICENSE&#39;
+      - &#39;README.md&#39;
     branches:
       - main
   workflow_dispatch:
@@ -1223,7 +1373,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: &#39;latest&#39;
 
       - name: Build
         run: hugo --buildDrafts --gc --verbose --minify
@@ -1268,10 +1418,10 @@ jobs:
     
     <item>
       <title>為何我要來英國!</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</link>
       <pubDate>Wed, 05 Jan 2022 11:30:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/%E7%82%BA%E4%BD%95%E6%88%91%E8%A6%81%E4%BE%86%E8%8B%B1%E5%9C%8B/</guid>
       <description>為何我要來英國!</description>
       <content:encoded><![CDATA[<h2 id="前言">前言</h2>
 <p>因緣際會下，我使用交友軟體，認識了我英國男友，也開啟了將近兩年多的遠距離戀愛。我們是在2019年的下半年開始在交友軟體上聊天的，後來我們彼此交換&quot;Whatsapp&quot;並轉到&quot;Whatsapp&quot;繼續聊了三個多月後，我在一個是當時機下，詢問了我們彼此的關係為何，他回我男朋友，所以可能算是我先問他可不可以當我男朋友吧!</p>
@@ -1298,10 +1448,10 @@ jobs:
     
     <item>
       <title>SONY WF-1000XM4 簡易開箱</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/sony-wf-1000xm4-%E7%B0%A1%E6%98%93%E9%96%8B%E7%AE%B1/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/sony-wf-1000xm4-%E7%B0%A1%E6%98%93%E9%96%8B%E7%AE%B1/</link>
       <pubDate>Mon, 03 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/sony-wf-1000xm4-%E7%B0%A1%E6%98%93%E9%96%8B%E7%AE%B1/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/sony-wf-1000xm4-%E7%B0%A1%E6%98%93%E9%96%8B%E7%AE%B1/</guid>
       <description>前言 自從這個產品發表後，看完官方的Youtube影片，和其他科技Youtuber的開箱解說後，加上本人還沒有真無線抗噪耳機，就一直想要購買這個產品，所以最後就在待機飛往英國找我男友時，在松山機場的免稅店購買了。
 在這篇文章簡單分享我的使用心得。
 外觀包裝 原本是想要購買銀色的款式，由於免稅店沒有銀色，加上之前已有黑色WH-1000XM3，考慮了一下，想說黑色就比較耐髒，最後就選擇黑色了。
@@ -1374,10 +1524,10 @@ jobs:
     
     <item>
       <title>哈囉 2022!</title>
-      <link>https://andrewwu29.github.io/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</link>
+      <link>https://andrewu.page/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</link>
       <pubDate>Sat, 01 Jan 2022 09:39:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</guid>
+      <guid>https://andrewu.page/zh-tw/2022/01/%E5%93%88%E5%9B%89-2022/</guid>
       <description>哈囉 2022: 今天是2022年的第一天，哈彭登 英國 天氣晴多雲。
 自從新冠肺炎擴散到全球，近兩年來，這個世界發生了很大的變化，很多事情都跟疫情擴散前不一樣了，但昨天看到許多國家和城市依舊舉辦，跨年活動跟施放煙火，讓我覺得這個世界又慢慢恢復生氣了。
 我希望這是新冠肺炎的最後階段了，讓這個世界可以慢慢地恢復正常，人們不必再擔心這病毒，可以與家人或朋友見面，也可以正常地去看看這個世界，並對自己的未來有夢想。
@@ -1396,10 +1546,10 @@ jobs:
     
     <item>
       <title>AirTag開箱心得</title>
-      <link>https://andrewwu29.github.io/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</link>
+      <link>https://andrewu.page/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</link>
       <pubDate>Mon, 27 Dec 2021 12:42:04 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://andrewu.page/zh-tw/2021/12/airtag%E9%96%8B%E7%AE%B1%E5%BF%83%E5%BE%97/</guid>
       <description>前言 因為前幾年，去日本旅遊時遺失背包，每次想起來都讓我好心痛喔！打死我以後都不放在電車架子上，已讓我開始搜尋這類型的產品。 其實早在Airtag誕世前，市面上已經有這類型的產品，只是基於產品用戶數量，且需要額外安裝應用程式，透過同樣使用該產品的用戶，且已有安裝應用程式並開啟藍牙及權限，才可當行動裝置，經過遺失者的物品時，才能更新遺失物的所在地，並通知遺失物的所有人。
 但這樣的產品通常會基於以下幾點，導致先天上的劣勢：
  取決於使用該產品公司的社群大小，且不同家產品公司的裝置，不互相溝通。 需要額外安裝第三方的應用程式。 使用環境被侷限，因不同地方，可能使用這類型產品的用戶數不同，導致侷限使用環境（變成通常只在居家內使用，戶外遺失後，可能會沒有同樣使用同產品的用戶經過，導致當物品從最後遺失地被移動過，可能就找不到了）。  而蘋果Airtag基於以下幾個條件，直接將相關競品廠商壓在地上摩擦：

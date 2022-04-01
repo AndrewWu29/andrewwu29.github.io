@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GitHub on Andrew&#39;s Blog</title>
-    <link>https://andrewwu29.github.io/categories/github/</link>
+    <link>https://andrewu.page/categories/github/</link>
     <description>Recent content in GitHub on Andrew&#39;s Blog</description>
     <image>
-      <url>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://andrewwu29.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 05 Jan 2022 17:13:00 +0000</lastBuildDate><atom:link href="https://andrewwu29.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jan 2022 17:13:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use Hugo to create your Blog?</title>
-      <link>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</link>
+      <link>https://andrewu.page/2022/01/how-to-use-hugo-to-create-your-blog/</link>
       <pubDate>Wed, 05 Jan 2022 17:13:00 +0000</pubDate>
       
-      <guid>https://andrewwu29.github.io/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
+      <guid>https://andrewu.page/2022/01/how-to-use-hugo-to-create-your-blog/</guid>
       <description>Step by step, teach you to create a static Blog, and deploy it to GitHub! Preface I recently had a thought to create my blog, and I used many blog services but ended up with nothing. And this time I made a decision, I want to write something, so after googling, I found &amp;ldquo;Hugo&amp;rdquo; this framework, you can use Markdown to create a static blog site. by the way, I don&amp;rsquo;t want to spend too much time creating a dynamic blog site to keep my thoughts and notes.</description>
       <content:encoded><![CDATA[<h1 id="step-by-step-teach-you-to-create-a-static-blog-and-deploy-it-to-github">Step by step, teach you to create a static Blog, and deploy it to GitHub!</h1>
 <h2 id="preface">Preface</h2>
@@ -63,7 +63,7 @@ Then we go to &ldquo;View&rdquo; -&gt; &ldquo;Extensions&rdquo;(Also can use sho
 <p>after we have to install Hugo and create our blog&rsquo;s first post.</p>
 <h2 id="hugo-install-and-create-our-site">Hugo install and create our site</h2>
 <p>Before installing Hugo we have to install <a href="https://chocolatey.org/install#individual">chocolatey</a> this tool, here we use &ldquo;Individual&rdquo; with Administrative&rsquo;s PowerShell and use the below command to install.</p>
-<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+<pre tabindex="0"><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString(&#39;https://community.chocolatey.org/install.ps1&#39;))
 </code></pre><p><strong>Installed chocolatey this tool, we can start to build our blog site.</strong></p>
 <h3 id="step-1-install-hugo">Step 1: Install Hugo</h3>
 <p>We follow <a href="https://gohugo.io/getting-started/quick-start/">quick started</a>to install Hugo. This time we use the normal version, so follow the manual to use the below command to install it.</p>
@@ -92,7 +92,7 @@ Then we go to &ldquo;View&rdquo; -&gt; &ldquo;Extensions&rdquo;(Also can use sho
 <img loading="lazy" src="https://i.imgur.com/uS0G58D.png" alt="git add submodule PaperMod"  />
 </p>
 <p>Then we follow PaperMod&rsquo;s <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">Official Manual</a>, to modify our <code>config.yml</code>.</p>
-<pre tabindex="0"><code>baseURL: &quot;&lt;username.github.io&gt;&quot; #GitHub repo URL
+<pre tabindex="0"><code>baseURL: &#34;&lt;username.github.io&gt;&#34; #GitHub repo URL
 title: its demo blog #site title
 paginate: 5
 # Default Language setting
@@ -120,12 +120,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: its demo blog
-  description: &quot;its demo blog description&quot;
+  description: &#34;its demo blog description&#34;
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
-  images: [&quot;&lt;link or path of image for opengraph, twitter-cards&gt;&quot;]
-  DateFormat: &quot;January 2, 2006&quot;
+  # author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
+  images: [&#34;&lt;link or path of image for opengraph, twitter-cards&gt;&#34;]
+  DateFormat: &#34;January 2, 2006&#34;
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -145,14 +145,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: &quot;&lt;link / abs url&gt;&quot;
-    favicon16x16: &quot;&lt;link / abs url&gt;&quot;
-    favicon32x32: &quot;&lt;link / abs url&gt;&quot;
-    apple_touch_icon: &quot;&lt;link / abs url&gt;&quot;
-    safari_pinned_tab: &quot;&lt;link / abs url&gt;&quot;
+    favicon: &#34;&lt;link / abs url&gt;&#34;
+    favicon16x16: &#34;&lt;link / abs url&gt;&#34;
+    favicon32x32: &#34;&lt;link / abs url&gt;&#34;
+    apple_touch_icon: &#34;&lt;link / abs url&gt;&#34;
+    safari_pinned_tab: &#34;&lt;link / abs url&gt;&#34;
 
   label:
-    text: &quot;its demo blog&quot;
+    text: &#34;its demo blog&#34;
     #icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -160,8 +160,8 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: ExampleSite
-    subtitle: &quot;This is subtitle&quot;
-    imageUrl: &quot;&lt;img location&gt;&quot;
+    subtitle: &#34;This is subtitle&#34;
+    imageUrl: &#34;&lt;img location&gt;&#34;
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -171,27 +171,27 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode this time we use Home-info mode, also it's default setting
+  # home-info mode this time we use Home-info mode, also it&#39;s default setting
   homeInfoParams:
-    Title: &quot;Hi All \U0001F44B&quot;
+    Title: &#34;Hi All \U0001F44B&#34;
     Content: Welcome to my blog.
 
   # You can put your social site links
   socialIcons:
     - name: twitter
-      url: &quot;https://twitter.com/&quot;
+      url: &#34;https://twitter.com/&#34;
     - name: stackoverflow
-      url: &quot;https://stackoverflow.com&quot;
+      url: &#34;https://stackoverflow.com&#34;
     - name: github
-      url: &quot;https://github.com/&quot;
+      url: &#34;https://github.com/&#34;
 
   analytics:
     google:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     bing:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
     yandex:
-      SiteVerificationTag: &quot;XYZabc&quot;
+      SiteVerificationTag: &#34;XYZabc&#34;
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -200,8 +200,8 @@ params:
 
   # someone can mention you edit a post
   #editPost:
-    #URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-    #Text: &quot;Suggest Changes&quot; # edit text
+    #URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+    #Text: &#34;Suggest Changes&#34; # edit text
     #appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -213,7 +213,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [&quot;title&quot;, &quot;permalink&quot;, &quot;summary&quot;, &quot;content&quot;]
+    keys: [&#34;title&#34;, &#34;permalink&#34;, &#34;summary&#34;, &#34;content&#34;]
 menu:
   main:
     - identifier: posts
@@ -259,20 +259,20 @@ menu:
 </p>
 <p>We edited like below.</p>
 <pre tabindex="0"><code>---
-title: &quot;Hello_World!&quot;
+title: &#34;Hello_World!&#34;
 date: 2022-01-06T14:00:09Z
 draft: false
 # weight: 1
-# aliases: [&quot;/AirTag&quot;]
-tags: [&quot;First post&quot;, &quot;Hello World&quot;]
-author: &quot;Me&quot;
-# author: [&quot;Me&quot;, &quot;You&quot;] # multiple authors
+# aliases: [&#34;/AirTag&#34;]
+tags: [&#34;First post&#34;, &#34;Hello World&#34;]
+author: &#34;Me&#34;
+# author: [&#34;Me&#34;, &#34;You&#34;] # multiple authors
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
-#description: &quot;Hello World&quot;
-#canonicalURL: &quot;https://canonical.url/to/page&quot;
+#description: &#34;Hello World&#34;
+#canonicalURL: &#34;https://canonical.url/to/page&#34;
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
@@ -282,14 +282,14 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 #cover:
-#    image: &quot;&lt;image path/url&gt;&quot; # image path/url
-#    alt: &quot;&lt;alt text&gt;&quot; # alt text
-#    caption: &quot;&lt;text&gt;&quot; # display caption under cover
+#    image: &#34;&lt;image path/url&gt;&#34; # image path/url
+#    alt: &#34;&lt;alt text&gt;&#34; # alt text
+#    caption: &#34;&lt;text&gt;&#34; # display caption under cover
 #    relative: true # when using page bundles set this to true
 #    hidden: true # only hide on current single page
 #editPost:
-#    URL: &quot;https://github.com/&lt;path_to_repo&gt;/content&quot;
-#    Text: &quot;Suggest Changes&quot; # edit text
+#    URL: &#34;https://github.com/&lt;path_to_repo&gt;/content&#34;
+#    Text: &#34;Suggest Changes&#34; # edit text
 #    appendFilePath: false # to append file path to Edit link
 ---
 # Hello World!!!
@@ -310,7 +310,7 @@ This is my first post!
 <pre tabindex="0"><code># Add all of files
 git add .
 # Add commit message
-git commit -m &quot;init its demo blog&quot;
+git commit -m &#34;init its demo blog&#34;
 # Add main branch
 git branch -M main
 # Add remote repo
@@ -321,11 +321,11 @@ git push -u origin main
 # Add gh-pages orphan branch
 git checkout --orphan gh-pages
 # Add a README.md
-echo &quot;gh-pages&quot; &gt; &quot;README.md&quot;
+echo &#34;gh-pages&#34; &gt; &#34;README.md&#34;
 # Add all of files
 git add .
 # Add commit message
-git commit -m &quot;init gh-pages branch&quot;
+git commit -m &#34;init gh-pages branch&#34;
 # Upload site contents to remote repo
 git push -u origin gh-pages
 # Switch branch to main
@@ -357,9 +357,9 @@ git checkout main
 on:
   push:
     paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
+      - &#39;images/**&#39;
+      - &#39;LICENSE&#39;
+      - &#39;README.md&#39;
     branches:
       - main
   workflow_dispatch:
@@ -383,7 +383,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: &#39;latest&#39;
 
       - name: Build
         run: hugo --buildDrafts --gc --verbose --minify
