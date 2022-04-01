@@ -38,7 +38,7 @@ describe('Categories Suite', () => {
     it('Check from a category page to a post in en', function (){
         postsPage.navigate('/categories')
         cy.get('.terms-tags > :nth-child(1) > a').click()
-        cy.get('.entry-header').invoke('text').then(header =>{
+        cy.get('#top > main > article > header > h2').invoke('text').then(header =>{
             cy.get('.entry-link').first().click()
             cy.get('.post-title').invoke('text').should('include', header)
         })
@@ -96,7 +96,7 @@ describe('Categories Suite', () => {
     it('Check from a category page to a post in zh-tw', function (){
         postsPage.navigate('/zh-tw/categories')
         cy.get('.terms-tags > :nth-child(1) > a').click()
-        cy.get('.entry-header').invoke('text').then(header =>{
+        cy.get('#top > main > article > header > h2').invoke('text').then(header =>{
             cy.get('.entry-link').first().click()
             cy.get('.post-title').invoke('text').should('include', header)
         })
