@@ -9,7 +9,40 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Mar 2022 15:07:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 14:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insert raw HTML in Hugo with a simple shortcode</title>
+      <link>https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/</link>
+      <pubDate>Fri, 01 Apr 2022 14:58:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/</guid>
+      <description>I love to use Markdown to write my notes to help me learn new things.
+And sometimes, if I forget something, I can use my notes to help me remember how to do it.
+But Markdown in a table or some layouts is not pretty to use, so I have to insert raw HTML to help me create a stunning table or some designs you want.
+What a Shortcode is? Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short.</description>
+      <content:encoded><![CDATA[<p>I love to use Markdown to write my notes to help me learn new things.</p>
+<p>And sometimes, if I forget something, I can use my notes to help me remember how to do it.</p>
+<p>But Markdown in a table or some layouts is not pretty to use, so I have to insert raw HTML to help me create a stunning table or some designs you want.</p>
+<h2 id="what-a-shortcode-is">What a Shortcode is?</h2>
+<p>Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video <code>&lt;iframe&gt;</code>’s) to Markdown content. We think this contradicts the beautiful simplicity of Markdown’s syntax.</p>
+<p>Hugo created shortcodes to circumvent these limitations.</p>
+<p>Here is how to create your own custom <code>shortcode</code> to make that possible.</p>
+<p>Add a shortcode template to your site in <code>layouts/shortcodes/rawhtml.html</code>, with the content below:</p>
+<pre><code>&lt;!-- raw html -—&gt;
+{{.Inner}}
+</code></pre>
+<p>This shortcode template tells Hugo to render the inner content passed to your shortcode directly into the HTML of your site.</p>
+<p>You can use this shortcode in your <code>.md</code> file, it will like below:</p>
+<pre tabindex="0"><code>    {{&lt; rawhtml &gt;}}
+        &lt;p class=&#34;speshal-fancy-custom&#34;&gt;
+            This is raw HTML, inside Markdown.
+        &lt;/p&gt;
+    {{&lt; /rawhtml &gt;}}
+</code></pre><h2 id="references">References</h2>
+<p><a href="https://gohugo.io/content-management/shortcodes/">shortcodes</a></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Vim note</title>
       <link>https://andrewu.page/2022/03/vim-note/</link>
