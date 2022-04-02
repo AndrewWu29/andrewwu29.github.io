@@ -4,7 +4,7 @@ readonly DELAY_STEP_SECONDS=15
 readonly INTERVAL_SECONDS=5
 readonly TIMEOUT_SECONDS=120
 
-readonly GITHUB_USER=andrewwu29
+readonly GITHUB_USER=AndrewWu29
 readonly GITHUB_REPO=andrewwu29.github.io
 
 ##################################################
