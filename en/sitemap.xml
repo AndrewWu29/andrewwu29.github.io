@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrewu.page/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://andrewu.page/categories/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -28,14 +28,17 @@
                 href="https://andrewu.page/categories/"
                 />
   </url><url>
+    <loc>https://andrewu.page/2022/04/how-to-escape-hugo-shortcode/</loc>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
+  </url><url>
     <loc>https://andrewu.page/tags/html/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/categories/html/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/tags/hugo/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -48,7 +51,7 @@
                 />
   </url><url>
     <loc>https://andrewu.page/categories/hugo/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -60,17 +63,14 @@
                 href="https://andrewu.page/categories/hugo/"
                 />
   </url><url>
-    <loc>https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
-  </url><url>
     <loc>https://andrewu.page/tags/note/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/categories/note/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/posts/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -83,10 +83,10 @@
                 />
   </url><url>
     <loc>https://andrewu.page/tags/shortcode/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/tags/</loc>
-    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
+    <lastmod>2022-04-02T10:58:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -97,6 +97,9 @@
                 hreflang="en"
                 href="https://andrewu.page/tags/"
                 />
+  </url><url>
+    <loc>https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/</loc>
+    <lastmod>2022-04-01T14:58:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/tags/shortcut/</loc>
     <lastmod>2022-03-12T15:07:00+00:00</lastmod>

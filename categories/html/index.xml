@@ -9,7 +9,24 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Apr 2022 14:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 10:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to escape Hugo shortcode</title>
+      <link>https://andrewu.page/2022/04/how-to-escape-hugo-shortcode/</link>
+      <pubDate>Sat, 02 Apr 2022 10:58:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/how-to-escape-hugo-shortcode/</guid>
+      <description>Sometimes you need to write about shortcodes, as I do in Insert raw HTML in Hugo with a simple shortcode, you need to escape these shortcode calls.
+Hugo uses the following syntax to escape these delimiters in the a content source file
+{{&amp;lt; escape&#39;s_shortcode_name &amp;gt;}} {{% /escape&#39;s_shortcode_name %}} </description>
+      <content:encoded><![CDATA[<p>Sometimes you need to write about shortcodes, as I do in <a href="https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/">Insert raw HTML in Hugo with a simple shortcode</a>, you need to escape these shortcode calls.</p>
+<p>Hugo uses the following syntax to escape these delimiters in the a content source file</p>
+<pre><code>{{&lt; escape's_shortcode_name &gt;}}
+
+{{% /escape's_shortcode_name %}}</code></pre>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Insert raw HTML in Hugo with a simple shortcode</title>
       <link>https://andrewu.page/2022/04/insert-raw-html-in-hugo-with-a-simple-shortcode/</link>
