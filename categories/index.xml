@@ -9,7 +9,37 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Apr 2022 10:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 10:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://andrewu.page/categories/installation/</link>
+      <pubDate>Mon, 04 Apr 2022 10:30:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/installation/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Note</title>
+      <link>https://andrewu.page/categories/note/</link>
+      <pubDate>Mon, 04 Apr 2022 10:30:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/note/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://andrewu.page/categories/windows/</link>
+      <pubDate>Mon, 04 Apr 2022 10:30:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/windows/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>HTML</title>
       <link>https://andrewu.page/categories/html/</link>
@@ -26,16 +56,6 @@
       <pubDate>Sat, 02 Apr 2022 10:58:00 +0000</pubDate>
       
       <guid>https://andrewu.page/categories/hugo/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Note</title>
-      <link>https://andrewu.page/categories/note/</link>
-      <pubDate>Sat, 02 Apr 2022 10:58:00 +0000</pubDate>
-      
-      <guid>https://andrewu.page/categories/note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

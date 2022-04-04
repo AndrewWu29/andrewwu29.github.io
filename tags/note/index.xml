@@ -9,7 +9,76 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Apr 2022 10:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 10:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robot Framework And Appium Install Environment On Windows</title>
+      <link>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</link>
+      <pubDate>Mon, 04 Apr 2022 10:30:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</guid>
+      <description>For Robot Framework and Appium environment on Windows, we should install softwares list below:
+ Robot Framework node JDK Android Studio Appium Appium Desktop appium-doctor  First of all we have to install Java JDK for me I will need the Windows 64 bit. Java Downloads JDK And we chose the x64 Installer for our environment.
+The installation is very simple we just press next, next and finish, then we can go to setting our environment.</description>
+      <content:encoded><![CDATA[<p>For Robot Framework and Appium environment on Windows, we should install softwares list below:</p>
+<ul>
+<li>Robot Framework</li>
+<li>node</li>
+<li>JDK</li>
+<li>Android Studio</li>
+<li>Appium</li>
+<li>Appium Desktop</li>
+<li>appium-doctor</li>
+</ul>
+<p>First of all we have to install Java JDK for me I will need the Windows 64 bit.
+<a href="https://www.oracle.com/java/technologies/downloads/#jdk18-windows">Java Downloads JDK</a>
+And we chose the x64 Installer for our environment.</p>
+<p>The installation is very simple we just press next, next and finish, then we can go to setting our environment.</p>
+<p>We have to create a new system variable as below:</p>
+<pre><code>Variable name: JAVE_HOME
+Variable value: C:\Program Files\Java\jdk-18 # base on you jdk path
+</code></pre>
+<p>After Java JDK installed, we need to install our Android Studio.
+<a href="https://developer.android.com/studio?gclid=CjwKCAjwrqqSBhBbEiwAlQeqGhB3kESe_97wBHxGA5_3DnKIc9L51tsNIAQ6CNZOTmnaQgR3M2PpjxoCPnoQAvD_BwE&amp;gclsrc=aw.ds">Android Studio</a>
+Then downloaded Android Studio, we used the default settings and finished our installation.</p>
+<p>And open our Android Studio and go to SDK Manager to download our Android SDK, then go to setting our environment too.</p>
+<p>Create a new user variable as below:</p>
+<pre><code>Variable name: ANDROID_HOME
+Variable value: C:\Users\username\AppData\Local\Android\Sdk # you can find in SDK Manager page
+</code></pre>
+<p>Then edit Path variable in user variables and add new variables as below:
+%ANDROID_HOME%\tools
+%ANDROID_HOME%\build-tools
+%ANDROID_HOME%\emulator
+%ANDROID_HOME%\tools\bin</p>
+<p>Finished Android Studio installation, we can install our node now.
+<a href="https://nodejs.org/en/download/">node download</a>
+During the installation we have to make sure at Custom Setup section has &ldquo;Add to PATH&rdquo; below.</p>
+<p>Now we installed node, we can go to download our Appium now.</p>
+<p>Because we alraedy installed node, we can open our cmd and type below commands to check our node and npm versions:</p>
+<pre><code>node -v
+npm -v
+</code></pre>
+<p>Make sure they show you your installed version number, then we can use npm to install our Appium.</p>
+<p>The Appium install command likes below:
+npm install appium -g</p>
+<p>Check your appium installation, use command as below:
+appium &ndash;version</p>
+<p>Finally we can use npm to install appium-doctor to check our environment, we use the command below to install:
+npm intaal -g appium-doctor</p>
+<p>After installed appium-doctor, use <code>appium-doctor --version</code> to check your installation was successeful.</p>
+<p>Then we can open a new cmd to check our appium environment, use the command below:
+appium-doctor</p>
+<p>Sometimes we like to use some GUI application, so we also can download Appium Desktop application.</p>
+<p>We can go to <a href="https://appium.io/">Appium</a> site to download the GUI option.</p>
+<p>It&rsquo;s easy to install, just press next, next and finish.</p>
+<p>After that you can launch your Appium Desktop Application.</p>
+<p>Check you were installed successful.</p>
+<p>Finally we have to download &ldquo;Robot Framework&rdquo;, you have to download python on you Windows first, after that use <code>pip install robotframework</code> to installing Robot Framework.</p>
+<p>To check that the installation was successful, run:
+robot &ndash;version</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How to escape Hugo shortcode</title>
       <link>https://andrewu.page/2022/04/how-to-escape-hugo-shortcode/</link>
