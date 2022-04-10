@@ -9,7 +9,29 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Apr 2022 10:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 12:44:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix broken GUI of UIAutomatorViewer on Mac OS?</title>
+      <link>https://andrewu.page/2022/04/how-to-fix-broken-gui-of-uiautomatorviewer-on-mac-os/</link>
+      <pubDate>Sun, 10 Apr 2022 12:44:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/how-to-fix-broken-gui-of-uiautomatorviewer-on-mac-os/</guid>
+      <description>First you have to check your java version to make sure your version is 1.8.0_xxx.
+You can use the command below to check your java version:
+java -version  After go to download swt, the version has to be 4.20(it works for me).
+When downloaded swt 4.20, open the folder, and we have to rename the file swt.jar to swt2.jar.
+Open your your android sdk path: /Users/&amp;lt;USERNAME&amp;gt;/Library/Android/sdk/tools/lib, cd to x86 and x86_64 folder, then copy the swt2.</description>
+      <content:encoded><![CDATA[<p>First you have to check your java version to make sure your version is 1.8.0_xxx.</p>
+<p>You can use the command below to check your java version:</p>
+<pre><code>java -version
+</code></pre>
+<p>After go to download swt, the version has to be 4.20(it works for me).</p>
+<p>When <a href="https://archive.eclipse.org/eclipse/downloads/drops4/R-4.20-202106111600/">downloaded swt 4.20</a>, open the folder, and we have to rename the file swt.jar to swt2.jar.</p>
+<p>Open your your android sdk path: <code>/Users/&lt;USERNAME&gt;/Library/Android/sdk/tools/lib</code>, cd to x86 and x86_64 folder, then copy the swt2.jar file and paste to these two folders.</p>
+<p>Finally you can reopen a new terminal and type <code>uiautomatorviewer</code> to open your UIAutomatorViewer to located your elements on the physical devices or emulator devices</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Robot Framework And Appium Install Environment On Windows</title>
       <link>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</link>
