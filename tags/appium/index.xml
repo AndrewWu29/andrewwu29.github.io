@@ -9,7 +9,84 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 04 Apr 2022 10:30:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/appium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 12:44:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/appium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Robot Framework and Appium on Mac OS?</title>
+      <link>https://andrewu.page/2022/04/install-robot-framework-and-appium-on-mac-os/</link>
+      <pubDate>Tue, 05 Apr 2022 12:44:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/install-robot-framework-and-appium-on-mac-os/</guid>
+      <description>You have to install Xcode first.
+Open a terminal and verify Python and pip installation.
+We can use this to check our python on Mac OS
+which python # to check python2 which python3 # to check python3  Then use the pip3 list to check our installed list.
+And then, we use pip3 to install the robot framework.
+pip3 install robotframework  Run pip3 list to check robotframwork is in our list.</description>
+      <content:encoded><![CDATA[<p>You have to install Xcode first.</p>
+<p>Open a terminal and verify Python and pip installation.</p>
+<p>We can use this to check our python on Mac OS</p>
+<pre><code>which python # to check python2
+which python3 # to check python3
+</code></pre>
+<p>Then use the pip3 list to check our installed list.</p>
+<p>And then, we use pip3 to install the robot framework.</p>
+<pre><code>pip3 install robotframework
+</code></pre>
+<p>Run pip3 list to check robotframwork is in our list.</p>
+<p>After running the <code>robot —version</code> to check that the installation was successful.</p>
+<p>Now that the robot framework has been installed; we can install robotframework-appiumlibrary, use pip3.</p>
+<pre><code>pip3 install robotframework-appiumlibrary
+</code></pre>
+<p>Install Java JDK from the Oracle website to download the version that suits your Mac OS</p>
+<p>Install Android Studio from the site to download the version that suits your Mac OS</p>
+<p>And install homebrew and use the command from their home page as below command:</p>
+<pre><code>/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre>
+<p>After homebrew is installed, we can use homebrew to install node and appium, use commands:</p>
+<pre><code>brew install node
+brew install appium
+</code></pre>
+<p>Open Android SDK manager, go to Android SDK to install SDK tools, we will install as below list:</p>
+<ul>
+<li>Android SDK Build-Tools</li>
+<li>Android SDK Command-line Tools</li>
+<li>Android Emulator</li>
+<li>Android SDK Platform-Tools</li>
+<li>Google Play services</li>
+<li>Android SDK Tools</li>
+</ul>
+<p>Checked what we will want to install, then press the <code>Apply</code> button to download these tools.</p>
+<p>Now we can write our path file to .zsh_profile for JAVA_HOME and ANDROID_HOME, the file content would be like this:</p>
+<pre><code># JAVA
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+
+# ANDROID
+export ANDROID_HOME=/Users/username/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/tools/bin:$PATH
+export PATH=$ANDROID_HOME/emulator:$PATH
+</code></pre>
+<p>After we saved this file, we have to type <code>source .zsh_profile</code> to
+execute commands from this file.</p>
+<p>Then we can type the below commands to check our installations.</p>
+<pre><code>java -version
+node —version
+npm -version
+appium -v
+adb —version
+</code></pre>
+<p>If the above commands show well, we can install the appium-doctor to check our environment is correct for appium, use npm to install it, the command is:</p>
+<pre><code>npm install appium-doctor -g
+</code></pre>
+<p>After installation of appium-doctor, you can run this command to check your environment.</p>
+<pre><code>appium-doctor
+</code></pre>
+<p>If any necessary dependencies are installed, means your environment is done now, Congratulations！</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Robot Framework And Appium Install Environment On Windows</title>
       <link>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</link>
