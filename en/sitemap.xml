@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrewu.page/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://andrewu.page/categories/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -28,29 +28,29 @@
                 href="https://andrewu.page/categories/"
                 />
   </url><url>
-    <loc>https://andrewu.page/tags/githubpages/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <loc>https://andrewu.page/tags/cloudflare/</loc>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://andrewu.page/categories/githubpages/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <loc>https://andrewu.page/categories/cloudflare/</loc>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/tags/googledomains/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/categories/googledomains/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
-    <loc>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <loc>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</loc>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/tags/note/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/categories/note/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/posts/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -63,7 +63,7 @@
                 />
   </url><url>
     <loc>https://andrewu.page/tags/</loc>
-    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -74,6 +74,15 @@
                 hreflang="en"
                 href="https://andrewu.page/tags/"
                 />
+  </url><url>
+    <loc>https://andrewu.page/tags/githubpages/</loc>
+    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/categories/githubpages/</loc>
+    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</loc>
+    <lastmod>2022-04-11T10:10:00+00:00</lastmod>
   </url><url>
     <loc>https://andrewu.page/2022/04/how-to-fix-broken-gui-of-uiautomatorviewer-on-mac-os/</loc>
     <lastmod>2022-04-10T12:44:00+00:00</lastmod>

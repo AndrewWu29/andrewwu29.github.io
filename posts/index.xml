@@ -9,7 +9,55 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2022 10:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 22:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to setup Cloudflare with Google domains</title>
+      <link>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</link>
+      <pubDate>Mon, 11 Apr 2022 22:10:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</guid>
+      <description>Cloudflare, Inc. is an American content delivery network and DDoS mitigation company. It acts as a reverse proxy between a website&amp;rsquo;s visitor and the Cloudflare customer&amp;rsquo;s hosting provider.
+After bought a domain name, usally I will need a domain name provider to protect our domain.
+I recommended to use Cloudflare to protect you domain, they provide free CDN, Cache and DDoS mitigation etc.
+But they don&amp;rsquo;t charge you for these services.</description>
+      <content:encoded><![CDATA[<p>Cloudflare, Inc. is an American content delivery network and DDoS mitigation company. It acts as a reverse proxy between a website&rsquo;s visitor and the Cloudflare customer&rsquo;s hosting provider.</p>
+<p>After bought a domain name, usally I will need a domain name provider to protect our domain.</p>
+<p>I recommended to use Cloudflare to protect you domain, they provide free CDN, Cache and DDoS mitigation etc.</p>
+<p>But they don&rsquo;t charge you for these services.</p>
+<p>We can follow below steps to use Cloudflare to manage your DNS.</p>
+<h2 id="step-1-sign-up-a-cloudflare-account">Step 1: Sign up a Cloudflare account</h2>
+<h2 id="step-2-add-a-site-in-cloudflare">Step 2: Add a Site in Cloudflare</h2>
+<ul>
+<li>Logged in Cloudflare</li>
+<li>In Websites Home page press &lsquo;Add a Site&rsquo;</li>
+<li>Fill in you bought domain name</li>
+<li>Choose Cloudflare free plan</li>
+<li>Press confirm button</li>
+</ul>
+<h2 id="step-3-setting-cloudflare-dns">Step 3: Setting Cloudflare DNS</h2>
+<ul>
+<li>Press your added site</li>
+<li>Go to DNS page</li>
+<li>Fill in your domain name in Search DNS records field</li>
+<li>Press Search button</li>
+<li>It will automatically copy your DNS settings from Google Domains</li>
+<li>Check the DNS records are corrected then save them</li>
+</ul>
+<h2 id="step-4-cloudflare-name-server-setting">Step 4: Cloudflare Name Server Setting</h2>
+<ul>
+<li>Copy Cloudflare gave name server 1 &amp; 2</li>
+<li>Back to Google Domains your domain &gt; DNS</li>
+<li>Add NAMESERVERS to Custom DNS</li>
+<li>Fill in NameServer 1 &amp; 2</li>
+<li>Confirm Settings</li>
+</ul>
+<h2 id="step-5-back-to-cloudflare-to-check-settings-status">Step 5: Back to Cloudflare to check settings status</h2>
+<ul>
+<li>Ensure your settings are working now</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How to setup Google domains for GitHub Pages</title>
       <link>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</link>

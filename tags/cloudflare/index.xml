@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>GoogleDomains on Andrew&#39;s Blog</title>
-    <link>https://andrewu.page/categories/googledomains/</link>
-    <description>Recent content in GoogleDomains on Andrew&#39;s Blog</description>
+    <title>Cloudflare on Andrew&#39;s Blog</title>
+    <link>https://andrewu.page/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on Andrew&#39;s Blog</description>
     <image>
       <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2022 22:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/googledomains/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 22:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to setup Cloudflare with Google domains</title>
       <link>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</link>
@@ -54,45 +54,6 @@ But they don&amp;rsquo;t charge you for these services.</description>
 <h2 id="step-5-back-to-cloudflare-to-check-settings-status">Step 5: Back to Cloudflare to check settings status</h2>
 <ul>
 <li>Ensure your settings are working now</li>
-</ul>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>How to setup Google domains for GitHub Pages</title>
-      <link>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</link>
-      <pubDate>Mon, 11 Apr 2022 10:10:00 +0000</pubDate>
-      
-      <guid>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</guid>
-      <description>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.
-Here is how you can do it in below steps:
-Step 1: Let GitHub Pages know your custom domain  Go to your github repo settings page. Add you custom domain name at Settings &amp;gt; GitHub Pages &amp;gt; Custom domain.  Step 2: Go to your domain provider points your domain to GitHub Pages  Go to registar page on your google domains, select your domain.</description>
-      <content:encoded><![CDATA[<p>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.</p>
-<p>Here is how you can do it in below steps:</p>
-<h2 id="step-1-let-github-pages-know-your-custom-domain">Step 1: Let GitHub Pages know your custom domain</h2>
-<ul>
-<li>Go to your github repo settings page.</li>
-<li>Add you custom domain name at Settings &gt; GitHub Pages &gt; Custom domain.</li>
-</ul>
-<h2 id="step-2-go-to-your-domain-provider-points-your-domain-to-github-pages">Step 2: Go to your domain provider points your domain to GitHub Pages</h2>
-<ul>
-<li>Go to registar page on your google domains, select your domain.</li>
-<li>Go to DNS &gt; Custom resource records.</li>
-<li>Add the record shown in the screenshot bellow. Note that you need to use the &ldquo;+&rdquo; button to add more urls.</li>
-</ul>
-<p>Here is the list of ips in the screenshot:
-185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153</p>
-<h2 id="step-3-let-your-www-sub-domain-point-to-your-github-pages">Step 3: Let your www sub-domain point to your GitHub Pages</h2>
-<ul>
-<li>Add the following CNAME record.</li>
-<li>Add a CNAME file, it contents your domain in your Hugo static folder.</li>
-</ul>
-<h2 id="step-4-enable-https-for-your-github-pages">Step 4: Enable HTTPS for your GitHub Pages</h2>
-<ul>
-<li>Go to your github repository settings page, under Settings &gt; GitHub Pages &gt; Custom domain(remove and add it back and save again) &gt; Check Enforce HTTPS checkbox.</li>
 </ul>
 ]]></content:encoded>
     </item>
