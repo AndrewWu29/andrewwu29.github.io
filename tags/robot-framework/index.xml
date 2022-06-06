@@ -17,7 +17,7 @@
       
       <guid>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</guid>
       <description>For Robot Framework and Appium environment on Windows, we should install softwares list below:
- Robot Framework node JDK Android Studio Appium Appium Desktop appium-doctor  First of all we have to install Java JDK for me I will need the Windows 64 bit. Java Downloads JDK And we chose the x64 Installer for our environment.
+Robot Framework node JDK Android Studio Appium Appium Desktop appium-doctor First of all we have to install Java JDK for me I will need the Windows 64 bit. Java Downloads JDK And we chose the x64 Installer for our environment.
 The installation is very simple we just press next, next and finish, then we can go to setting our environment.</description>
       <content:encoded><![CDATA[<p>For Robot Framework and Appium environment on Windows, we should install softwares list below:</p>
 <ul>

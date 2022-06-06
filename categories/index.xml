@@ -9,7 +9,47 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2022 22:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 17:49:47 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARM</title>
+      <link>https://andrewu.page/categories/arm/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/arm/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://andrewu.page/categories/docker/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/docker/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Jira</title>
+      <link>https://andrewu.page/categories/jira/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/jira/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Note</title>
+      <link>https://andrewu.page/categories/note/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/note/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Cloudflare</title>
       <link>https://andrewu.page/categories/cloudflare/</link>
@@ -26,16 +66,6 @@
       <pubDate>Mon, 11 Apr 2022 22:10:00 +0000</pubDate>
       
       <guid>https://andrewu.page/categories/googledomains/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Note</title>
-      <link>https://andrewu.page/categories/note/</link>
-      <pubDate>Mon, 11 Apr 2022 22:10:00 +0000</pubDate>
-      
-      <guid>https://andrewu.page/categories/note/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

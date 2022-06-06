@@ -18,7 +18,7 @@
       <guid>https://andrewu.page/2022/04/how-to-fix-broken-gui-of-uiautomatorviewer-on-mac-os/</guid>
       <description>First you have to check your java version to make sure your version is 1.8.0_xxx.
 You can use the command below to check your java version:
-java -version  After go to download swt, the version has to be 4.20(it works for me).
+java -version After go to download swt, the version has to be 4.20(it works for me).
 When downloaded swt 4.20, open the folder, and we have to rename the file swt.jar to swt2.jar.
 Open your your android sdk path: /Users/&amp;lt;USERNAME&amp;gt;/Library/Android/sdk/tools/lib, cd to x86 and x86_64 folder, then copy the swt2.</description>
       <content:encoded><![CDATA[<p>First you have to check your java version to make sure your version is 1.8.0_xxx.</p>

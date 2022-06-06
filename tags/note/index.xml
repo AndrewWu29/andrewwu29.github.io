@@ -9,7 +9,83 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2022 22:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 17:49:47 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Jira on ARM Based Docker with Docker Compose</title>
+      <link>https://andrewu.page/2022/04/how-to-install-jira-on-arm-based-docker-with-docker-compose/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/how-to-install-jira-on-arm-based-docker-with-docker-compose/</guid>
+      <description>Here is note to talk about How to install Jira on ARM Based Docker machine.
+I use docker compose to install Jira on my ARM Docker.
+My image uses dchevell/jira-software-arm64
+version: &amp;#39;3&amp;#39; services: jira: depends_on: - postgresql image: dchevell/jira-software-arm64 networks: - jiranet volumes: - jiradata:/var/atlassian/jira ports: - &amp;#39;8081:8080&amp;#39; environment: - &amp;#39;JIRA_DATABASE_URL=postgresql://jira@postgresql/jiradb&amp;#39; - &amp;#39;JIRA_DB_PASSWORD=jellyfish&amp;#39; - &amp;#39;SETENV_JVM_MINIMUM_MEMORY=2048m&amp;#39; - &amp;#39;SETENV_JVM_MAXIMUM_MEMORY=4096m&amp;#39; - &amp;#39;JIRA_PROXY_NAME=&amp;#39; - &amp;#39;JIRA_PROXY_PORT=&amp;#39; - &amp;#39;JIRA_PROXY_SCHEME=&amp;#39; logging: # limit logs retained on host to 25MB driver: &amp;#34;json-file&amp;#34; options: max-size: &amp;#34;500k&amp;#34; max-file: &amp;#34;50&amp;#34; postgresql: image: postgres:9.</description>
+      <content:encoded><![CDATA[<p>Here is note to talk about How to install Jira on ARM Based Docker machine.</p>
+<p>I use docker compose to install Jira on my ARM Docker.</p>
+<p>My image uses dchevell/jira-software-arm64</p>
+<pre tabindex="0"><code>version: &#39;3&#39;
+
+services:
+  jira:
+    depends_on:
+      - postgresql
+    image: dchevell/jira-software-arm64
+    networks:
+      - jiranet
+    volumes:
+      - jiradata:/var/atlassian/jira
+    ports:
+      - &#39;8081:8080&#39;
+    environment:
+      - &#39;JIRA_DATABASE_URL=postgresql://jira@postgresql/jiradb&#39;
+      - &#39;JIRA_DB_PASSWORD=jellyfish&#39;
+      - &#39;SETENV_JVM_MINIMUM_MEMORY=2048m&#39;
+      - &#39;SETENV_JVM_MAXIMUM_MEMORY=4096m&#39;
+      - &#39;JIRA_PROXY_NAME=&#39;
+      - &#39;JIRA_PROXY_PORT=&#39;
+      - &#39;JIRA_PROXY_SCHEME=&#39;
+    logging:
+      # limit logs retained on host to 25MB
+      driver: &#34;json-file&#34;
+      options:
+        max-size: &#34;500k&#34;
+        max-file: &#34;50&#34;
+
+  postgresql:
+    image: postgres:9.5-alpine
+    networks:
+      - jiranet
+    volumes:
+      - postgresqldata:/var/lib/postgresql/data
+    environment:
+      - &#39;POSTGRES_USER=jira&#39;
+      # CHANGE THE PASSWORD!
+      - &#39;POSTGRES_PASSWORD=Postgres_password&#39;
+      - &#39;POSTGRES_DB=jiradb&#39;
+      - &#39;POSTGRES_ENCODING=UNICODE&#39;
+      - &#39;POSTGRES_COLLATE=C&#39;
+      - &#39;POSTGRES_COLLATE_TYPE=C&#39;
+    logging:
+      # limit logs retained on host to 25MB
+      driver: &#34;json-file&#34;
+      options:
+        max-size: &#34;500k&#34;
+        max-file: &#34;50&#34;
+
+volumes:
+  jiradata:
+    external: false
+  postgresqldata:
+    external: false
+
+networks:
+  jiranet:
+    driver: bridge
+</code></pre><p>Before use this compose you have to make sure your environment already installed Java you can run <code>java -version</code> to check your java version.</p>
+<p>After checked your java installation, you can use above docker compose to install Jira on your machine.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>How to setup Cloudflare with Google domains</title>
       <link>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</link>
@@ -66,7 +142,7 @@ But they don&amp;rsquo;t charge you for these services.</description>
       <guid>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</guid>
       <description>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.
 Here is how you can do it in below steps:
-Step 1: Let GitHub Pages know your custom domain  Go to your github repo settings page. Add you custom domain name at Settings &amp;gt; GitHub Pages &amp;gt; Custom domain.  Step 2: Go to your domain provider points your domain to GitHub Pages  Go to registar page on your google domains, select your domain.</description>
+Step 1: Let GitHub Pages know your custom domain Go to your github repo settings page. Add you custom domain name at Settings &amp;gt; GitHub Pages &amp;gt; Custom domain. Step 2: Go to your domain provider points your domain to GitHub Pages Go to registar page on your google domains, select your domain.</description>
       <content:encoded><![CDATA[<p>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.</p>
 <p>Here is how you can do it in below steps:</p>
 <h2 id="step-1-let-github-pages-know-your-custom-domain">Step 1: Let GitHub Pages know your custom domain</h2>
@@ -105,7 +181,7 @@ Step 1: Let GitHub Pages know your custom domain  Go to your github repo setting
       <guid>https://andrewu.page/2022/04/how-to-fix-broken-gui-of-uiautomatorviewer-on-mac-os/</guid>
       <description>First you have to check your java version to make sure your version is 1.8.0_xxx.
 You can use the command below to check your java version:
-java -version  After go to download swt, the version has to be 4.20(it works for me).
+java -version After go to download swt, the version has to be 4.20(it works for me).
 When downloaded swt 4.20, open the folder, and we have to rename the file swt.jar to swt2.jar.
 Open your your android sdk path: /Users/&amp;lt;USERNAME&amp;gt;/Library/Android/sdk/tools/lib, cd to x86 and x86_64 folder, then copy the swt2.</description>
       <content:encoded><![CDATA[<p>First you have to check your java version to make sure your version is 1.8.0_xxx.</p>
@@ -128,9 +204,9 @@ Open your your android sdk path: /Users/&amp;lt;USERNAME&amp;gt;/Library/Android
       <description>You have to install Xcode first.
 Open a terminal and verify Python and pip installation.
 We can use this to check our python on Mac OS
-which python # to check python2 which python3 # to check python3  Then use the pip3 list to check our installed list.
+which python # to check python2 which python3 # to check python3 Then use the pip3 list to check our installed list.
 And then, we use pip3 to install the robot framework.
-pip3 install robotframework  Run pip3 list to check robotframwork is in our list.</description>
+pip3 install robotframework Run pip3 list to check robotframwork is in our list.</description>
       <content:encoded><![CDATA[<p>You have to install Xcode first.</p>
 <p>Open a terminal and verify Python and pip installation.</p>
 <p>We can use this to check our python on Mac OS</p>
@@ -203,7 +279,7 @@ adb —version
       
       <guid>https://andrewu.page/2022/04/robot-framework-and-appium-install-environment-on-windows/</guid>
       <description>For Robot Framework and Appium environment on Windows, we should install softwares list below:
- Robot Framework node JDK Android Studio Appium Appium Desktop appium-doctor  First of all we have to install Java JDK for me I will need the Windows 64 bit. Java Downloads JDK And we chose the x64 Installer for our environment.
+Robot Framework node JDK Android Studio Appium Appium Desktop appium-doctor First of all we have to install Java JDK for me I will need the Windows 64 bit. Java Downloads JDK And we chose the x64 Installer for our environment.
 The installation is very simple we just press next, next and finish, then we can go to setting our environment.</description>
       <content:encoded><![CDATA[<p>For Robot Framework and Appium environment on Windows, we should install softwares list below:</p>
 <ul>
@@ -323,7 +399,7 @@ What a Shortcode is? Hugo loves Markdown because of its simple content format, b
       <guid>https://andrewu.page/2022/03/vim-note/</guid>
       <description>What is Vim? Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X.
 Vim is rock stable and is continuously being developed to become even better. Among its features are:
- persistent, multi-level undo tree extensive plugin system support for hundreds of programming languages and file formats powerful search and replace integrates with many tools  BASIC Vim modes Vim supports multiple modes.</description>
+persistent, multi-level undo tree extensive plugin system support for hundreds of programming languages and file formats powerful search and replace integrates with many tools BASIC Vim modes Vim supports multiple modes.</description>
       <content:encoded><![CDATA[<h2 id="what-is-vim">What is Vim?</h2>
 <p>Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &ldquo;vi&rdquo; with most UNIX systems and with Apple OS X.</p>
 <p>Vim is rock stable and is continuously being developed to become even better. Among its features are:</p>

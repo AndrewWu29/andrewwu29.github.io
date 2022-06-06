@@ -66,7 +66,7 @@ But they don&amp;rsquo;t charge you for these services.</description>
       <guid>https://andrewu.page/2022/04/how-to-setup-google-domains-for-github-pages/</guid>
       <description>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.
 Here is how you can do it in below steps:
-Step 1: Let GitHub Pages know your custom domain  Go to your github repo settings page. Add you custom domain name at Settings &amp;gt; GitHub Pages &amp;gt; Custom domain.  Step 2: Go to your domain provider points your domain to GitHub Pages  Go to registar page on your google domains, select your domain.</description>
+Step 1: Let GitHub Pages know your custom domain Go to your github repo settings page. Add you custom domain name at Settings &amp;gt; GitHub Pages &amp;gt; Custom domain. Step 2: Go to your domain provider points your domain to GitHub Pages Go to registar page on your google domains, select your domain.</description>
       <content:encoded><![CDATA[<p>GitHub Pages is easy to setup your owm blog with Hugo or another frameworks, but to a custom domain with Google Domains, you may run into some problems.</p>
 <p>Here is how you can do it in below steps:</p>
 <h2 id="step-1-let-github-pages-know-your-custom-domain">Step 1: Let GitHub Pages know your custom domain</h2>

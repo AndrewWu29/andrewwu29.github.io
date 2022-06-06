@@ -19,19 +19,19 @@
       <description>什麼是Markdown? Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。
 由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。
 所以只要熟悉相關語法，Markdown可以讓您輕鬆快速地撰寫筆記、文章、說明文件等。
-基本語法 標題 # 標題一 ## 標題二 ### 標題三 #### 標題四 ##### 標題五 ###### 標題六  效果
-標題一 標題二 標題三 標題四 標題五 標題六 強調 粗體 **粗體前後各兩個星號** __粗體前後各兩個底線__  效果
+基本語法 標題 # 標題一 ## 標題二 ### 標題三 #### 標題四 ##### 標題五 ###### 標題六 效果
+標題一 標題二 標題三 標題四 標題五 標題六 強調 粗體 **粗體前後各兩個星號** __粗體前後各兩個底線__ 效果
 粗體前後各兩個星號
 粗體前後各兩個底線
-斜體 *斜體前後各一個星號* _斜體前後各一個星號_  效果
+斜體 *斜體前後各一個星號* _斜體前後各一個星號_ 效果
 斜體前後各一個星號
 斜體前後各一個星號
-粗斜體 ***粗體前後各三個星號*** ___粗體前後各三個底線___  效果
+粗斜體 ***粗體前後各三個星號*** ___粗體前後各三個底線___ 效果
 粗體前後各三個星號
 粗體前後各三個底線
 文字段落 一個段落是由一個以上相連接的行句組成，而一個以上的空行則會切分出不同的段落。
-第一段 第二段  清單 Markdown支援有序清單和無序清單。無序清單使用 * 、 + 或 - 作為清單標記，有序清單使用數字接著一個英文句點做為清單標記。
-無序清單 * 紅 * 橙 * 黃 + 紅 + 橙 + 黃 - 紅 - 橙 - 黃  效果</description>
+第一段 第二段 清單 Markdown支援有序清單和無序清單。無序清單使用 * 、 + 或 - 作為清單標記，有序清單使用數字接著一個英文句點做為清單標記。
+無序清單 * 紅 * 橙 * 黃 + 紅 + 橙 + 黃 - 紅 - 橙 - 黃 效果</description>
       <content:encoded><![CDATA[<h2 id="什麼是markdown">什麼是Markdown?</h2>
 <p>Markdown是一種輕量級標記式語言，創始人為約翰·格魯伯。它允許人們使用易讀易寫的純文字格式編寫文件，然後轉換成有效的XHTML（或者HTML）文件。這種語言吸收了很多在電子郵件中已有的純文字標記的特性。</p>
 <p>由於Markdown的輕量化、易讀易寫特性，並且對於圖片，圖表、數學式都有支援，目前許多網站都廣泛使用Markdown來撰寫說明文件或是用於論壇上發表訊息。如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、簡書等，甚至還能被用來撰寫電子書。</p>
@@ -581,12 +581,12 @@ git bisect #透過二分搜尋來搜尋歷史紀錄
 事前準備 因為本人還沒有摳摳買Macbook(還在英國找工作中)，所以本篇教學會全用Windows進行撰寫。
 首先我們需要Git這個來處理我們撰寫好的東西，並部屬到自己Git的公開庫，另外我們也需要一個軟體來輔助我們撰寫Markdown文件(例: Visual Studio Code 外加套件)。
 Git安裝與確認 首先我們先到Git的官網下載 Git 到 Windows. Download for Windows，依照自己版本位元下載，下載後，滑鼠左鍵雙擊，並按下&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;即可無腦安裝完畢。 安裝完畢後，我們使用快捷鍵&amp;quot;Windows + S&amp;quot;，並輸入&amp;quot;CMD&amp;quot;，來開啟命令提示字元。 開啟後輸入以下指令。
- git version 並會得到。
+git version 並會得到。
 git version 2.xx.x.windows.x 當確認可以成功查詢安裝的版本號，即代表已成功安裝Git了。 再來我們需要安裝 Visual Studio Code 這是一個免費的IDE，另外我們需要另外安裝套件來處理Markdown。
 Visual Studio Code &amp;amp; Markdown Plugin安裝 一樣我們到 Visual Studio Code 的官網下載安裝檔，並進行安裝，一樣&amp;quot;Next&amp;quot;到&amp;quot;Install&amp;quot;。 安裝完畢並開啟，應該會看到以下的畫面。 然後我們到&amp;quot;View&amp;quot;下的&amp;quot;Extensions&amp;quot;(也可用Ctrl+Shift+X)去搜尋&amp;quot;Markdown&amp;quot;的 Extensions，找到&amp;quot;markdownlint&amp;quot;並安裝。 到目前為止，我們已經成功安裝了Git &amp;amp; Visual Studio Code w/ markdownlint Extension。
 接下來我們要繼續安裝 Hugo 和建立自己部落格的第一篇文章。
 Hugo安裝與建立自己的部落格 在安裝Hugo前需要安裝chocolatey這個工具，這裡是直接使用&amp;quot;Individual&amp;quot;並透過開啟Administrative的PowerShell，並執行以下指令來安裝的。
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.</description>
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.</description>
       <content:encoded><![CDATA[<h1 id="手把手教學教您如何建立hugo靜態部落格並部屬到github">手把手教學，教您如何建立Hugo靜態部落格，並部屬到GitHub!</h1>
 <h2 id="前言">前言</h2>
 <p>最近一直有想要架設一個部落格的想法，之前也使用過很多部落格的服務，到最後也都不了了之，此次下定決心，要寫些東西，所以在Google後，發現了Hugo這個Framework，可單純使用Markdown，來架設一個靜態網站，反正我也沒有想要搞一個動態網站，來放我的想法跟筆記，所以對我來說這是個不錯的方案，又可以免費使用GitHub的服務當Host，然後可以付點錢，讓私有庫也可以顯示您的網站。</p>

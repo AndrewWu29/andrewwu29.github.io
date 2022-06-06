@@ -19,9 +19,9 @@
       <description>You have to install Xcode first.
 Open a terminal and verify Python and pip installation.
 We can use this to check our python on Mac OS
-which python # to check python2 which python3 # to check python3  Then use the pip3 list to check our installed list.
+which python # to check python2 which python3 # to check python3 Then use the pip3 list to check our installed list.
 And then, we use pip3 to install the robot framework.
-pip3 install robotframework  Run pip3 list to check robotframwork is in our list.</description>
+pip3 install robotframework Run pip3 list to check robotframwork is in our list.</description>
       <content:encoded><![CDATA[<p>You have to install Xcode first.</p>
 <p>Open a terminal and verify Python and pip installation.</p>
 <p>We can use this to check our python on Mac OS</p>

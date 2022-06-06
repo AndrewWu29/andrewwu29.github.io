@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrewu.page/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -15,8 +15,14 @@
                 href="https://andrewu.page/"
                 />
   </url><url>
+    <loc>https://andrewu.page/categories/arm/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/tags/arm-based/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
     <loc>https://andrewu.page/categories/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -26,6 +32,56 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://andrewu.page/categories/"
+                />
+  </url><url>
+    <loc>https://andrewu.page/tags/docker/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/categories/docker/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/tags/docker-compose/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/2022/04/how-to-install-jira-on-arm-based-docker-with-docker-compose/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/tags/jira/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/categories/jira/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/tags/note/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/categories/note/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+  </url><url>
+    <loc>https://andrewu.page/posts/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://andrewu.page/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andrewu.page/posts/"
+                />
+  </url><url>
+    <loc>https://andrewu.page/tags/</loc>
+    <lastmod>2022-04-17T17:49:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://andrewu.page/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://andrewu.page/tags/"
                 />
   </url><url>
     <loc>https://andrewu.page/tags/cloudflare/</loc>
@@ -42,38 +98,6 @@
   </url><url>
     <loc>https://andrewu.page/2022/04/how-to-setup-cloudflare-with-google-domains/</loc>
     <lastmod>2022-04-11T22:10:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewu.page/tags/note/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewu.page/categories/note/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andrewu.page/posts/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://andrewu.page/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://andrewu.page/posts/"
-                />
-  </url><url>
-    <loc>https://andrewu.page/tags/</loc>
-    <lastmod>2022-04-11T22:10:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://andrewu.page/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://andrewu.page/tags/"
-                />
   </url><url>
     <loc>https://andrewu.page/tags/githubpages/</loc>
     <lastmod>2022-04-11T10:10:00+00:00</lastmod>

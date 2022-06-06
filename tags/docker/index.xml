@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on Andrew&#39;s Blog</title>
+    <link>https://andrewu.page/tags/docker/</link>
+    <description>Recent content in Docker on Andrew&#39;s Blog</description>
+    <image>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Apr 2022 17:49:47 +0000</lastBuildDate><atom:link href="https://andrewu.page/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Jira on ARM Based Docker with Docker Compose</title>
+      <link>https://andrewu.page/2022/04/how-to-install-jira-on-arm-based-docker-with-docker-compose/</link>
+      <pubDate>Sun, 17 Apr 2022 17:49:47 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2022/04/how-to-install-jira-on-arm-based-docker-with-docker-compose/</guid>
+      <description>Here is note to talk about How to install Jira on ARM Based Docker machine.
+I use docker compose to install Jira on my ARM Docker.
+My image uses dchevell/jira-software-arm64
+version: &amp;#39;3&amp;#39; services: jira: depends_on: - postgresql image: dchevell/jira-software-arm64 networks: - jiranet volumes: - jiradata:/var/atlassian/jira ports: - &amp;#39;8081:8080&amp;#39; environment: - &amp;#39;JIRA_DATABASE_URL=postgresql://jira@postgresql/jiradb&amp;#39; - &amp;#39;JIRA_DB_PASSWORD=jellyfish&amp;#39; - &amp;#39;SETENV_JVM_MINIMUM_MEMORY=2048m&amp;#39; - &amp;#39;SETENV_JVM_MAXIMUM_MEMORY=4096m&amp;#39; - &amp;#39;JIRA_PROXY_NAME=&amp;#39; - &amp;#39;JIRA_PROXY_PORT=&amp;#39; - &amp;#39;JIRA_PROXY_SCHEME=&amp;#39; logging: # limit logs retained on host to 25MB driver: &amp;#34;json-file&amp;#34; options: max-size: &amp;#34;500k&amp;#34; max-file: &amp;#34;50&amp;#34; postgresql: image: postgres:9.</description>
+      <content:encoded><![CDATA[<p>Here is note to talk about How to install Jira on ARM Based Docker machine.</p>
+<p>I use docker compose to install Jira on my ARM Docker.</p>
+<p>My image uses dchevell/jira-software-arm64</p>
+<pre tabindex="0"><code>version: &#39;3&#39;
+
+services:
+  jira:
+    depends_on:
+      - postgresql
+    image: dchevell/jira-software-arm64
+    networks:
+      - jiranet
+    volumes:
+      - jiradata:/var/atlassian/jira
+    ports:
+      - &#39;8081:8080&#39;
+    environment:
+      - &#39;JIRA_DATABASE_URL=postgresql://jira@postgresql/jiradb&#39;
+      - &#39;JIRA_DB_PASSWORD=jellyfish&#39;
+      - &#39;SETENV_JVM_MINIMUM_MEMORY=2048m&#39;
+      - &#39;SETENV_JVM_MAXIMUM_MEMORY=4096m&#39;
+      - &#39;JIRA_PROXY_NAME=&#39;
+      - &#39;JIRA_PROXY_PORT=&#39;
+      - &#39;JIRA_PROXY_SCHEME=&#39;
+    logging:
+      # limit logs retained on host to 25MB
+      driver: &#34;json-file&#34;
+      options:
+        max-size: &#34;500k&#34;
+        max-file: &#34;50&#34;
+
+  postgresql:
+    image: postgres:9.5-alpine
+    networks:
+      - jiranet
+    volumes:
+      - postgresqldata:/var/lib/postgresql/data
+    environment:
+      - &#39;POSTGRES_USER=jira&#39;
+      # CHANGE THE PASSWORD!
+      - &#39;POSTGRES_PASSWORD=Postgres_password&#39;
+      - &#39;POSTGRES_DB=jiradb&#39;
+      - &#39;POSTGRES_ENCODING=UNICODE&#39;
+      - &#39;POSTGRES_COLLATE=C&#39;
+      - &#39;POSTGRES_COLLATE_TYPE=C&#39;
+    logging:
+      # limit logs retained on host to 25MB
+      driver: &#34;json-file&#34;
+      options:
+        max-size: &#34;500k&#34;
+        max-file: &#34;50&#34;
+
+volumes:
+  jiradata:
+    external: false
+  postgresqldata:
+    external: false
+
+networks:
+  jiranet:
+    driver: bridge
+</code></pre><p>Before use this compose you have to make sure your environment already installed Java you can run <code>java -version</code> to check your java version.</p>
+<p>After checked your java installation, you can use above docker compose to install Jira on your machine.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
