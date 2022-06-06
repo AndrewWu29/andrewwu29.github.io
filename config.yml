@@ -41,7 +41,7 @@ languages:
       imageWidth: 180
       imageHeight: 180
       title: Andrew Wu
-      subtitle: I'm a QAE, and seeking a job in the UK.
+      subtitle: I'm a QAE, and learning new things everyday.
       buttons:
         - name: Posts
           url: posts
@@ -85,7 +85,7 @@ languages:
       imageWidth: 180
       imageHeight: 180
       title: Andrew Wu
-      subtitle: 還在英國尋找工作機會的軟體測試工程師
+      subtitle: 軟體測試工程師，持續學習中。
       buttons:
         - name: 貼文
           url: posts
