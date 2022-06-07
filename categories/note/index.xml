@@ -9,11 +9,11 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jun 2022 11:10:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 12:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git clone a repository with submodules</title>
       <link>https://andrewu.page/2022/06/git-clone-a-repository-with-submodules/</link>
-      <pubDate>Mon, 06 Jun 2022 11:10:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2022 12:58:00 +0000</pubDate>
       
       <guid>https://andrewu.page/2022/06/git-clone-a-repository-with-submodules/</guid>
       <description>When you clone a Git repository with submodules, you&amp;rsquo;ll realise that it does not bring down all of the branches and code for the associate submodules.
