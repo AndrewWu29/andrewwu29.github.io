@@ -1,6 +1,6 @@
 ---
 title: "Git clone a repository with submodules"
-date: 2022-06-06T11:10:00Z
+date: 2022-06-06T12:58:00Z
 tags: ["Note", "Git", "Submodule"]
 categories: ["Note", "Git", "Submodule"]
 author: "Andrew Wu"
