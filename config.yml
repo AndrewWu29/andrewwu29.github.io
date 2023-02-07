@@ -37,9 +37,9 @@ languages:
     DateFormat: "January 2, 2006"
     profileMode:
       enabled: true
-      imageUrl: "profile_avatar.jpg"
-      imageWidth: 180
-      imageHeight: 180
+      imageUrl: "profile_avatar.png"
+      imageWidth: 200
+      imageHeight: 200
       title: Andrew Wu
       subtitle: I'm a QAE, and learning new things everyday.
       buttons:
@@ -81,9 +81,9 @@ languages:
     DateFormat: "2006 January 2"
     profileMode:
       enabled: true
-      imageUrl: "../profile_avatar.jpg"
-      imageWidth: 180
-      imageHeight: 180
+      imageUrl: "../profile_avatar.png"
+      imageWidth: 200
+      imageHeight: 200
       title: Andrew Wu
       subtitle: 軟體測試工程師，持續學習中。
       buttons:
