@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mac OS on Andrew&#39;s Blog</title>
+    <link>https://andrewu.page/categories/mac-os/</link>
+    <description>Recent content in Mac OS on Andrew&#39;s Blog</description>
+    <image>
+      <title>Andrew&#39;s Blog</title>
+      <url>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Mar 2023 14:25:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/mac-os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to install Google Play on Android emulator in Androi Studio?</title>
+      <link>https://andrewu.page/2023/03/how-to-install-google-play-on-android-emulator-in-androi-studio/</link>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/2023/03/how-to-install-google-play-on-android-emulator-in-androi-studio/</guid>
+      <description>How to install Google Play on Android emulator in Androi Studio? Step 1: Open Android Studio SDK manager, and download the image Step 2: Create a device with the right API and Hardware, then finish Step 3: Edit the new AVD config.ini file PlayStore.enabled=true avd.ini.displayname=&amp;lt;your deives name&amp;gt; Play image.sysdir.1=system-images\android-32\google_apis_playstore\arm64-v8a\ tag.display=Google Play tag.id=google_apis_playstore Step 4: Start the AVD, and you should see the Play Store Icon on your device homepage, log in then done </description>
+      <content:encoded><![CDATA[<h2 id="how-to-install-google-play-on-android-emulator-in-androi-studio">How to install Google Play on Android emulator in Androi Studio?</h2>
+<h3 id="step-1-open-android-studio-sdk-manager-and-download-the-image">Step 1: Open Android Studio SDK manager, and download the image</h3>
+<p><img loading="lazy" src="https://i.imgur.com/b8qmBjQ.png" alt="SDK manager"  />
+</p>
+<h3 id="step-2-create-a-device-with-the-right-api-and-hardware-then-finish">Step 2: Create a device with the right API and Hardware, then finish</h3>
+<p><img loading="lazy" src="https://i.imgur.com/JPLgWmY.png" alt="Imgur"  />
+</p>
+<h3 id="step-3-edit-the-new-avd-configini-file">Step 3: Edit the new AVD config.ini file</h3>
+<p><img loading="lazy" src="https://i.imgur.com/UpsoXYR.png" alt="Imgur"  />
+
+<img loading="lazy" src="https://i.imgur.com/wfdGnJZ.png" alt="Imgur"  />
+</p>
+<pre tabindex="0"><code>PlayStore.enabled=true
+avd.ini.displayname=&lt;your deives name&gt; Play
+image.sysdir.1=system-images\android-32\google_apis_playstore\arm64-v8a\
+tag.display=Google Play
+tag.id=google_apis_playstore
+</code></pre><h3 id="step-4-start-the-avd-and-you-should-see-the-play-store-icon-on-your-device-homepage-log-in-then-done">Step 4: Start the AVD, and you should see the Play Store Icon on your device homepage, log in then done</h3>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

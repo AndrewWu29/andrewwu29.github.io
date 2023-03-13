@@ -10,13 +10,43 @@
       <link>https://andrewu.page/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jun 2022 12:58:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 14:25:00 +0000</lastBuildDate><atom:link href="https://andrewu.page/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>https://andrewu.page/categories/git/</link>
-      <pubDate>Mon, 06 Jun 2022 12:58:00 +0000</pubDate>
+      <title>Android</title>
+      <link>https://andrewu.page/categories/android/</link>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
       
-      <guid>https://andrewu.page/categories/git/</guid>
+      <guid>https://andrewu.page/categories/android/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Android Studio</title>
+      <link>https://andrewu.page/categories/android-studio/</link>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/android-studio/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Google Play</title>
+      <link>https://andrewu.page/categories/google-play/</link>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/google-play/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Mac OS</title>
+      <link>https://andrewu.page/categories/mac-os/</link>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/mac-os/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -24,9 +54,19 @@
     <item>
       <title>Note</title>
       <link>https://andrewu.page/categories/note/</link>
-      <pubDate>Mon, 06 Jun 2022 12:58:00 +0000</pubDate>
+      <pubDate>Mon, 13 Mar 2023 14:25:00 +0000</pubDate>
       
       <guid>https://andrewu.page/categories/note/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://andrewu.page/categories/git/</link>
+      <pubDate>Mon, 06 Jun 2022 12:58:00 +0000</pubDate>
+      
+      <guid>https://andrewu.page/categories/git/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
